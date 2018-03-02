@@ -4,7 +4,6 @@
             "release_name": "CBQ branch master",
             "production": true,
             "do-build": false,
-            "interval": 120,
             "restricted": false,
             "start_build": 100
         }

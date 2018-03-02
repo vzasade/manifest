@@ -3,7 +3,7 @@
         "moxi/master.xml": {
             "release_name": "Client-side Moxi",
             "production": true,
-            "interval": 120,
+            "interval": 1440,
             "restricted": false,
             "start_build": 100
         }

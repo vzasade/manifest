@@ -5,7 +5,7 @@
             "release": "master",
             "release_name": "Couchbase Lite Core - master",
             "production": true,
-            "interval": 60,
+            "interval": 90,
             "restricted": false,
             "start_build": 100,
             "keep_git": true,
