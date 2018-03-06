@@ -23,7 +23,7 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="235381879d93c650c64fcecc5d3078f9716d9925" groups="notdefault,enterprise" path="couchbase-lite-android-ee/libs/couchbase-lite-core-EE"/>
-  <project name="couchbase-lite-core" revision="bfded4e7bcbd2cdc1f881c93c97e3cd43f440c58" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="ce4c4f59509ca2a8216d87b6e0770f2fdb076fc3" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="17c1a008398ea84a28a6e4a8880b05df442d0556" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
