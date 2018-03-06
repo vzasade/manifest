@@ -30,14 +30,14 @@
         "couchbase-server/spock/5.1.0.xml": {
             "branch": "spock-5.1.0",
             "release": "spock",
-            "release_name": "Spock 5.1.0",
+            "release_name": "Spock 5.1.0-MP1",
             "parent": "couchbase-server/spock.xml",
             "production": true,
             "start_build": 5554,
             "interval": 480,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-25649"
+            "approval_ticket": "MB-28528"
         },
         "couchbase-server/spock/5.0.0.xml": {
             "branch": "spock-5.0.0",
