@@ -23,13 +23,13 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="235381879d93c650c64fcecc5d3078f9716d9925" path="couchbase-lite-net-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="4b0878ff13b89fd14dc9bc4a1b1a060e84d712d0" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="fbcccee8bff20d7bbbc4ad5aecd5206b512d5ca8" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="17c1a008398ea84a28a6e4a8880b05df442d0556" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="a4f2ad8858ada06fd0d69410daee01c6d4f222da" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="908e7355316a1add12da92e742744017b861f9dc" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
   <project name="fleece" remote="couchbaselabs" revision="c77aa786c33236c46a31561bff5f569e9d3a561b" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="db055ec4ffef64051a6940b0cae5c39a23092ff2" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
