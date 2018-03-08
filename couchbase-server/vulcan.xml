@@ -62,7 +62,7 @@
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
-  <project name="gocb"           revision="72b08dc5389b2536dd073f16a093a964edce65eb" path="godeps/src/github.com/couchbase/gocb"/>
+  <project name="gocb"           revision="6019ad1377ffcc81184d2457c065fd72ea7a98dc" path="godeps/src/github.com/couchbase/gocb"/>
   <project name="gocbcore"       revision="afa21ae052b8b110c65f758571e404523e9b07f9" path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
