@@ -32,7 +32,7 @@
   <project name="platform" groups="kv" revision="b1c6f34c42e3681a1e8f9d3c1fb4ae11b0f0b589"/>
   <project name="query"    revision="spock"  path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="spock"/>
-  <project name="sigar" groups="kv"/>
+  <project name="sigar" groups="kv" revision="79ee06355851960858ed76f5633b661a9eff80f9"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
   <project name="tlm" groups="kv" revision="spock">
