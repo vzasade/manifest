@@ -13,7 +13,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Kubernetes code                                    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="code-generator" remote="couchbasedeps" path="goproj/src/k8s.io/code-generator" revision="306be794f1b124a9c939ab168e9ea3944387e66b"/>
+  <project name="code-generator" remote="couchbasedeps" path="goproj/src/k8s.io/code-generator" revision="kubernetes-1.9.2"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
