@@ -9,6 +9,7 @@
             "restricted": false,
             "start_build": 183,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         }
     }
