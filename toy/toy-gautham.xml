@@ -46,11 +46,11 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
   <!-- Analytics additions -->
-  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
+  <project name="asterix-opt" path="analytics" revision="vulcan" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" revision="vulcan" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="vulcan" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" revision="vulcan" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-ui" revision="vulcan" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                                             path="godeps/src/github.com/couchbase/cbauth"/>
@@ -77,7 +77,7 @@
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="b38a61d4cfec3c67d7e87f5baafae8c90efac2b1" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="ae27aa2f1482ef7c736e07f5fc0ba6f243342fb4" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
