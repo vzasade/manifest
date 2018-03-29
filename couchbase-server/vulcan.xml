@@ -76,7 +76,7 @@
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="6c6c1419b58202ff248b0bdce2eb53e58070f279" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="2621eff76380784210244e5d4e4696e3ad2042af" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
@@ -117,7 +117,7 @@
   <project name="mmap-go"        remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="cuckoofilter"   remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" path="godeps/src/github.com/seiflotfy/cuckoofilter"/>
   <project name="gofarmhash"     remote="couchbasedeps" revision="0a055c5b87a8c55ce83459cbf2776b563822a942" path="godeps/src/github.com/leemcloughlin/gofarmhash"/>
-  <project name="roaring"        remote="couchbasedeps" revision="01d244c43a7e8d1191a4f369f5908ea9eb9bc9ac" path="godeps/src/github.com/RoaringBitmap/roaring"/>
+  <project name="roaring"        remote="couchbasedeps" revision="c1bce359df68d125b7d20c989b11efa49f845ee7" path="godeps/src/github.com/RoaringBitmap/roaring"/>
   <project name="mousetrap"      remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75" path="godeps/src/github.com/inconshreveable/mousetrap"/>
   <project name="go-curl"        remote="couchbasedeps" revision="20161221-couchbase"                       path="godeps/src/github.com/andelf/go-curl"/>
   <project name="flatbuffers"    remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
