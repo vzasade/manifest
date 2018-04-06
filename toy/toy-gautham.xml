@@ -16,6 +16,7 @@
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
+  <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
@@ -38,7 +39,6 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <!--<project name="tlm" groups="kv" remote="gautham">-->
   <project name="tlm" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
@@ -65,7 +65,7 @@
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="72b08dc5389b2536dd073f16a093a964edce65eb" path="godeps/src/github.com/couchbase/gocb"/>
-  <project name="gocbcore"       revision="afa21ae052b8b110c65f758571e404523e9b07f9" path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
+  <project name="gocbcore"       revision="d7d7739c944e1215608411cdcfc76b7008274722" path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
@@ -78,7 +78,7 @@
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="3368f054c2ef18b23a04299f930f19a354f85942" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="34944ba4b5eaccba718996f35285b189c4724532" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
@@ -132,6 +132,9 @@
   <project name="msgp"            remote="couchbasedeps" revision="5bb5e1aed7ba5bcc93307153b020e7ffe79b0509" path="godeps/src/github.com/tinylib/msgp"/>
   <project name="fwd"             remote="couchbasedeps" revision="bb6d471dc95d4fe11e432687f8b70ff496cf3136" path="godeps/src/github.com/philhofer/fwd"/>
   <project name="errors"          remote="couchbasedeps" revision="30136e27e2ac8d167177e8a583aa4c3fea5be833" path="godeps/src/github.com/pkg/errors"/>
+  <project name="pierrec-lz4"     remote="couchbasedeps" revision="ed8d4cc3b461464e69798080a0092bd028910298" path="godeps/src/github.com/pierrec/lz4"/>
+  <project name="pierrec-xxHash"  remote="couchbasedeps" revision="a0006b13c722f7f12368c00a3d3c2ae8a999a0c6" path="godeps/src/github.com/pierrec/xxHash"/>
+  <project name="zstd"            remote="couchbasedeps" revision="aebefd9fcb99f22cd691ef778a12ed68f0e6a1ab" path="godeps/src/github.com/DataDog/zstd"/>
 
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="9e3465560240ffb242b50a47cb7f19251a12ee42" groups="kv"/>
