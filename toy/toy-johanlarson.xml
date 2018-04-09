@@ -7,7 +7,7 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
-<remote name="j-larson" fetch="git://github.com/j-larson/" />
+<remote name="j-larson" fetch="git://github.com/j-larson" />
 
   <default remote="couchbase" revision="master" />
 
