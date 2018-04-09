@@ -35,7 +35,7 @@
   <project name="linenoise-ng" remote="arangodb" revision="4754bee2d8eb3c4511e6ac87cac62255b2011e2f" path="couchbase-lite-core/vendor/linenoise-ng"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
-  <project name="SQLiteCpp" remote="couchbasedeps" revision="4804a2b77f9afa0974107f4cffb5efa35d99395f" path="couchbase-lite-core/vendor/SQLiteCpp"/>
+  <project name="SQLiteCpp" remote="couchbasedeps" revision="fcf58aa19eb4b944a781b01489378d8ec9b862e9" path="couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
   <project name="civetweb" remote="couchbasedeps" revision="5c0503e92a4808857e96f60beb727859e6a08471" path="couchbase-lite-core/vendor/civetweb"/>
 
