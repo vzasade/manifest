@@ -22,8 +22,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="235381879d93c650c64fcecc5d3078f9716d9925" groups="notdefault,enterprise" path="couchbase-lite-android-ee/libs/couchbase-lite-core-EE"/>
-  <project name="couchbase-lite-core" revision="d7a0d58a5d99f701ecccd63ee3561381de7c81ad" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="85c8fd77de11303ba0a71d81e11f16029388fafa" groups="notdefault,enterprise" path="couchbase-lite-android-ee/libs/couchbase-lite-core-EE"/>
+  <project name="couchbase-lite-core" revision="c222bb119c30646a4e4c615db1ade6e7f91ba696" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="10f890e990f8ae260170ef32e9af2c9dd8de2e6b" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -41,7 +41,7 @@
   <project name="linenoise-ng" remote="arangodb" revision="4754bee2d8eb3c4511e6ac87cac62255b2011e2f" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/linenoise-ng"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
-  <project name="SQLiteCpp" remote="couchbasedeps" revision="4804a2b77f9afa0974107f4cffb5efa35d99395f" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/SQLiteCpp"/>
+  <project name="SQLiteCpp" remote="couchbasedeps" revision="fcf58aa19eb4b944a781b01489378d8ec9b862e9" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
   <project name="civetweb" remote="couchbasedeps" revision="5c0503e92a4808857e96f60beb727859e6a08471" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/civetweb"/>
 
