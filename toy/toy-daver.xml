@@ -111,7 +111,7 @@
   <project name="pflag" path="godeps/src/github.com/spf13/pflag" remote="couchbasedeps" revision="a232f6d9f87afaaa08bafaff5da685f974b83313" />
   <project groups="kv" name="phosphor" revision="af16481d2b9ece1a82fdb1fc8ea8033373818fa3" upstream="master" />
   <project groups="notdefault,enterprise" name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" revision="5b90956cc04dd9cd50da048ae4b099e19a6c502b" upstream="master" />
-  <project groups="kv" name="platform" revision="65b52cdfdbba66a92722802db2de3bc8ec45ae9a" upstream="master" />
+  <project groups="kv" name="platform" remote="daverigby" revision="MB-28941_backport" upstream="master" />
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" />
   <project name="query" path="goproj/src/github.com/couchbase/query" revision="f3d8722bdc7a719e9abd14927d762c2ad14d343f" upstream="master" />
   <project name="query-ui" revision="2d447f3a7a46535e78e387dc40f70b9124c576b6" upstream="master" />
