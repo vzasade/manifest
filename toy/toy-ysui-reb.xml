@@ -172,7 +172,7 @@
 	<project name="govarint" path="godeps/src/github.com/Smerity/govarint"
 		remote="couchbasedeps" revision="7265e41f48f15fd61751e16da866af3c704bb3ab" />
 	<project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr"
-		remote="ysui6888" revision="master" />
+		remote="ysui6888" revision="scram3" />
 	<project groups="kv" name="gsl-lite" path="third_party/gsl-lite"
 		remote="couchbasedeps" revision="57542c7e7ced375346e9ac55dad85b942cfad556"
 		upstream="refs/tags/v0.25.0" />
