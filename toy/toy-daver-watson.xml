@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote fetch="ssh://review.couchbase.org:29418/" name="gerrit" />
 
   <default remote="couchbase" revision="master" />
 
@@ -17,15 +18,15 @@
   <project name="couchbase-examples" revision="39ee1c2451ac2f2e86a6ff308e21e1201c49cafe"/>
   <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
-  <project name="ep-engine" revision="watson" groups="kv"/>
+  <project name="ep-engine" revision="refs/changes/44/93044/4" remote="gerrit" groups="kv"/>
   <project name="forestdb" revision="watson" groups="kv"/>
   <project name="geocouch" revision="watson"/>
   <project name="goxdcr" revision="watson" path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa" revision="watson" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="watson" path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="memcached" revision="watson" groups="kv"/>
+  <project name="memcached" revision="refs/changes/46/93046/3" remote="gerrit" groups="kv"/>
   <project name="moxi" revision="f6b2f64bdb3b6092fb555c055602dbd592bf3deb" groups="kv"/>
-  <project name="ns_server" revision="watson"/>
+  <project name="ns_server" revision="refs/changes/40/92940/4" remote="gerrit"/>
   <project name="platform" revision="watson" groups="kv"/>
   <project name="query" revision="watson" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="watson"/>
