@@ -18,7 +18,7 @@
   <project name="couchbase-examples" revision="39ee1c2451ac2f2e86a6ff308e21e1201c49cafe"/>
   <project name="couchdb" revision="watson"/>
   <project name="couchstore" revision="watson" groups="kv"/>
-  <project name="ep-engine" revision="refs/changes/44/93044/4" remote="gerrit" groups="kv"/>
+  <project name="ep-engine" revision="refs/changes/10/93110/2" remote="gerrit" groups="kv"/>
   <project name="forestdb" revision="watson" groups="kv"/>
   <project name="geocouch" revision="watson"/>
   <project name="goxdcr" revision="watson" path="goproj/src/github.com/couchbase/goxdcr" />
