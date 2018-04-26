@@ -112,7 +112,7 @@
   <project name="bitset"         remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4" path="godeps/src/github.com/willf/bitset"/>
   <project name="ts"             remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8" path="godeps/src/github.com/olekukonko/ts"/>
   <project name="text"           remote="couchbasedeps" revision="f21a4dfb5e38f5895301dc265a8def02365cc3d0" path="godeps/src/golang.org/x/text"/>
-  <project name="crypto"         remote="couchbasedeps" revision="dccd99e89d39b13e12f1103c72e3bc49eb40a833" path="godeps/src/golang.org/x/crypto"/>
+  <project name="crypto"         remote="couchbasedeps" revision="b49d69b5da943f7ef3c9cf91c8777c1f78a0cc3c" path="godeps/src/golang.org/x/crypto"/>
   <project name="net"            remote="couchbasedeps" revision="5f9ae10d9af5b1c89ae6904293b14b064d4ada23" path="godeps/src/golang.org/x/net"/>
   <project name="sys"            remote="couchbasedeps" revision="bb9c189858d91f42db229b04d45a4c3d23a7662a" path="godeps/src/golang.org/x/sys"/>
   <project name="minify"         remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb" path="godeps/src/github.com/tdewolff/minify"/>
