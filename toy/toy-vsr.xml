@@ -57,7 +57,7 @@
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                                             path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag"/>
-  <project name="gomemcached"                                                        path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="gomemcached"  remote="sitaramv"                                     path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval"                                                            path="godeps/src/github.com/couchbase/dparval"/>
   <project name="go-couchbase"  remote="sitaramv"  path="godeps/src/github.com/couchbase/go-couchbase"/>
