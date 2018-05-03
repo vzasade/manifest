@@ -31,7 +31,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 5700,
-            "interval": 480,
+            "interval": 120,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-27867"
@@ -43,7 +43,7 @@
             "parent": "couchbase-server/spock.xml",
             "production": true,
             "start_build": 5554,
-            "interval": 60,
+            "interval": 480,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-29354"
