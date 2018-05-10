@@ -9,7 +9,7 @@
             "restricted": false,
             "start_build": 100,
             "keep_git": true,
-            "do-build": false,
+            "do-build": true,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.0/2.0.0.xml": {
