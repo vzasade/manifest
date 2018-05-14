@@ -32,9 +32,10 @@
   <project name="kv_engine" groups="kv" revision="f0c0935ab36a3cc87a9b9c9527a11298158497d3" remote="owend" />
   <project name="libcouchbase" groups="notdefault,enterprise"/>
   <project name="moxi" groups="kv"/>
-  <project name="ns_server" revision="37f219176276d2effaa987275493ce2371714272" remote="owend" />
+  <project name="ns_server" revision="vulcan"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
+  <project name="product-texts" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
