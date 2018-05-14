@@ -29,7 +29,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
-  <project name="kv_engine" groups="kv" revision="dd1e3b43f8b097d36c3b691e692edff0011fb0d1" remote="owend" />
+  <project name="kv_engine" groups="kv" revision="323a7c79cb9dddb3e92664ae53d91a17b2dcb468" remote="owend" />
   <project name="libcouchbase" groups="notdefault,enterprise"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server" revision="vulcan"/>
