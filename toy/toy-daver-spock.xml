@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="gerrit" fetch="ssh://review.couchbase.org:29418/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -23,12 +24,12 @@
   <project name="goxdcr"    revision="spock" path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa"    revision="spock" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing"  revision="spock" path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="kv_engine" revision="spock" groups="kv"/>
+  <project name="kv_engine" revision="refs/changes/25/94225/1" remote="gerrit" groups="kv"/>
   <project name="moxi" groups="kv"/>
   <project name="nitro"     revision="spock" path="goproj/src/github.com/couchbase/nitro"/>
   <project name="plasma"    revision="spock" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="ns_server" revision="spock"/>
-  <project name="phosphor"  revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
+  <project name="phosphor"  revision="master" groups="kv"/>
   <project name="platform" groups="kv" revision="spock"/>
   <project name="query"    revision="spock"  path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="spock"/>
