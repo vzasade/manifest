@@ -30,7 +30,6 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv"/>
   <project name="libcouchbase" groups="notdefault,enterprise"/>
-  <project name="moxi" groups="kv"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
