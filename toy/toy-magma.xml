@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="hisundar" fetch="git://github.com/hisundar/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master" />
 
@@ -41,7 +42,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" groups="kv">
+  <project name="tlm" groups="kv" remote="hisundar" revision="magma" upstream="magma">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
