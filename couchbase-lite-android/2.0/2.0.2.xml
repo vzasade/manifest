@@ -16,7 +16,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-android-ee" remote="couchbaselabs-priv" revision="82609b612501bf1406858cb0566583b72cf1e25a" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-android-ee" remote="couchbaselabs-priv" revision="release/2.0.x" groups="notdefault,enterprise"/>
   <project name="couchbase-lite-android" revision="release/2.0.x" path="couchbase-lite-android-ee/libs/couchbase-lite-android"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
