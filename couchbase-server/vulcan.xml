@@ -49,7 +49,7 @@
   </project>
   <!-- Analytics additions -->
   <project name="asterix-opt" path="analytics" revision="vulcan" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" revision="vulcan" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" revision="ab8297e6a8a566f351726eb9b00900ced8ba908c" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="vulcan" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" revision="vulcan" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" revision="vulcan" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
