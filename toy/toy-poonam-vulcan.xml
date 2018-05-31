@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote fetch="ssh://review.couchbase.org:29418/" name="gerrit" />
 
   <default remote="couchbase" revision="master" />
 
@@ -31,11 +32,11 @@
   <project name="kv_engine" revision="vulcan" groups="kv"/>
   <project name="libcouchbase" groups="notdefault,enterprise"/>
   <project name="moxi" groups="kv"/>
-  <project name="ns_server" revision="refs/changes/38/94538/1" remote="gerrit"/>
+  <project name="ns_server" revision="refs/changes/86/94986/1" remote="gerrit"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
-  <project name="query" revision="bf619f87af2f660bc8e060da9d2ef86453ee7dd3" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query" revision="a9fb74edc9dd74570adb82ac6d1c4931b5f8907d" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
@@ -79,7 +80,7 @@
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="298302a511a184dbab2c401e2005c1ce9589a001" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="1d6d47ed3ad966075bf9162fee4caa5d8984733c" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex"           remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
