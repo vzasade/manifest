@@ -11,6 +11,16 @@
             "keep_git": true,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
+        "couchbase-lite-net/2.0/2.0.3.xml": {
+            "release": "2.0.3",
+            "release_name": "Couchbase Lite Net - 2.0.3",
+            "production": true,
+            "interval": 480,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+        },
         "couchbase-lite-net/2.0/2.0.2.xml": {
             "release": "2.0.2",
             "release_name": "Couchbase Lite Net - 2.0.2",
