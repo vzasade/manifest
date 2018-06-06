@@ -29,7 +29,7 @@
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="kv_engine" revision="vulcan" groups="kv"/>
-  <project name="libcouchbase" groups="notdefault,enterprise"/>
+  <project name="libcouchbase" revision="9f4638c6c9ffec9648fb688a67cbcaf58ebe6214" groups="notdefault,enterprise"/>
   <project name="moxi" groups="kv"/>
   <project name="ns_server" revision="vulcan"/>
   <project name="phosphor" groups="kv"/>
