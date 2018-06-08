@@ -23,7 +23,9 @@
             "production": true,
             "start_build": 1000,
             "interval": 60,
-            "keep_git": true
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-29253"
         },
         "couchbase-server/spock.xml": {
             "release": "spock",
