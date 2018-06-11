@@ -32,7 +32,7 @@
   <project name="kv_engine" revision="vulcan" groups="kv"/>
   <project name="libcouchbase" groups="notdefault,enterprise"/>
   <project name="moxi" groups="kv"/>
-  <project name="ns_server" revision="refs/changes/86/94986/1" remote="gerrit"/>
+  <project name="ns_server" revision="refs/changes/86/94986/3" remote="gerrit"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
