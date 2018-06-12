@@ -7,6 +7,15 @@
             "interval": 1440,
             "keep_git": true
         },
+        "couchbase-server/mad-hatter.xml": {
+            "release": "mad-hatter",
+            "release_name": "Mad-Hatter (mainline)",
+            "parent": "branch-master.xml",
+            "production": true,
+            "start_build": 1000,
+            "interval": 480,
+            "keep_git": true
+        },
         "couchbase-server/alice.xml": {
             "release": "alice",
             "release_name": "Alice (mainline)",
