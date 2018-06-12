@@ -23,7 +23,7 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="e7e91b8a1a349ea6ef9ca8f933a2e350a34ed9b7" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="a2319234a9aeab9d7ca3d71db7d54732a8685273" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="3a203186b4638164c84906332b1fd0ba9a5a3941" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="10f890e990f8ae260170ef32e9af2c9dd8de2e6b" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -31,8 +31,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="snej" revision="a6dc76fa0908f6cc683d9f68b32fc0e9bbd89ccc" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/MYUtilities"/>
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="b697fa7cbad00a3ed22c3fe887e41f3ae202eac8" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="0b320b7c75c2944b1099512386b473c474f18383" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
-  <project name="jsonsl" remote="snej" revision="c6a296bd25cc3c43e98340b9e8f7e3c482ec50d1" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
+  <project name="fleece" remote="couchbaselabs" revision="46d46f877488b95b75994b4150b03ca32a15527e" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="db055ec4ffef64051a6940b0cae5c39a23092ff2" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
