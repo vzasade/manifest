@@ -18,7 +18,7 @@
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
   <project name="couchbase-cli" revision="f20493d9f66cdbf8e2db57bd37a48f3ae2655909"/>
   <project name="couchdb" revision="vulcan"/>
-  <project name="couchstore" groups="kv" revision="28ec7f5b4e2dca0e7496396f60a657edb1abf9d8"/>
+  <project name="couchstore" groups="kv" revision="vulcan"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="05067021a042a1b63e100a486afd7ebddab4c535"/>
   <project name="forestdb" revision="vulcan" groups="kv"/>
   <project name="geocouch" revision="2a0e73f43451045f157640eec59ced72da18471f"/>
