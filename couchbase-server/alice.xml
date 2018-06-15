@@ -33,7 +33,7 @@
   <project name="moxi" groups="kv"/>
   <project name="ns_server" revision="vulcan"/>
   <project name="phosphor" groups="kv"/>
-  <project name="platform" groups="kv"/>
+  <project name="platform" groups="kv" revision="2fbe5179a2673a9275cd0906daa4b1cab38a3eb5"/>
   <project name="product-texts" groups="kv"/>
   <project name="query" revision="a9fb74edc9dd74570adb82ac6d1c4931b5f8907d" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="vulcan"/>
