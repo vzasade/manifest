@@ -34,7 +34,7 @@
   <project name="ns_server" revision="vulcan"/>
   <project name="phosphor" groups="kv" revision="96501c57bb0fd61c85cba6f63101aed2bcf41d38"/>
   <project name="platform" groups="kv" revision="2fbe5179a2673a9275cd0906daa4b1cab38a3eb5"/>
-  <project name="product-texts" groups="kv" revision="2ec088911f650a55b2f9794a752a4423ee8211dc"/>
+  <project name="product-texts" groups="kv" revision="55e45187ca8943aa8910e9ae2b59b41242d14386"/>
   <project name="query" revision="a9fb74edc9dd74570adb82ac6d1c4931b5f8907d" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="vulcan"/>
   <project name="sigar" groups="kv" revision="73353fe6dad8f3d67409feefb9b17f90f6de917b"/>
