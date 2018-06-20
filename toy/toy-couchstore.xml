@@ -20,11 +20,11 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli"/>
-  <project name="couchdb" revision="vulcan"/>
+  <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="vulcan" groups="kv"/>
-  <project name="geocouch" revision="2a0e73f43451045f157640eec59ced72da18471f"/>
+  <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
@@ -51,11 +51,11 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
   <!-- Analytics additions -->
-  <project name="asterix-opt" path="analytics" revision="vulcan" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" revision="vulcan" groups="notdefault,enterprise,analytics"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="vulcan" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" revision="vulcan" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" revision="vulcan" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
+  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                                             path="godeps/src/github.com/couchbase/cbauth"/>
@@ -149,9 +149,9 @@
   <project name="HdrHistogram_c" remote="couchbasedeps" revision="refs/tags/0.9.7" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build" revision="vulcan" path="cbbuild" groups="notdefault,build">
+  <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="VERSION" value="0.0.0"     keep="true"/>
   </project>
-  <project name="voltron" revision="vulcan" remote="couchbase-priv" groups="notdefault,packaging" />
+  <project name="voltron"    remote="couchbase-priv"  groups="notdefault,packaging" />
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
