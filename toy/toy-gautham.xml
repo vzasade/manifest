@@ -6,35 +6,36 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch" fetch="git://github.com/blevesearch/"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+	<remote name="gautham"   fetch="git://github.com/GauthamBanasandra/" />
 
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="54f2a3c85b34823af62f4df0b1f19e36346958c3"/>
   <project name="cbft" revision="vulcan" path="goproj/src/github.com/couchbase/cbft"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="c0f2d82447942647471cfc21789af17ca6656d27"/>
+  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="vulcan"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="8ea3a3d0b81f8ca2de2ff0b41ed08ae37e130f07"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="dbfa1c0d73f0e49f6f04e390f03de8f9a6cee769"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
   <project name="couchbase-cli" revision="f20493d9f66cdbf8e2db57bd37a48f3ae2655909"/>
   <project name="couchdb" revision="vulcan"/>
-  <project name="couchstore" groups="kv" revision="28ec7f5b4e2dca0e7496396f60a657edb1abf9d8"/>
+  <project name="couchstore" groups="kv" revision="vulcan"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="05067021a042a1b63e100a486afd7ebddab4c535"/>
   <project name="forestdb" revision="vulcan" groups="kv"/>
   <project name="geocouch" revision="2a0e73f43451045f157640eec59ced72da18471f"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="0174ef77558ffbf496f5057317215f79f20b3acb"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="vulcan"/>
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="df22eb995051c99d2417db1f424d0c08994e828f"/>
   <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="f3bef3551997be504612a2d05a8b324b3bfdfe1b"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="vulcan"/>
   <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise" revision="vulcan"/>
-  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="unstable"/>
+  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="unstable" remote="gautham"/>
   <project name="kv_engine" revision="vulcan" groups="kv"/>
   <project name="libcouchbase" revision="081e8b16b991bf706eb77f8243935c6fba31b895" groups="notdefault,enterprise"/>
   <project name="moxi" groups="kv" revision="cd8da46b9b953800d430c8b0aa4667790727ed6f"/>
   <project name="ns_server" revision="vulcan"/>
   <project name="phosphor" groups="kv" revision="96501c57bb0fd61c85cba6f63101aed2bcf41d38"/>
   <project name="platform" groups="kv" revision="2fbe5179a2673a9275cd0906daa4b1cab38a3eb5"/>
-  <project name="product-texts" groups="kv" revision="2ec088911f650a55b2f9794a752a4423ee8211dc"/>
+  <project name="product-texts" groups="kv" revision="55e45187ca8943aa8910e9ae2b59b41242d14386"/>
   <project name="query" revision="a9fb74edc9dd74570adb82ac6d1c4931b5f8907d" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="vulcan"/>
   <project name="sigar" groups="kv" revision="73353fe6dad8f3d67409feefb9b17f90f6de917b"/>
