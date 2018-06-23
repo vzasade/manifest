@@ -48,11 +48,11 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics" revision="6335e9bac813cc145feaf32501ec99480c3d4198"/>
-  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics" revision="9353f3519b117e69f6d7fb4de84cf75a271d0041"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics" revision="1c7d7f31e1049ed6d9d180d7bb67a0b2099f13a8"/>
-  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics" revision="de7ce6e41821850bd2bcc5ed99ca21d1e4678eab"/>
-  <project name="cbas-ui" groups="analytics" revision="45935373b4ac3051a131afa853d3a3805d21d1bd"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
+  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="a24c775fb2feafa43a9cd21dcfe25cfc7b65eaa7"/>
