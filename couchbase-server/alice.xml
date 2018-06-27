@@ -36,7 +36,7 @@
   <project name="platform" groups="kv" revision="2fbe5179a2673a9275cd0906daa4b1cab38a3eb5"/>
   <project name="product-texts" groups="kv" revision="55e45187ca8943aa8910e9ae2b59b41242d14386"/>
   <project name="query" revision="a9fb74edc9dd74570adb82ac6d1c4931b5f8907d" path="goproj/src/github.com/couchbase/query"/>
-  <project name="query-ui" revision="vulcan"/>
+  <project name="query-ui" revision="alice"/>
   <project name="sigar" groups="kv" revision="73353fe6dad8f3d67409feefb9b17f90f6de917b"/>
   <project name="subjson" groups="kv" revision="85ed622c5959fa1c20c83993aec0e2293d7fd20f"/>
   <project name="testrunner" revision="816a2fa28fd845cdfe879d10e72ca9661a9d8763"/>
