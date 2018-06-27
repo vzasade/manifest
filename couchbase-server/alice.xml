@@ -35,7 +35,7 @@
   <project name="phosphor" groups="kv" revision="96501c57bb0fd61c85cba6f63101aed2bcf41d38"/>
   <project name="platform" groups="kv" revision="2fbe5179a2673a9275cd0906daa4b1cab38a3eb5"/>
   <project name="product-texts" groups="kv" revision="55e45187ca8943aa8910e9ae2b59b41242d14386"/>
-  <project name="query" revision="a9fb74edc9dd74570adb82ac6d1c4931b5f8907d" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query" revision="vulcan" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="alice"/>
   <project name="sigar" groups="kv" revision="73353fe6dad8f3d67409feefb9b17f90f6de917b"/>
   <project name="subjson" groups="kv" revision="85ed622c5959fa1c20c83993aec0e2293d7fd20f"/>
@@ -57,10 +57,10 @@
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="fdb15320725653e21dbbaa12dd68fddfc888a4ab"/>
   <project name="cbflag" path="godeps/src/github.com/couchbase/cbflag" revision="80d2ad8892d806f5103f602fec0d80adaa4b628f"/>
-  <project name="gomemcached" revision="0da75df145308b9a4e6704d762ca9d9b77752efc" path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="gomemcached" revision="vulcan" path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"/>
-  <project name="go-couchbase" revision="16db1f1fe037412f12738fa4d8448c549c4edd77" path="godeps/src/github.com/couchbase/go-couchbase"/>
+  <project name="go-couchbase" revision="vulcan" path="godeps/src/github.com/couchbase/go-couchbase"/>
   <project name="clog" path="godeps/src/github.com/couchbase/clog" revision="dcae66272b24600ae0005fa06b511cfae8914d3d"/>
   <project name="go-slab" path="godeps/src/github.com/couchbase/go-slab" revision="1f5f7f282713ccfab3f46b1610cb8da34bcf676f"/>
   <project name="goforestdb" path="godeps/src/github.com/couchbase/goforestdb" revision="0b501227de0e8c55d99ed14e900eea1a1dbaf899"/>
@@ -70,12 +70,12 @@
   <project name="jsonx" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" revision="5b7baa20429a46a5543ee259664cc86502738cad"/>
   <project name="gocbconnstr" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" revision="710456e087a6d497e87f41d0a9d98d6a75672186"/>
   <project name="go_n1ql" path="godeps/src/github.com/couchbase/go_n1ql" revision="6cf4e348b127e21f56e53eb8c3faaea56afdc588"/>
-  <project name="goutils" revision="f98adca8eb365032cab838ef4d99453931afa112" path="godeps/src/github.com/couchbase/goutils"/>
+  <project name="goutils" revision="vulcan" path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss" path="godeps/src/github.com/couchbase/moss" revision="929cc75f09a3bec7da9f993b041fbd7c9a0daa92"/>
   <project name="mossScope" path="godeps/src/github.com/couchbase/mossScope" revision="abd3b58b422dbc2e9463a589d0f3d93441726e23"/>
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
-  <project name="godbc" revision="aecdbe5a5a91f0688df7bdf260ca962178c06828" path="godeps/src/github.com/couchbase/godbc"/>
-  <project name="go_json" revision="d2f15a425a9c8e4d8447e5f5b89ce14845f7fa05" path="godeps/src/github.com/couchbase/go_json"/>
+  <project name="godbc" revision="vulcan" path="godeps/src/github.com/couchbase/godbc"/>
+  <project name="go_json" revision="vulcan" path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="eb6ae3743b3f300f2136f83ca78c08cc071edbd4"/>
 
   <!-- Go support libraries - Bleve-supported -->
