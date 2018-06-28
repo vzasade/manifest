@@ -33,7 +33,7 @@
   <project name="query"    revision="spock"  path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="spock"/>
   <project name="sigar" groups="kv" revision="79ee06355851960858ed76f5633b661a9eff80f9"/>
-  <project name="subjson" groups="kv"/>
+  <project name="subjson" groups="kv" revision="85ed622c5959fa1c20c83993aec0e2293d7fd20f"/>
   <project name="testrunner"/>
   <project name="tlm" groups="kv" revision="spock">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
