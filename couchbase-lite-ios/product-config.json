@@ -36,6 +36,7 @@
             "release_name": "Couchbase Lite iOS - 2.0.2",
             "production": true,
             "interval": 480,
+            "do-build": false,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
