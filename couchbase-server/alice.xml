@@ -11,8 +11,8 @@
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="faa4390d57116ccbdcfc8f00e3affd3044a890cc"/>
-  <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="09a9e9f48260c9542641e695e148d1425142ba83"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="8efce2e6775556cf4271463c36368ed5906973b0"/>
+  <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="c6d20e7ad03b19163a2f93da48170a1724a55e19"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="dbfa1c0d73f0e49f6f04e390f03de8f9a6cee769"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
@@ -76,7 +76,7 @@
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
   <project name="godbc" revision="vulcan" path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json" revision="vulcan" path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="eb6ae3743b3f300f2136f83ca78c08cc071edbd4"/>
+  <project name="vellum" path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve" remote="blevesearch" revision="9bad601c3a5a3b2f614037752e90d87087cc03da" path="godeps/src/github.com/blevesearch/bleve"/>
