@@ -71,7 +71,7 @@
   <project name="gocbconnstr" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" revision="710456e087a6d497e87f41d0a9d98d6a75672186"/>
   <project name="go_n1ql" path="godeps/src/github.com/couchbase/go_n1ql" revision="6cf4e348b127e21f56e53eb8c3faaea56afdc588"/>
   <project name="goutils" revision="vulcan" path="godeps/src/github.com/couchbase/goutils"/>
-  <project name="moss" path="godeps/src/github.com/couchbase/moss" revision="929cc75f09a3bec7da9f993b041fbd7c9a0daa92"/>
+  <project name="moss" path="godeps/src/github.com/couchbase/moss" revision="956632ec1bc3e28276d00ee2f22c3202f06efb12"/>
   <project name="mossScope" path="godeps/src/github.com/couchbase/mossScope" revision="abd3b58b422dbc2e9463a589d0f3d93441726e23"/>
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
   <project name="godbc" revision="vulcan" path="godeps/src/github.com/couchbase/godbc"/>
