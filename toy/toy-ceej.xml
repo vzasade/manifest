@@ -59,7 +59,7 @@
   <project name="go_n1ql" path="godeps/src/github.com/couchbase/go_n1ql" revision="6cf4e348b127e21f56e53eb8c3faaea56afdc588" />
   <project name="gocb" path="godeps/src/github.com/couchbase/gocb" revision="699b13a51af5dd4f80ff3deedf41bba60debad32" />
   <project name="gocbconnstr" path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" remote="couchbaselabs" revision="710456e087a6d497e87f41d0a9d98d6a75672186" />
-  <project name="gocbcore" path="godeps/src/gopkg.in/couchbase/gocbcore.v7" revision="dbdd246c3b68a60b6df2b10eb60849ba3e80f66e" />
+  <project name="gocbcore" path="godeps/src/gopkg.in/couchbase/gocbcore.v7" revision="refs/changes/59/96859/2" />
   <project name="godbc" path="godeps/src/github.com/couchbase/godbc" revision="6f14d6b74b5c6761678e7c7b3929f7e763b7fbf8" />
   <project name="gofarmhash" path="godeps/src/github.com/leemcloughlin/gofarmhash" remote="couchbasedeps" revision="0a055c5b87a8c55ce83459cbf2776b563822a942" />
   <project name="goforestdb" path="godeps/src/github.com/couchbase/goforestdb" revision="0b501227de0e8c55d99ed14e900eea1a1dbaf899" />
