@@ -147,7 +147,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" revision="6dbdd36a0ab7cc77ae2236c20bdc445076e8e5f2" path="cbbuild" groups="notdefault,build">
-    <annotation name="VERSION" value="5.5.1" keep="true"/>
+    <annotation name="VERSION" value="5.5.0" keep="true"/>
   </project>
   <project name="voltron" revision="6e05d102184e3298ab32c68632b7e85ca04eeba0" remote="couchbase-priv" groups="notdefault,packaging"/>
   <project name="couchdbx-app" groups="notdefault,packaging" revision="c545a8563778bfc40284caf9213c7925488e633a"/>
