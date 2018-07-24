@@ -1,0 +1,16 @@
+{
+    "product": "cbdeps/libuv",
+    "manifests": {
+        "cbdeps/libuv/master.xml": {
+            "release": "1.20.3",
+            "release_name": "libuv 1.20.3",
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "cbdeps-build",
+            "do_build": false,
+            "keep_git": true
+        }
+    }
+}
