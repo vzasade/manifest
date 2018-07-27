@@ -30,12 +30,23 @@
             "release_name": "Vulcan (mainline)",
             "parent": "branch-master.xml",
             "production": true,
+            "start_build": 3500,
+            "interval": 480,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-27868"
+        },
+        "couchbase-server/vulcan/5.5.1.xml": {
+            "branch": "vulcan-5.5.1",
+            "release": "vulcan",
+            "release_name": "Vulcan 5.5.1",
+            "parent": "couchbase-server/vulcan.xml",
+            "production": true,
             "start_build": 3200,
             "interval": 120,
             "keep_git": true,
             "restricted": true,
-            "do-build": false,
-            "approval_ticket": "MB-27868"
+            "approval_ticket": "MB-30651"
         },
         "couchbase-server/vulcan/5.5.0.xml": {
             "branch": "vulcan-5.5.0",
