@@ -27,7 +27,7 @@
   <project name="moxi" groups="kv" revision="cd8da46b9b953800d430c8b0aa4667790727ed6f"/>
   <project name="nitro" revision="4f5714e663ad109e0ad1bdcbcf48d226179d62f5" path="goproj/src/github.com/couchbase/nitro"/>
   <project name="plasma" revision="8a6dce293895f2ae7c1093fbc0318a4e6f35ec01" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="ns_server" revision="d74774ec046770a216f2cb8b602fe3e40ce48c09"/>
+  <project name="ns_server" revision="spock"/>
   <project name="phosphor" revision="f4c71b44bfa05fcb904026e29367b10087b3753d" groups="kv"/>
   <project name="platform" groups="kv" revision="4abe0d4bb782c095c821749d3bd3f1deb7d156c2"/>
   <project name="query" revision="dba28197b6c84a0a25621889202142ad7d168675" path="goproj/src/github.com/couchbase/query"/>
