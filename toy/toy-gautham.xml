@@ -12,35 +12,35 @@
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="faa4390d57116ccbdcfc8f00e3affd3044a890cc"/>
-  <project name="cbft" revision="vulcan" path="goproj/src/github.com/couchbase/cbft"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="vulcan"/>
+  <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="c6d20e7ad03b19163a2f93da48170a1724a55e19"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="dbfa1c0d73f0e49f6f04e390f03de8f9a6cee769"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
-  <project name="couchbase-cli" revision="6acf250ac8a22d30496e3cb857af2aa4b40192b3"/>
+  <project name="couchbase-cli" revision="alice"/>
   <project name="couchdb" revision="vulcan"/>
   <project name="couchstore" groups="kv" revision="vulcan"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="05067021a042a1b63e100a486afd7ebddab4c535"/>
   <project name="forestdb" revision="vulcan" groups="kv"/>
   <project name="geocouch" revision="2a0e73f43451045f157640eec59ced72da18471f"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="vulcan"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="0174ef77558ffbf496f5057317215f79f20b3acb"/>
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="df22eb995051c99d2417db1f424d0c08994e828f"/>
   <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="f3bef3551997be504612a2d05a8b324b3bfdfe1b"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="vulcan"/>
   <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise" revision="vulcan"/>
   <project name="eventing" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="unstable" remote="gautham"/>
   <project name="kv_engine" revision="vulcan" groups="kv"/>
-  <project name="libcouchbase" revision="081e8b16b991bf706eb77f8243935c6fba31b895" groups="notdefault,enterprise"/>
+  <project name="libcouchbase" groups="notdefault,enterprise" revision="081e8b16b991bf706eb77f8243935c6fba31b895"/>
   <project name="moxi" groups="kv" revision="cd8da46b9b953800d430c8b0aa4667790727ed6f"/>
-  <project name="ns_server" revision="vulcan"/>
+  <project name="ns_server" revision="alice"/>
   <project name="phosphor" groups="kv" revision="96501c57bb0fd61c85cba6f63101aed2bcf41d38"/>
   <project name="platform" groups="kv" revision="2fbe5179a2673a9275cd0906daa4b1cab38a3eb5"/>
   <project name="product-texts" groups="kv" revision="55e45187ca8943aa8910e9ae2b59b41242d14386"/>
-  <project name="query" revision="vulcan" path="goproj/src/github.com/couchbase/query"/>
-  <project name="query-ui" revision="vulcan"/>
+  <project name="query" revision="alice" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query-ui" revision="alice"/>
   <project name="sigar" groups="kv" revision="73353fe6dad8f3d67409feefb9b17f90f6de917b"/>
   <project name="subjson" groups="kv" revision="c30c3d4c250e68e81c57aa1e8ae91ffd21243cdb"/>
-  <project name="testrunner" revision="master"/>
+  <project name="testrunner" revision="vulcan"/>
   <project name="tlm" revision="vulcan" groups="kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
@@ -49,14 +49,14 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="asterix-opt" path="analytics" revision="vulcan" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" revision="vulcan" groups="notdefault,enterprise,analytics"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="vulcan" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" revision="vulcan" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" revision="vulcan" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
+  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="a24c775fb2feafa43a9cd21dcfe25cfc7b65eaa7"/>
+  <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="fdb15320725653e21dbbaa12dd68fddfc888a4ab"/>
   <project name="cbflag" path="godeps/src/github.com/couchbase/cbflag" revision="80d2ad8892d806f5103f602fec0d80adaa4b628f"/>
   <project name="gomemcached" revision="vulcan" path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"/>
@@ -72,15 +72,15 @@
   <project name="gocbconnstr" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" revision="710456e087a6d497e87f41d0a9d98d6a75672186"/>
   <project name="go_n1ql" path="godeps/src/github.com/couchbase/go_n1ql" revision="6cf4e348b127e21f56e53eb8c3faaea56afdc588"/>
   <project name="goutils" revision="vulcan" path="godeps/src/github.com/couchbase/goutils"/>
-  <project name="moss" path="godeps/src/github.com/couchbase/moss" revision="929cc75f09a3bec7da9f993b041fbd7c9a0daa92"/>
+  <project name="moss" path="godeps/src/github.com/couchbase/moss" revision="956632ec1bc3e28276d00ee2f22c3202f06efb12"/>
   <project name="mossScope" path="godeps/src/github.com/couchbase/mossScope" revision="abd3b58b422dbc2e9463a589d0f3d93441726e23"/>
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
   <project name="godbc" revision="vulcan" path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json" revision="vulcan" path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="eb6ae3743b3f300f2136f83ca78c08cc071edbd4"/>
+  <project name="vellum" path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve" remote="blevesearch" revision="1d6d47ed3ad966075bf9162fee4caa5d8984733c" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve" remote="blevesearch" revision="746eeca3e2e1a23f3a0742b8432314ea3f1d20f9" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex" remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
@@ -121,7 +121,7 @@
   <project name="mmap-go" remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="cuckoofilter" remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" path="godeps/src/github.com/seiflotfy/cuckoofilter"/>
   <project name="gofarmhash" remote="couchbasedeps" revision="0a055c5b87a8c55ce83459cbf2776b563822a942" path="godeps/src/github.com/leemcloughlin/gofarmhash"/>
-  <project name="roaring" remote="couchbasedeps" revision="c1bce359df68d125b7d20c989b11efa49f845ee7" path="godeps/src/github.com/RoaringBitmap/roaring"/>
+  <project name="roaring" remote="couchbasedeps" revision="fe09428be4c233d726797a1380f7438f4f71a31a" path="godeps/src/github.com/RoaringBitmap/roaring"/>
   <project name="mousetrap" remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75" path="godeps/src/github.com/inconshreveable/mousetrap"/>
   <project name="go-curl" remote="couchbasedeps" revision="20161221-couchbase" path="godeps/src/github.com/andelf/go-curl"/>
   <project name="flatbuffers" remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
@@ -147,9 +147,9 @@
   <project name="HdrHistogram_c" remote="couchbasedeps" revision="refs/tags/0.9.7" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
-  <project name="build" revision="vulcan" path="cbbuild" groups="notdefault,build">
-    <annotation name="VERSION" value="5.5.0" keep="true"/>
+  <project name="build" revision="alice" path="cbbuild" groups="notdefault,build">
+    <annotation name="VERSION" value="6.0.0" keep="true"/>
   </project>
-  <project name="voltron" revision="vulcan" remote="couchbase-priv" groups="notdefault,packaging"/>
+  <project name="voltron" revision="alice" remote="couchbase-priv" groups="notdefault,packaging"/>
   <project name="couchdbx-app" groups="notdefault,packaging" revision="c545a8563778bfc40284caf9213c7925488e633a"/>
 </manifest>
