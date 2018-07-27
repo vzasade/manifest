@@ -30,7 +30,7 @@
             "release_name": "Vulcan (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 3500,
+            "start_build": 3700,
             "interval": 480,
             "keep_git": true,
             "restricted": true,
