@@ -22,7 +22,7 @@
   <project name="couchdb" revision="vulcan"/>
   <project name="couchstore" groups="kv" revision="vulcan"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="05067021a042a1b63e100a486afd7ebddab4c535"/>
-  <project name="forestdb" remote="srinath" revision="spock" groups="kv"/>
+  <project name="forestdb" remote="srinath" revision="vulcan" groups="kv"/>
   <project name="geocouch" revision="2a0e73f43451045f157640eec59ced72da18471f"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="vulcan"/>
   <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="df22eb995051c99d2417db1f424d0c08994e828f"/>
