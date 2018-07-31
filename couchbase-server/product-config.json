@@ -23,7 +23,10 @@
             "production": true,
             "start_build": 1000,
             "interval": 60,
-            "keep_git": true
+            "keep_git": true,
+            "restricted": true,
+            "unrestricted_projects": [ "cbft", "cbgt", "asterix-opt", "asterixdb", "analytics-dcp-client", "cbas", "cbas-ui", "eventing" ],
+            "approval_ticket": "MB-30692"
         },
         "couchbase-server/vulcan.xml": {
             "release": "vulcan",
