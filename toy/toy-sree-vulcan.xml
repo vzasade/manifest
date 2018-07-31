@@ -80,7 +80,7 @@
   <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="eb6ae3743b3f300f2136f83ca78c08cc071edbd4"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="bleve_no_pause" revision="9ce6c94b29aa45da128c35a546dfd32e485a776e" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="bleve_no_pause" revision="ba9a63e335a69117773ec58ad7cb4ccf3510d635" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex" remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
