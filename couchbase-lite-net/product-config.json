@@ -1,16 +1,26 @@
 {
     "product": "couchbase-lite-net",
     "manifests": {
-        "couchbase-lite-net/master.xml": {
-            "release": "2.1.0",
-            "release_name": "Couchbase Lite Net - master",
+        "couchbase-lite-net/iridium.xml": {
+            "release": "2.5.0",
+            "release_name": "Couchbase Lite Net - Iridium",
             "production": true,
             "interval": 90,
             "restricted": false,
-            "start_build": 100,
+            "start_build": 1,
             "keep_git": true,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
+        "couchbase-lite-net/2.1.xml": {
+             "release": "2.1.0",
+             "release_name": "Couchbase Lite Net - 2.1",
+             "production": true,
+             "interval": 90,
+             "restricted": false,
+             "start_build": 222,
+             "keep_git": true,
+             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+         },
         "couchbase-lite-net/2.0/2.0.3.xml": {
             "release": "2.0.3",
             "release_name": "Couchbase Lite Net - 2.0.3",
