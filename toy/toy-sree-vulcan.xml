@@ -9,6 +9,7 @@
 
   <default remote="couchbase" revision="master"/>
   <remote name="bleve_no_pause"   fetch="git://github.com/sreekanth-cb/" />
+  <remote name="vellum_custom"   fetch="git://github.com/sreekanth-cb/" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="54f2a3c85b34823af62f4df0b1f19e36346958c3"/>
@@ -77,7 +78,7 @@
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
   <project name="godbc" revision="aecdbe5a5a91f0688df7bdf260ca962178c06828" path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json" revision="d2f15a425a9c8e4d8447e5f5b89ce14845f7fa05" path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="eb6ae3743b3f300f2136f83ca78c08cc071edbd4"/>
+  <project name="vellum" remote="vellum_custom" path="godeps/src/github.com/couchbase/vellum" revision="3644898dad071cb78e350ab8dbdee4b877d3a887"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="bleve_no_pause" revision="aad901e418c4fc7416b17f5d7b5f73dff22110af" path="godeps/src/github.com/blevesearch/bleve"/>
