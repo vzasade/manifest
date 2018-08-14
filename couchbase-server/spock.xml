@@ -56,7 +56,7 @@
   <project name="gocb"           revision="refs/tags/v1.3.7"                         path="godeps/src/github.com/couchbase/gocb"/>
   <project name="gocbcore"       revision="refs/tags/v7.1.3"                         path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
-  <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
+  <project name="gocbconnstr" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" revision="710456e087a6d497e87f41d0a9d98d6a75672186"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
   <project name="goutils"        revision="7a02f3df0ea980574216f469c192985a2083b957" path="godeps/src/github.com/couchbase/goutils"/>
   <project name="moss"           revision="spock"                                    path="godeps/src/github.com/couchbase/moss"/>
