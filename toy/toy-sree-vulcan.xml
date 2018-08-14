@@ -8,7 +8,6 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
-  <!--remote name="bleve_no_pause"   fetch="git://github.com/sreekanth-cb/" /--->
   <remote name="vellum_custom"   fetch="git://github.com/sreekanth-cb/" />
 
   <!-- Core Couchbase Server projects -->
