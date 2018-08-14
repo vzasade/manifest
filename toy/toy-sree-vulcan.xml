@@ -8,7 +8,7 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
-  <remote name="bleve_no_pause"   fetch="git://github.com/sreekanth-cb/" />
+  <!--remote name="bleve_no_pause"   fetch="git://github.com/sreekanth-cb/" /--->
   <remote name="vellum_custom"   fetch="git://github.com/sreekanth-cb/" />
 
   <!-- Core Couchbase Server projects -->
@@ -81,7 +81,7 @@
   <project name="vellum" remote="vellum_custom" path="godeps/src/github.com/couchbase/vellum" revision="3644898dad071cb78e350ab8dbdee4b877d3a887"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="bleve_no_pause" revision="aad901e418c4fc7416b17f5d7b5f73dff22110af" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"  remote="blevesearch" revision="0f6a6a63f926228a69f6af91da256fdd7370af40" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex" remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
