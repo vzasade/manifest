@@ -16,8 +16,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="master" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-ios" revision="master" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="release/2.1.x" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-ios" revision="release/2.1.x" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->

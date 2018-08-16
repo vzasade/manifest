@@ -1,13 +1,23 @@
 {
     "product": "couchbase-lite-ios",
     "manifests": {
-        "couchbase-lite-ios/master.xml": {
-            "release": "2.1.0",
-            "release_name": "Couchbase Lite iOS - master",
+        "couchbase-lite-ios/iridium.xml": {
+            "release": "2.5.0",
+            "release_name": "Couchbase Lite iOS - Iridium 2.5.0",
             "production": true,
             "interval": 90,
             "restricted": false,
-            "start_build": 100,
+            "start_build": 1,
+            "keep_git": true,
+            "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
+        },
+        "couchbase-lite-ios/2.1.xml": {
+            "release": "2.1.0",
+            "release_name": "Couchbase Lite iOS - 2.1.0",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 252,
             "keep_git": true,
             "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
         },
