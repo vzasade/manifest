@@ -17,7 +17,7 @@
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core" revision="release/CBL2.1.x"/>
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="master" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="release/CBL2.1.x" groups="notdefault,enterprise"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
