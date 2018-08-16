@@ -16,7 +16,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="master" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="release/2.1.x" groups="enterprise,notdefault"/>
   <project name="couchbase-lite-net" revision="release/2.1.x" path="couchbase-lite-net-ee/couchbase-lite-net"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
