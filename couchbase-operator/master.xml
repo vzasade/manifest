@@ -11,9 +11,9 @@
   <project name="couchbase-operator" path="goproj/src/github.com/couchbase/couchbase-operator"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Kubernetes code                                    -->
+  <!-- Kubernetes code v1.10.7                            -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="code-generator" remote="couchbasedeps" path="goproj/src/k8s.io/code-generator" revision="91d3f6a57905178524105a085085901bb73bd3dc"/>
+  <project name="code-generator" remote="couchbasedeps" path="goproj/src/k8s.io/code-generator" revision="9de8e796a74d16d2a285165727d04c185ebca6dc"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
