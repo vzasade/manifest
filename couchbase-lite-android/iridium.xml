@@ -48,7 +48,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned mobile testkit                     -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="feature/cbl20-ver1" groups="notdefault"/>
+  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="master" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
