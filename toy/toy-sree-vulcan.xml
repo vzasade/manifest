@@ -4,15 +4,15 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
-  <remote name="blevesearch" fetch="git://github.com/blevesearch/"/>
+  <remote name="blevesearch_custom" fetch="git://github.com/sreekanth-cb/"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
   <default remote="couchbase" revision="master"/>
-  <remote name="vellum_custom"   fetch="git://github.com/sreekanth-cb/" />
+  <remote name="cbft_custom"   fetch="git://github.com/sreekanth-cb/" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="54f2a3c85b34823af62f4df0b1f19e36346958c3"/>
-  <project name="cbft" revision="vulcan" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbft" remote="cbft_custom" revision="e3c70dc38af659bdfaaa3edd8d3d3a97a028edf5" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="vulcan"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="8ea3a3d0b81f8ca2de2ff0b41ed08ae37e130f07"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="dbfa1c0d73f0e49f6f04e390f03de8f9a6cee769"/>
@@ -77,10 +77,10 @@
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
   <project name="godbc" revision="aecdbe5a5a91f0688df7bdf260ca962178c06828" path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json" revision="d2f15a425a9c8e4d8447e5f5b89ce14845f7fa05" path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum" remote="vellum_custom" path="godeps/src/github.com/couchbase/vellum" revision="3644898dad071cb78e350ab8dbdee4b877d3a887"/>
+  <project name="vellum" path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"  remote="blevesearch" revision="0f6a6a63f926228a69f6af91da256fdd7370af40" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"  remote="blevesearch_custom" revision="927cbc7d5d6af2b9202cb0df8d5983f46ab62fc1" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex" remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
