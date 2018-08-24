@@ -14,7 +14,7 @@
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="54f2a3c85b34823af62f4df0b1f19e36346958c3"/>
   <project name="cbft" remote="cbft_custom" revision="e3c70dc38af659bdfaaa3edd8d3d3a97a028edf5" path="goproj/src/github.com/couchbase/cbft"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="vulcan"/>
+  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt" revision="510caa7f99e76a0b28f7bf06916bfda638794318"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="8ea3a3d0b81f8ca2de2ff0b41ed08ae37e130f07"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="dbfa1c0d73f0e49f6f04e390f03de8f9a6cee769"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
