@@ -8,13 +8,14 @@
   <remote name="blevesearch_custom" fetch="git://github.com/sreekanth-cb/"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="cbft_custom"   fetch="git://github.com/sreekanth-cb/" />
+  <remote name="cbgt_custom"   fetch="git://github.com/sreekanth-cb/" />
 
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="faa4390d57116ccbdcfc8f00e3affd3044a890cc"/>
   <project name="cbft" remote="cbft_custom" revision="fc58f6931e68806e78e0c801b375befe3d3fa5cd" path="goproj/src/github.com/couchbase/cbft"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbgt" remote="cbgt_custom" revision="568ebd732010e09d15c0d23a4ae4479110dbc066" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="19fecfe58921c162a31c156781bd2a512711f14d"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="dbfa1c0d73f0e49f6f04e390f03de8f9a6cee769"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
