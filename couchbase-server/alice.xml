@@ -16,7 +16,7 @@
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="19fecfe58921c162a31c156781bd2a512711f14d"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="dbfa1c0d73f0e49f6f04e390f03de8f9a6cee769"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
-  <project name="couchbase-cli" revision="alice"/>
+  <project name="couchbase-cli" revision="02f6e04f83f0995c91e11298c1bd5b516767191f"/>
   <project name="couchdb" revision="vulcan"/>
   <project name="couchstore" groups="kv" revision="vulcan"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="05067021a042a1b63e100a486afd7ebddab4c535"/>
