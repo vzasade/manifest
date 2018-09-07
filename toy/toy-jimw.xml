@@ -149,6 +149,6 @@
   <project name="build"      path="cbbuild"           groups="notdefault,build">
     <annotation name="VERSION" value="6.5.0"     keep="true"/>
   </project>
-  <project name="voltron"    remote="gerrit"  groups="notdefault,packaging" revision="refs/changes/37/99137/4"/>
+  <project name="voltron"    remote="gerrit"  groups="notdefault,packaging" revision="refs/changes/37/99137/5"/>
   <project name="couchdbx-app" groups="notdefault,packaging" />
 </manifest>
