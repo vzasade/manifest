@@ -78,7 +78,7 @@
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
+  <project name="vellum"           remote="abhinavdangeti" revision="temp"           path="godeps/src/github.com/couchbase/vellum"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="abhinavdangeti" revision="temp" path="godeps/src/github.com/blevesearch/bleve"/>
