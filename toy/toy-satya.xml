@@ -14,7 +14,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="faa4390d57116ccbdcfc8f00e3affd3044a890cc"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
-  <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="c6d20e7ad03b19163a2f93da48170a1724a55e19"/>
+  <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="19fecfe58921c162a31c156781bd2a512711f14d"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="dbfa1c0d73f0e49f6f04e390f03de8f9a6cee769"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
   <project name="couchbase-cli" revision="alice"/>
@@ -23,13 +23,13 @@
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="05067021a042a1b63e100a486afd7ebddab4c535"/>
   <project name="forestdb" revision="vulcan" groups="kv"/>
   <project name="geocouch" revision="2a0e73f43451045f157640eec59ced72da18471f"/>
-  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="0174ef77558ffbf496f5057317215f79f20b3acb"/>
-  <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="df22eb995051c99d2417db1f424d0c08994e828f"/>
+  <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" revision="alice"/>
+  <project name="gometa" path="goproj/src/github.com/couchbase/gometa" revision="alice"/>
   <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="f3bef3551997be504612a2d05a8b324b3bfdfe1b"/>
-  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="vulcan"/>
-  <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise" revision="vulcan"/>
+  <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="alice"/>
+  <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise" revision="alice"/>
   <project name="eventing" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="unstable" remote="satya"/>
-  <project name="kv_engine" revision="vulcan" groups="kv"/>
+  <project name="kv_engine" revision="alice" groups="kv"/>
   <project name="libcouchbase" groups="notdefault,enterprise" revision="081e8b16b991bf706eb77f8243935c6fba31b895"/>
   <project name="moxi" groups="kv" revision="cd8da46b9b953800d430c8b0aa4667790727ed6f"/>
   <project name="ns_server" revision="alice"/>
@@ -41,7 +41,7 @@
   <project name="sigar" groups="kv" revision="73353fe6dad8f3d67409feefb9b17f90f6de917b"/>
   <project name="subjson" groups="kv" revision="c30c3d4c250e68e81c57aa1e8ae91ffd21243cdb"/>
   <project name="testrunner" revision="vulcan"/>
-  <project name="tlm" revision="vulcan" groups="kv">
+  <project name="tlm" revision="alice" groups="kv">
     <copyfile src="GNUmakefile" dest="GNUmakefile"/>
     <copyfile src="Makefile" dest="Makefile"/>
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt"/>
@@ -49,11 +49,11 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
+  <project name="asterix-opt" path="analytics" revision="alice" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="asterixdb" path="analytics/asterixdb" revision="alice" groups="notdefault,enterprise,analytics"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="alice" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" revision="alice" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-ui" revision="alice" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
 
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="fdb15320725653e21dbbaa12dd68fddfc888a4ab"/>
@@ -61,13 +61,13 @@
   <project name="gomemcached" revision="vulcan" path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"/>
-  <project name="go-couchbase" revision="vulcan" path="godeps/src/github.com/couchbase/go-couchbase"/>
+  <project name="go-couchbase" revision="alice" path="godeps/src/github.com/couchbase/go-couchbase"/>
   <project name="clog" path="godeps/src/github.com/couchbase/clog" revision="dcae66272b24600ae0005fa06b511cfae8914d3d"/>
   <project name="go-slab" path="godeps/src/github.com/couchbase/go-slab" revision="1f5f7f282713ccfab3f46b1610cb8da34bcf676f"/>
   <project name="goforestdb" path="godeps/src/github.com/couchbase/goforestdb" revision="0b501227de0e8c55d99ed14e900eea1a1dbaf899"/>
   <project name="blance" path="godeps/src/github.com/couchbase/blance" revision="5cd1345cca3ed72f1e63d41d622fcda73e63fea8"/>
-  <project name="gocb" revision="699b13a51af5dd4f80ff3deedf41bba60debad32" path="godeps/src/github.com/couchbase/gocb"/>
-  <project name="gocbcore" revision="536234ccff8c44ae6a95c4356b1fdb6b5d0b2933" path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
+  <project name="gocb" revision="refs/tags/v1.3.7" path="godeps/src/github.com/couchbase/gocb"/>
+  <project name="gocbcore" revision="refs/tags/v7.1.5" path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
   <project name="jsonx" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" revision="5b7baa20429a46a5543ee259664cc86502738cad"/>
   <project name="gocbconnstr" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" revision="710456e087a6d497e87f41d0a9d98d6a75672186"/>
   <project name="go_n1ql" path="godeps/src/github.com/couchbase/go_n1ql" revision="6cf4e348b127e21f56e53eb8c3faaea56afdc588"/>
@@ -77,10 +77,10 @@
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
   <project name="godbc" revision="vulcan" path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json" revision="vulcan" path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum" path="godeps/src/github.com/couchbase/vellum"/>
+  <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="7b31f610cdce81be8b91a93cdcb0d6a151c6f8fd"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve" remote="blevesearch" revision="746eeca3e2e1a23f3a0742b8432314ea3f1d20f9" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve" remote="blevesearch" revision="fee8ad7ec65598e8338ee5b6d92b3464b26bfc87" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex" remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
