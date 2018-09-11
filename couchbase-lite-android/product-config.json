@@ -13,16 +13,27 @@
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.1.xml": {
-            "release": "2.1.0",
-            "release_name": "Couchbase Lite Android - 2.1.0",
+            "release": "2.1.1",
+            "release_name": "Couchbase Lite Android - 2.1.1",
             "production": true,
             "interval": 90,
             "restricted": false,
-            "start_build": 175,
+            "start_build": 1,
             "keep_git": true,
             "do-build": true,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
+        "couchbase-lite-android/2.1/2.1.0.xml": {
+             "release": "2.1.0",
+             "release_name": "Couchbase Lite Android - 2.1.0",
+             "production": true,
+             "interval": 480,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": true,
+             "do-build": true,
+             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
+         },
         "couchbase-lite-android/2.0/2.0.2.xml": {
             "release": "2.0.2",
             "release_name": "Couchbase Lite Android - 2.0.2",

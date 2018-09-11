@@ -54,6 +54,6 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild">
-    <annotation name="VERSION" value="2.1.0" keep="true"/>
+    <annotation name="VERSION" value="2.1.1" keep="true"/>
   </project>
 </manifest>
