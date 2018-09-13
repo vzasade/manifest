@@ -32,7 +32,7 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" revision="master" groups="notdefault,enterprise"/>
   <project groups="kv" name="kv_engine" revision="collections_enabled" remote="jimgit" />
   <project name="libcouchbase" groups="notdefault,enterprise"/>
-  <project name="ns_server", remote="jimgit", revision="collections_enabled"/>
+  <project name="ns_server" remote="jimgit" revision="collections_enabled"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
