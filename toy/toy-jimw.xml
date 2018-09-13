@@ -7,6 +7,7 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="gerrit" fetch="ssh://review.couchbase.org:29418/" />
+  <remote name="jimgit"   fetch="git://github.com/jimwwalker/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -29,9 +30,9 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" revision="master" groups="notdefault,enterprise"/>
-  <project groups="kv" name="kv_engine" revision="refs/changes/97/99297/5" remote="gerrit" />
+  <project groups="kv" name="kv_engine" revision="collections_enabled" remote="jimgit" />
   <project name="libcouchbase" groups="notdefault,enterprise"/>
-  <project name="ns_server"/>
+  <project name="ns_server", remote="jimgit", revision="collections_enabled"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
