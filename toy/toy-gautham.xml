@@ -5,7 +5,6 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch" fetch="git://github.com/blevesearch/"/>
-  <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 	<remote name="gautham"   fetch="git://github.com/GauthamBanasandra/" />
 
   <default remote="couchbase" revision="master"/>
@@ -77,10 +76,10 @@
   <project name="ghistogram" path="godeps/src/github.com/couchbase/ghistogram" revision="d910dd063dd68fb4d2a1ba344440f834ebb4ef62"/>
   <project name="godbc" revision="vulcan" path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json" revision="vulcan" path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="7b31f610cdce81be8b91a93cdcb0d6a151c6f8fd"/>
+  <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="0ceea4a37442f76199b9259840baf48d17af3c1a"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve" remote="blevesearch" revision="fee8ad7ec65598e8338ee5b6d92b3464b26bfc87" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve" remote="blevesearch" revision="055db35bf221ccdc62363f1c4ad88eaac2b892ab" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex" remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
