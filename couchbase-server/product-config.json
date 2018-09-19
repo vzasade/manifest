@@ -68,11 +68,23 @@
             "release_name": "Spock (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 6000,
+            "start_build": 6200,
             "interval": 1440,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-29966"
+            "approval_ticket": "MB-31243"
+        },
+        "couchbase-server/spock/5.1.2.xml": {
+            "branch": "spock-5.1.2",
+            "release": "spock",
+            "release_name": "Spock 5.1.2",
+            "parent": "couchbase-server/spock.xml",
+            "production": true,
+            "start_build": 6032,
+            "interval": 1440,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-30619"
         },
         "couchbase-server/spock/5.1.1.xml": {
             "branch": "spock-5.1.1",
