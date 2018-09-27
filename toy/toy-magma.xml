@@ -17,7 +17,7 @@
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
-  <project name="couchbase-cli"/>
+  <project name="couchbase-cli" groups="kv"/>
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
@@ -49,7 +49,7 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
   <!-- Analytics additions -->
-  <project name="asterix-opt" path="analytics" remote="couchbaselabs-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
@@ -144,6 +144,7 @@
   <project name="googletest"     remote="couchbasedeps" revision="f397fa5ec6365329b2e82eb2d8c03a7897bbefb5" groups="kv"/>
   <project name="gsl-lite"       remote="couchbasedeps" revision="refs/tags/v0.25.0" path="third_party/gsl-lite" groups="kv"/>
   <project name="spdlog"         remote="couchbasedeps" revision="refs/tags/v0.14.0" path="third_party/spdlog"   groups="kv"/>
+  <project name="spdlog"         remote="couchbasedeps" revision="v1.1.0-couchbase" path="third_party/spdlognew" groups="kv"/>
   <project name="HdrHistogram_c" remote="couchbasedeps" revision="refs/tags/0.9.7" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
