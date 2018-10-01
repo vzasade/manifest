@@ -13,7 +13,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 1000,
-            "interval": 240,
+            "interval": 120,
             "keep_git": true
         },
         "couchbase-server/alice.xml": {
@@ -34,7 +34,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 4000,
-            "interval": 120,
+            "interval": 240,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-31456"
