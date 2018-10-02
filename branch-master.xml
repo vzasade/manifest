@@ -49,7 +49,7 @@
   <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbaselabs" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
 
   <!-- Go support libraries - Couchbase-supported -->
