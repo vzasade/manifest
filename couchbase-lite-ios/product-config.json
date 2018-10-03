@@ -5,11 +5,11 @@
             "release": "2.5.0",
             "release_name": "Couchbase Lite iOS - Iridium 2.5.0",
             "production": true,
-            "interval": 90,
+            "interval": 240,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": false,
+            "do-build": true,
             "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
         },
         "couchbase-lite-ios/2.1.xml": {
