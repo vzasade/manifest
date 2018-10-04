@@ -54,7 +54,7 @@
   <project name="cbas-ui" revision="alice" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="fdb15320725653e21dbbaa12dd68fddfc888a4ab"/>
+  <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="0df84c7e3c6d95ff435c12a3c08c6f064db11e97"/>
   <project name="cbflag" path="godeps/src/github.com/couchbase/cbflag" revision="80d2ad8892d806f5103f602fec0d80adaa4b628f"/>
   <project name="gomemcached" revision="vulcan" path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"/>
