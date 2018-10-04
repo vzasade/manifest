@@ -16,8 +16,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="release/2.1.x" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-ios" revision="release/2.1.x" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="c89079a146d2231ec1127dda178ef804a3465353" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-ios" revision="e4667d8ea0225a459df89de60be82be0f03d608c" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
@@ -55,6 +55,6 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build">
-    <annotation name="VERSION" value="2.1.2" keep="true"/>
+    <annotation name="VERSION" value="2.1.1" keep="true"/>
   </project>
 </manifest>
