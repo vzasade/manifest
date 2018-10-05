@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch" fetch="git://github.com/blevesearch/"/>
+	<remote name="gautham" fetch="git://github.com/GauthamBanasandra/eventing/"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -26,9 +27,9 @@
   <project name="nitro" path="goproj/src/github.com/couchbase/nitro" revision="f3bef3551997be504612a2d05a8b324b3bfdfe1b"/>
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="alice"/>
   <project name="plasma" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise" revision="alice"/>
-  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="toy"/>
+  <project name="eventing" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="unstable" remote="gautham"/>
   <project name="kv_engine" revision="alice" groups="kv"/>
-  <project name="libcouchbase" groups="notdefault,enterprise" revision="master"/>
+  <project name="libcouchbase" groups="notdefault,enterprise" revision="081e8b16b991bf706eb77f8243935c6fba31b895"/>
   <project name="moxi" groups="kv" revision="cd8da46b9b953800d430c8b0aa4667790727ed6f"/>
   <project name="ns_server" revision="alice"/>
   <project name="phosphor" groups="kv" revision="96501c57bb0fd61c85cba6f63101aed2bcf41d38"/>
@@ -47,14 +48,14 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="asterix-opt" path="analytics" revision="alice" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" revision="alice" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="asterixdb" path="analytics/asterixdb" revision="alice" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="alice" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" revision="alice" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" revision="alice" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
 
   <!-- Go support libraries - Couchbase-supported -->
-  <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="fdb15320725653e21dbbaa12dd68fddfc888a4ab"/>
+  <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth" revision="0df84c7e3c6d95ff435c12a3c08c6f064db11e97"/>
   <project name="cbflag" path="godeps/src/github.com/couchbase/cbflag" revision="80d2ad8892d806f5103f602fec0d80adaa4b628f"/>
   <project name="gomemcached" revision="vulcan" path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17"/>
@@ -65,7 +66,7 @@
   <project name="goforestdb" path="godeps/src/github.com/couchbase/goforestdb" revision="0b501227de0e8c55d99ed14e900eea1a1dbaf899"/>
   <project name="blance" path="godeps/src/github.com/couchbase/blance" revision="5cd1345cca3ed72f1e63d41d622fcda73e63fea8"/>
   <project name="gocb" revision="refs/tags/v1.3.7" path="godeps/src/github.com/couchbase/gocb"/>
-  <project name="gocbcore" revision="refs/tags/v7.1.5" path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
+  <project name="gocbcore" revision="refs/tags/v7.1.7" path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
   <project name="jsonx" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" revision="5b7baa20429a46a5543ee259664cc86502738cad"/>
   <project name="gocbconnstr" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" revision="710456e087a6d497e87f41d0a9d98d6a75672186"/>
   <project name="go_n1ql" path="godeps/src/github.com/couchbase/go_n1ql" revision="6cf4e348b127e21f56e53eb8c3faaea56afdc588"/>
