@@ -49,12 +49,12 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned mobile testkit                     -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="feature/cbl20-ver1" groups="notdefault"/>
+  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="845f256e0f8af2dabdbf52893912175019386284" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="build">
+  <project name="build" revision="59e655dbb370c295a3cb322d404c10e633c47b7b"/>
     <annotation name="VERSION" value="2.1.1" keep="true"/>
   </project>
 </manifest>
