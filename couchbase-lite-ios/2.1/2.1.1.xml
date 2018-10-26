@@ -54,7 +54,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="build" revision="59e655dbb370c295a3cb322d404c10e633c47b7b"/>
+  <project name="build" revision="59e655dbb370c295a3cb322d404c10e633c47b7b">
     <annotation name="VERSION" value="2.1.1" keep="true"/>
   </project>
 </manifest>
