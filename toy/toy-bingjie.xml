@@ -35,7 +35,7 @@
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
-  <project name="query" remote="miaobingjie" revision="stats" path="goproj/src/github.com/couchbase/query"/>
+  <project name="query" remote="miaobingjie" revision="stats2" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ee" remote="miaobingjie-private" revision="stats" path="goproj/src/github.com/couchbase/query-ee"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
@@ -61,7 +61,7 @@
   <project name="gomemcached"                                                        path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval"                                                            path="godeps/src/github.com/couchbase/dparval"/>
-  <project name="go-couchbase"    remote="miaobingjie" revision="stats"              path="godeps/src/github.com/couchbase/go-couchbase"/>
+  <project name="go-couchbase"    remote="miaobingjie" revision="stats2"             path="godeps/src/github.com/couchbase/go-couchbase"/>
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
