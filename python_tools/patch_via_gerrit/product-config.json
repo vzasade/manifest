@@ -1,0 +1,16 @@
+{
+    "product": "tools/patch_via_gerrit",
+    "manifests": {
+        "tools/patch_via_gerrit/master.xml": {
+            "release": "1.0.0",
+            "release_name": "patch_via_gerrit 1.0.0",
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "python-tool-build",
+            "do-build": false,
+            "keep_git": false
+        }
+    }
+}
