@@ -1,5 +1,4 @@
 {
-    "product": "cbdeps/libuv",
     "manifests": {
         "cbdeps/libuv/master.xml": {
             "release": "1.20.3",
