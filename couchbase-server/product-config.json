@@ -22,7 +22,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 1950,
-            "interval": 240,
+            "interval": 120,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-31466"
@@ -92,7 +92,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 6200,
-            "interval": 120,
+            "interval": 1440,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-31243"
