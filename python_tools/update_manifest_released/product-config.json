@@ -8,6 +8,7 @@
             "start_build": 1,
             "jenkins_server": "server.jenkins.couchbase.com",
             "jenkins_job": "python-tool-build",
+            "platforms": ["ubuntu16.04"],
             "do-build": false,
             "keep_git": false
         }
