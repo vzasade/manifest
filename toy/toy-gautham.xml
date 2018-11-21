@@ -10,7 +10,7 @@
   <default remote="couchbase" revision="master"/>
 
   <!-- Core Couchbase Server projects -->
-  <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="faa4390d57116ccbdcfc8f00e3affd3044a890cc"/>
+  <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="alice"/>
   <project name="cbft" revision="a33ad7b7000a9d8d237ba273c47cc100401a0fb0" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbgt" revision="0a94f40b9080e0ecb11d3b7531a58c5e6a4a4465" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui" groups="notdefault,enterprise" revision="19fecfe58921c162a31c156781bd2a512711f14d"/>
@@ -48,7 +48,7 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt"/>
   </project>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" revision="0f3911da8789ba9436962fac63e6928c60f46e6c" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" revision="alice" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="asterixdb" path="analytics/asterixdb" revision="alice" groups="notdefault,enterprise,analytics"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" revision="alice" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbaselabs/cbas" revision="alice" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
@@ -79,7 +79,7 @@
   <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="0ceea4a37442f76199b9259840baf48d17af3c1a"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve" remote="blevesearch" revision="055db35bf221ccdc62363f1c4ad88eaac2b892ab" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve" remote="blevesearch" revision="5d4917326972a5fe6f1e094ec439f66f69c92c3f" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="blevex" remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
@@ -147,7 +147,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" revision="alice" path="cbbuild" groups="notdefault,build">
-    <annotation name="VERSION" value="6.0.0" keep="true"/>
+    <annotation name="VERSION" value="6.0.1" keep="true"/>
   </project>
   <project name="voltron" revision="alice" remote="couchbase-priv" groups="notdefault,packaging"/>
   <project name="couchdbx-app" groups="notdefault,packaging" revision="c545a8563778bfc40284caf9213c7925488e633a"/>
