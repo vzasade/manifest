@@ -53,7 +53,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="build">
+  <project name="build" revision="af75161df044461bed0dce8fd0a5d2febc0bcace">
     <annotation name="VERSION" value="2.1.2" keep="true"/>
   </project>
 </manifest>
