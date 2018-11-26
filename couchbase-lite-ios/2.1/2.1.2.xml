@@ -16,8 +16,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="release/2.1.x" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-ios" revision="release/2.1.x" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="1cbaa5d6d715b0bac3e08e42178edf8e16d74b46" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-ios" revision="d174519ecc1409b139175f3f7d0466883eff858b" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
@@ -48,12 +48,12 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned mobile testkit                     -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="feature/cbl20-ver1" groups="notdefault"/>
+  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="d953e9150143f8f4d3257df4dbc0e460be21d1c0" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build">
-    <annotation name="VERSION" value="2.1.3" keep="true"/>
+    <annotation name="VERSION" value="2.1.2" keep="true"/>
   </project>
 </manifest>
