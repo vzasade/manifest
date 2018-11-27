@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "python_tools/cbdep/master.xml": {
+            "release": "0.8.0",
+            "release_name": "cbdep 0.8.0",
+            "production": true,
+            "restricted": false,
+            "start_build": 1,
+            "jenkins_server": "server.jenkins.couchbase.com",
+            "jenkins_job": "python-tool-build",
+            "do-build": false,
+            "keep_git": false
+        }
+    }
+}
