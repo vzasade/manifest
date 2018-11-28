@@ -23,7 +23,7 @@
             "do-build": true,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
-        "couchbase-lite-android/2.1.xml": {
+        "couchbase-lite-android/2.1/2.1.2xml": {
             "release": "2.1.2",
             "release_name": "Couchbase Lite Android - 2.1.2",
             "production": true,
