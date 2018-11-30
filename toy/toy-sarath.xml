@@ -31,7 +31,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" revision="master" groups="notdefault,enterprise"/>
-  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="t3rm1n4l" revision="disable_wal" :/>
+  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="t3rm1n4l" revision="disable_wal" />
   <project name="kv_engine" groups="kv" revision="disable_wal" remote="t3rm1n4l" />
   <project name="libcouchbase" groups="notdefault,enterprise"/>
   <project name="ns_server" revision="magma" remote="t3rm1n4l" />
