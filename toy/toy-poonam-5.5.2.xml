@@ -30,7 +30,7 @@
   <project name="kv_engine" revision="84af6315742fadb27d0d76473ff1391104222073" groups="kv"/>
   <project name="libcouchbase" revision="081e8b16b991bf706eb77f8243935c6fba31b895" groups="notdefault,enterprise"/>
   <project name="moxi" groups="kv" revision="cd8da46b9b953800d430c8b0aa4667790727ed6f"/>
-  <project name="ns_server" revision="refs/changes/57/102357/2" remote="gerrit"/>
+  <project name="ns_server" revision="refs/changes/57/102357/3" remote="gerrit"/>
   <project name="phosphor" groups="kv" revision="96501c57bb0fd61c85cba6f63101aed2bcf41d38"/>
   <project name="platform" groups="kv" revision="2fbe5179a2673a9275cd0906daa4b1cab38a3eb5"/>
   <project name="product-texts" groups="kv" revision="55e45187ca8943aa8910e9ae2b59b41242d14386"/>
