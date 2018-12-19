@@ -92,7 +92,7 @@
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing" revision="a591217677da9678c7da136ffffa34395f909488" upstream="master" />
   <project name="json-iterator-go" path="godeps/src/github.com/json-iterator/go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994" />
   <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" upstream="master" />
-  <project groups="kv" name="kv_engine" revision="7e76d456750cc6251dec04c02c0d5f3361938819" upstream="master" />
+  <project groups="kv" name="kv_engine" revision="aa8e6b0b09ead35e7dd3262c5b43888f81d2027f" upstream="master" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" />
   <project groups="notdefault,enterprise" name="libcouchbase" revision="e300df0d6059c16632fe487d7751bc4af1e1da0e" upstream="master" />
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="3681c2a912330352991ecdd642f257efe5b85518" />
