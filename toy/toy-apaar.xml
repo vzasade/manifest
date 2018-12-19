@@ -9,7 +9,7 @@
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="hisundar" fetch="git://github.com/hisundar/" review="review.couchbase.org"/>
   <remote name="t3rm1n4l" fetch="git://github.com/t3rm1n4l/" review="review.couchbase.org"/>
-  <remote name="Apaar" fetch="git://github.com/Apaar/" review="review.couchbase.org"/>
+
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
@@ -42,7 +42,7 @@
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
 
-  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="Apaar" revision="testing" />
+  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbaselabs-priv" revision="testing" />
   <project name="kv_engine" groups="kv" revision="magma" remote="t3rm1n4l" />
   <project name="ns_server" revision="magma" remote="t3rm1n4l" />
 
