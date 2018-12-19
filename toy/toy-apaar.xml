@@ -42,7 +42,7 @@
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
 
-  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbaselabs-priv" revision="testing" />
+  <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
   <project name="kv_engine" groups="kv" revision="magma" remote="t3rm1n4l" />
   <project name="ns_server" revision="magma" remote="t3rm1n4l" />
 
