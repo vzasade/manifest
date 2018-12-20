@@ -5,8 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-  <remote name="owend" fetch="git://github.com/owendCB/" />
-
+    <remote name="owend" fetch="git://github.com/owendCB/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -30,7 +29,7 @@
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" revision="master" groups="notdefault,enterprise"/>
-  <project name="kv_engine" groups="kv" revision="7c6a9f3aa90d9dd8d587be19241b5e154ec36b84" remote="owend" />
+  <project name="kv_engine" groups="kv" revision="67d81558b9d5c5b1c26bb2ffac4825300fa65a56" remote="owend" />
   <project name="libcouchbase" groups="notdefault,enterprise"/>
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
