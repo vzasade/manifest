@@ -14,6 +14,7 @@
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
   <project name="cbft" remote="abhinavdangeti" revision="temp" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbftx" remote="abhinavdangeti" revision="temp" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
   <project name="cbgt" remote="abhinavdangeti" revision="temp" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
@@ -29,7 +30,8 @@
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" revision="master" groups="notdefault,enterprise"/>
+  <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
+  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv"/>
   <project name="libcouchbase" groups="notdefault,enterprise"/>
   <project name="ns_server"/>
@@ -69,7 +71,7 @@
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/github.com/couchbase/gocb"/>
-  <project name="gocbcore"       revision="refs/tags/v7.1.7"                         path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
+  <project name="gocbcore"       revision="refs/tags/v7.1.9"                         path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="go_n1ql"                                                            path="godeps/src/github.com/couchbase/go_n1ql"/>
@@ -94,6 +96,7 @@
   <project name="protobuf"       remote="couchbasedeps" revision="ddf22928ea3c56eb4292a0adbbf5001b1e8e7d0d" path="godeps/src/github.com/golang/protobuf"/>
   <project name="go-jsonpointer" remote="couchbasedeps" revision="75939f54b39e7dafae879e61f65438dadc5f288c" path="godeps/src/github.com/dustin/go-jsonpointer"/>
   <project name="gojson"         remote="couchbasedeps" revision="af16e0e771e2ed110f2785564ae33931de8829e4" path="godeps/src/github.com/dustin/gojson" />
+  <project name="grpc-go"        remote="couchbasedeps" revision="refs/tags/v1.17.0"                        path="godeps/src/github.com/couchbase/grpc-go"/>
   <project name="mux"            remote="couchbasedeps" revision="043ee6597c29786140136a5747b6a886364f5282" path="godeps/src/github.com/gorilla/mux" />
   <project name="context"        remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" path="godeps/src/github.com/gorilla/context" />
   <project name="liner"          remote="couchbasedeps" revision="3681c2a912330352991ecdd642f257efe5b85518" path="godeps/src/github.com/peterh/liner" />
