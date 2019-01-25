@@ -47,7 +47,7 @@
   <project name="kv_engine" groups="kv" revision="magma" remote="t3rm1n4l" />
   <project name="ns_server" revision="magma" remote="t3rm1n4l" />
 
-  <project name="tlm" groups="kv" remote="t3rm1n4l" revision="magma" upstream="magma">
+  <project name="tlm" groups="kv" remote="couchbaselabs" revision="magma" upstream="magma">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
