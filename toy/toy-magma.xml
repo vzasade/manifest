@@ -34,7 +34,7 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv" revision="magma" remote="t3rm1n4l" />
-  <project name="libcouchbase" groups="notdefault,enterprise"/>
+  <project name="libcouchbase" revision="release-2.10" groups="notdefault,enterprise"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" revision="magma" remote="t3rm1n4l" />
   <project name="phosphor" groups="kv"/>
@@ -85,6 +85,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
+  <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="15a9e8ac955e0941fc0c777face30263dca089dc" path="godeps/src/github.com/blevesearch/bleve"/>
