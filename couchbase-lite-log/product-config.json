@@ -10,7 +10,7 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": true,
-            "module_projects": [ "couchbase-mobile-tools" ]
+            "module_projects": [ "couchbase-mobile-tools", "couchbase-lite-core" ]
         }
     }
 }
