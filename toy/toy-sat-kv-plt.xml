@@ -35,14 +35,14 @@
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
-  <project name="platform" groups="kv" remote="satya" revision="master"/>
+  <project name="platform" revision="d5890aab9498d619916bbd6c7a3c057036023da8"/>
   <project name="product-texts" groups="kv"/>
   <project name="query"     path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" groups="kv" remote="satya" revision="master">
+  <project name="tlm" groups="kv" revision="198f9973f22e342f990df9b994ec29b670638423">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
