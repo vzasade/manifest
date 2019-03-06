@@ -51,8 +51,9 @@
   <project name="mobile-testkit" remote="couchbaselabs-priv" revision="master" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <!-- Build support - build scripts, etc.                -->
+  <!-- Build support - build scripts, readme, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="product-texts"/>
   <project name="build" path="cbbuild" revision="671ea1d94ad417c1a301094098b1ceae8462fd04">
     <annotation name="VERSION" value="2.5.0" keep="true"/>
   </project>

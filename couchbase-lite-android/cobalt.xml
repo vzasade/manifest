@@ -53,6 +53,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="product-texts"/>
   <project name="build" path="cbbuild">
     <annotation name="VERSION" value="2.6.0" keep="true"/>
   </project>
