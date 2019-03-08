@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
@@ -16,8 +16,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="release/2.1.x" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-net" revision="release/2.1.x" path="couchbase-lite-net-ee/couchbase-lite-net"/>
+  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="9c85d4901d4e13bc5e6c8baa3cc9125006ddc21d" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-net" revision="321f3dd9d4739c3abc87b5e534f1c3766ab63395" path="couchbase-lite-net-ee/couchbase-lite-net"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
@@ -49,6 +49,6 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild" revision="864f6b81c1526ce2029dd3b2d8ad2bd760c9551b">
-    <annotation name="VERSION" value="2.1.5" keep="true"/>
+    <annotation name="VERSION" value="2.1.2.1" keep="true"/>
   </project>
 </manifest>

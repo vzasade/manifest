@@ -24,8 +24,8 @@
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.1.xml": {
-            "release": "2.1.3",
-            "release_name": "Couchbase Lite Android - 2.1.3",
+            "release": "2.1.5",
+            "release_name": "Couchbase Lite Android - 2.1.5",
             "production": true,
             "interval": 90,
             "restricted": false,
