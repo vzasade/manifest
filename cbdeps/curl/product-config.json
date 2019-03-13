@@ -1,8 +1,8 @@
 {
     "manifests": {
         "cbdeps/curl/master.xml": {
-            "release": "7.61.1",
-            "release_name": "curl 7.61.1",
+            "release": "7.64.0",
+            "release_name": "curl 7.64.0",
             "production": true,
             "restricted": false,
             "start_build": 1,
