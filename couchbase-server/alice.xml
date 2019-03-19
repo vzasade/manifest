@@ -32,7 +32,7 @@
   <project name="moxi" groups="kv" revision="cd8da46b9b953800d430c8b0aa4667790727ed6f"/>
   <project name="ns_server" revision="alice"/>
   <project name="phosphor" groups="kv" revision="96501c57bb0fd61c85cba6f63101aed2bcf41d38"/>
-  <project name="platform" groups="kv" revision="2fbe5179a2673a9275cd0906daa4b1cab38a3eb5"/>
+  <project name="platform" groups="kv" revision="alice"/>
   <project name="product-texts" groups="kv" revision="8cf7d25a1dcb5434ea44983c0bed202fb9cc8351"/>
   <project name="query" revision="alice" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="alice"/>
