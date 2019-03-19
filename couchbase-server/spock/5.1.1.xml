@@ -16,7 +16,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="82da4bce50b547d0744d83f3c6b561e967a0482c"/>
   <project name="couchbase-cli" revision="9cbdd78e02fc58080a899ffde4316dabd098614e"/>
   <project name="couchdb" revision="3cf258de6f4b75ba732fbb6f9df7c9d658f2a2f0"/>
-  <project name="couchstore" revision="843103bbb54052d4f2ae98bd5371c9c23fbcd8e3" groups="kv"/>
+  <project name="couchstore" revision="5.1.1-sb1" groups="kv"/>
   <project name="docloader" revision="4265bee8cb592765b3c0b1b208726294c9eda59a" path="goproj/src/github.com/couchbase/docloader"/>
   <project name="forestdb" revision="99e2edb2ea078924c3810f48a50bdc104a041d7d" groups="kv"/>
   <project name="geocouch" revision="e41c993a9c2f915aa72dc982d4ac69b3c46bb7e9"/>
