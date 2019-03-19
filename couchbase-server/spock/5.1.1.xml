@@ -23,7 +23,7 @@
   <project name="goxdcr" revision="a2a9b337cde9482ae3562f7932ae3b8caa8d067b" path="goproj/src/github.com/couchbase/goxdcr"/>
   <project name="gometa" revision="73108a510f7e39cb7cc167b857a3a2453ea5343b" path="goproj/src/github.com/couchbase/gometa"/>
   <project name="indexing" revision="7f5a24cf3d59387e15aeee50141212eb60642b35" path="goproj/src/github.com/couchbase/indexing"/>
-  <project name="kv_engine" revision="bbb1bc7f041fbbc19b2b5279a8856fae2d585554" groups="kv"/>
+  <project name="kv_engine" revision="5.1.1-sb1" groups="kv"/>
   <project name="moxi" groups="kv" revision="cd8da46b9b953800d430c8b0aa4667790727ed6f"/>
   <project name="nitro" revision="4f5714e663ad109e0ad1bdcbcf48d226179d62f5" path="goproj/src/github.com/couchbase/nitro"/>
   <project name="plasma" revision="8a6dce293895f2ae7c1093fbc0318a4e6f35ec01" path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
