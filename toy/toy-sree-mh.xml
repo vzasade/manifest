@@ -5,14 +5,15 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-  <!-- remote name="cbft_toy"   fetch="git://github.com/sreekanth-cb/" /-->
+  <remote name="cbft_toy"   fetch="git://github.com/sreekanth-cb/" />
+  <remote name="n1fty_toy"   fetch="git://github.com/sreekanth-cb/" />
   <remote name="blevesearch_removeOldData" fetch="git://github.com/amithk/" />
 
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
-  <project name="cbft"  path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbft"  remote="cbft_toy" revision="81ac5e6e086c5fc6e7c37ffdae3bbce5e9eee7bd"  path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
@@ -83,7 +84,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
-  <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
+  <project name="n1fty-1" remote="n1fty_toy" revision="6cb34d99e4982f56edbefc65787c595575eb8057"  path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch_removeOldData" revision="f0eb751327ff7609fd74ce0f241d5152544c0c73" path="godeps/src/github.com/blevesearch/bleve"/>
