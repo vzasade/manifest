@@ -44,7 +44,7 @@
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="05067021a042a1b63e100a486afd7ebddab4c535"/>
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval" revision="9def03782da875a2477c05bf64985db3f19f59ae"/>
   <project name="errors" path="godeps/src/github.com/pkg/errors" remote="couchbasedeps" revision="30136e27e2ac8d167177e8a583aa4c3fea5be833"/>
-  <project groups="notdefault,enterprise" name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="fe2505bc2cb3365770376b4cca0c6baf91d35922" upstream="master"/>
+  <project groups="notdefault,enterprise" name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="toy" upstream="master"/>
   <project groups="notdefault,enterprise" name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" revision="ec71c3324e53b4fa75c2d9918549dd80b556856e" upstream="master"/>
   <project name="flatbuffers" path="godeps/src/github.com/google/flatbuffers" remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303"/>
   <project groups="kv" name="forestdb" revision="562366039e50730282548b02c1a30d73f97cba27" upstream="vulcan"/>
