@@ -7,13 +7,13 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="cbft_toy"   fetch="git://github.com/sreekanth-cb/" />
   <remote name="n1fty_toy"   fetch="git://github.com/sreekanth-cb/" />
-  <remote name="blevesearch_removeOldData" fetch="git://github.com/amithk/" />
+  <!--remote name="blevesearch_removeOldData" fetch="git://github.com/amithk/" /-->
 
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
-  <project name="cbft"  remote="cbft_toy" revision="853c7b6e464a152eb4d80c5bbb21b838afac4fdd"  path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbft"  remote="cbft_toy" revision="b1bd2489864432476c3ff729044e793d968fd4c0"  path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
@@ -85,7 +85,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
-  <project name="n1fty-1" remote="n1fty_toy" revision="6cb34d99e4982f56edbefc65787c595575eb8057"  path="godeps/src/github.com/couchbase/n1fty"/>
+  <project name="n1fty-1" remote="n1fty_toy" revision="d23814e786f20b87cf4e7b854d587f32697570e8"  path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch_removeOldData" revision="f0eb751327ff7609fd74ce0f241d5152544c0c73" path="godeps/src/github.com/blevesearch/bleve"/>
