@@ -33,6 +33,7 @@
   <project name="fleece" remote="couchbaselabs" revision="b2c4784a687b4d956c2bbf92b00e38411e2c2bac" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="43445380e5c3ecb546472f86d5c56732a4267a3a" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
+  <project name="couchbase-lite-java" revision="70f092bfc263dcebc024d106ad432c3c04b32b3a" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-java"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
