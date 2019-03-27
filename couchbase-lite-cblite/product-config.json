@@ -3,7 +3,7 @@
     "manifests": {
         "couchbase-lite-cblite/cobalt.xml": {
              "release": "2.6.0",
-             "release_name": "Couchbase Lite Log - Cobalt 2.6.0",
+             "release_name": "Couchbase Lite cblite - Cobalt 2.6.0",
              "production": true,
              "interval": 240,
              "restricted": false,
