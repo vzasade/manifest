@@ -13,6 +13,7 @@
                            "debian8",
                            "debian9",
                            "macos",
+                           "rhel8",
                            "suse12",
                            "suse15",
                            "ubuntu16.04",
