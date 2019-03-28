@@ -23,14 +23,14 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="205035100c305428205c1633eac2a538b43d7c2f" groups="notdefault,enterprise" path="couchbase-lite-android-ee/libs/couchbase-lite-core-EE"/>
-  <project name="couchbase-lite-core" revision="7479ace115a686abb0d8f9328c55c2d0ed60e587" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="f0ffa02154039e12a7c23d9d1e0cd1d71245e0bc" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="0a6346a133860967b4492e6e731843ae9b453587" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="b2c4784a687b4d956c2bbf92b00e38411e2c2bac" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbaselabs" revision="0205172657155b3b2ddbc9e31bdc76f15910eb9a" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="43445380e5c3ecb546472f86d5c56732a4267a3a" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="couchbase-lite-java" revision="70f092bfc263dcebc024d106ad432c3c04b32b3a" path="couchbase-lite-android-ee/libs/couchbase-lite-android/libs/couchbase-lite-java"/>
