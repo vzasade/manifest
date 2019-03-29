@@ -24,8 +24,8 @@
             "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
         },
         "couchbase-lite-ios/2.1.xml": {
-            "release": "2.1.5",
-            "release_name": "Couchbase Lite iOS - 2.1.5",
+            "release": "2.1.6",
+            "release_name": "Couchbase Lite iOS - 2.1.6",
             "production": true,
             "interval": 90,
             "restricted": false,
@@ -33,6 +33,16 @@
             "keep_git": true,
             "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
         },
+        "couchbase-lite-ios/2.1/2.1.5.xml": {
+             "release": "2.1.5",
+             "release_name": "Couchbase Lite iOS - 2.1.5",
+             "production": true,
+             "interval": 1440,
+             "restricted": false,
+             "start_build": 4,
+             "keep_git": true,
+             "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
+         },
         "couchbase-lite-ios/2.1/2.1.4.xml": {
              "release": "2.1.4",
              "release_name": "Couchbase Lite iOS - 2.1.4",
