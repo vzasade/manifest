@@ -95,8 +95,8 @@
 <project name="json-iterator-go" path="godeps/src/github.com/json-iterator/go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994"/>
 <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" upstream="master"/>
 
-<project name="kv_engine" remote="jimwwalker" revision="27a9c586d4dca0ffe9fcabc2bd904d137bae1e92" groups="kv"/>
-<project name="platform" remote="jimwwalker" revision="4ac54aa2ac98d437aa46753e26afbab517faaf76" groups="kv"/>
+<project name="kv_engine" remote="jimwwalker" revision="SvBlobArena_slow" groups="kv"/>
+<project name="platform" remote="jimwwalker" revision="SvBlobArena_slow" groups="kv"/>
 
 <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
 <project groups="notdefault,enterprise" name="libcouchbase" revision="8d5e1d98f78f10c60f2d36155327727e19bca681" upstream="release-2.10"/>
