@@ -13,7 +13,6 @@
   <project groups="kv" name="HdrHistogram_c" path="third_party/HdrHistogram_c" remote="couchbasedeps" revision="30207fafc185e899d260410ac749d673c52c8ff9"/>
   <project groups="notdefault,enterprise,analytics" name="analytics-dcp-client" path="analytics/java-dcp-client"/>
   <project groups="notdefault,enterprise,analytics" name="asterixdb" path="analytics/asterixdb"/>
-  <project groups="notdefault,enterprise" name="backup" path="goproj/src/github.com/couchbase/backup" remote="couchbase-priv"/>
   <project groups="kv" name="benchmark" remote="couchbasedeps" revision="74b24058ad4914b837200d0341050657ba154e4a"/>
   <project name="bitset" path="godeps/src/github.com/willf/bitset" remote="couchbasedeps" revision="28a4168144bb8ac95454e1f51c84da1933681ad4"/>
   <project name="blance" path="godeps/src/github.com/couchbase/blance"/>
