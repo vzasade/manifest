@@ -16,7 +16,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-mobile-tools" remote="couchbaselabs" revision="dev" path="couchbase-mobile-tools">
+  <project name="couchbase-mobile-tools" remote="couchbaselabs" revision="master" path="couchbase-mobile-tools">
     <copyfile src="ci/cbl-log/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
 
