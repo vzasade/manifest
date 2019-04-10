@@ -34,7 +34,7 @@
             "parent": "couchbase-server/alice.xml",
             "production": true,
             "start_build": 2039,
-            "interval": 1440,
+            "interval": 60,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-33744"
