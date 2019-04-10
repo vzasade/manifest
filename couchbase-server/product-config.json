@@ -30,14 +30,14 @@
         "couchbase-server/alice/6.0.1.xml": {
             "branch": "alice-6.0.1",
             "release": "alice",
-            "release_name": "Alice 6.0.1",
+            "release_name": "Alice 6.0.1-MP1",
             "parent": "couchbase-server/alice.xml",
             "production": true,
-            "start_build": 2038,
+            "start_build": 2039,
             "interval": 1440,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-31466"
+            "approval_ticket": "MB-33744"
         },
         "couchbase-server/alice/6.0.0.xml": {
             "branch": "alice-6.0.0",
