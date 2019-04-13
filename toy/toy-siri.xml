@@ -41,7 +41,7 @@
   <project name="context" path="godeps/src/github.com/gorilla/context" remote="couchbasedeps" revision="215affda49addc4c8ef7e2534915df2c8c35c6cd" />
   <project groups="notdefault,kv_ee,enterprise" name="couch_rocks" remote="couchbase-priv" revision="75f37fa46bfe5e445dee077157303968a3e09126" upstream="master" />
   <project groups="kv" name="couchbase-cli" revision="f36abba257925812067cd95a70772a8630449c5f" upstream="master" />
-  <project name="couchdb" revision="ebe444dc1ab3371870790a0624a41e16ee23d2f1" upstream="master" />
+  <project name="couchdb" revision="refs/changes/98/107498/1" remote="gerrit" />
   <project groups="notdefault,packaging" name="couchdbx-app" revision="d7dd3232c933787b8a6d2405ef7c92f7410ed64d" upstream="master" />
   <project name="couchstore" groups="kv" remote="gerrit" revision="refs/changes/96/107496/1" />
   <project name="crypto" path="godeps/src/golang.org/x/crypto" remote="couchbasedeps" revision="bd6f299fb381e4c3393d1c4b1f0b94f5e77650c8" />
