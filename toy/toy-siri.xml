@@ -19,7 +19,7 @@
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli" groups="kv"/>
   <project name="couchdb" revision="refs/changes/98/107498/2" remote="gerrit" />
-  <project name="couchstore" groups="kv" remote="gerrit" revision="refs/changes/96/107496/" />
+  <project name="couchstore" groups="kv" remote="gerrit" revision="refs/changes/96/107496/2" />
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <project name="forestdb" revision="vulcan" groups="kv"/>
   <project name="geocouch"/>
