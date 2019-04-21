@@ -32,6 +32,7 @@
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="5f47ccab36a41c79c104938f70c162da4fa6aa37" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
   <project name="fleece" remote="couchbaselabs" revision="d7c3263b589a4d8d281bebfd9db704f6b63df2d8" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
+  <project name="peg" remote="snej" revision="5722a4b087e58d5cc93ed13fc18e2530948498c1" path="couchbase-mobile-tools/vendor/peg"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="9042c6eed69e98623ad64e27cec4c1f7f60dde92" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
