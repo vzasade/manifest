@@ -38,7 +38,7 @@
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query" remote=j-larson" />
+  <project name="query"     path="goproj/src/github.com/couchbase/query" remote="j-larson" />
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
