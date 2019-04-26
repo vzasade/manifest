@@ -5,13 +5,13 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
-  <remote name="vellum_toy" fetch="git://github.com/sreekanth-cb/" />
+  <remote name="cbft_toy"   fetch="git://github.com/sreekanth-cb/" >
 
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
-  <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbft" remote="cbft_toy" revision="cf6d1bccd6c97ea2940d2c963a3e23dea8af7f1a" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
@@ -83,7 +83,7 @@
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum"  remote="vellum_toy" revision="f38feee79e45e8481a4e69b11c34c1e20ebef1fb"  path="godeps/src/github.com/couchbase/vellum"/>
+  <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
   <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
