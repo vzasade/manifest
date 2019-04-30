@@ -34,7 +34,7 @@
             "parent": "couchbase-server/alice.xml",
             "production": true,
             "start_build": 2039,
-            "interval": 60,
+            "interval": 1440,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-33744"
@@ -56,8 +56,20 @@
             "release_name": "Vulcan (mainline)",
             "parent": "branch-master.xml",
             "production": true,
+            "start_build": 4500,
+            "interval": 1440,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-33967"
+        },
+        "couchbase-server/vulcan/5.5.4.xml": {
+            "branch": "vulcan-5.5.4",
+            "release": "vulcan",
+            "release_name": "Vulcan 5.5.4",
+            "parent": "couchbase-server/vulcan.xml",
+            "production": true,
             "start_build": 4300,
-            "interval": 120,
+            "interval": 1440,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-32627"
