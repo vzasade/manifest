@@ -13,7 +13,7 @@
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise"/>
   <project name="cbft" remote="cbft_toy" revision="9ab2d0f1efae16aaa122de4b76fbca8049c19a6d" path="goproj/src/github.com/couchbase/cbft"/>
-  <project name="cbftx" remote="cbftx_toy" path="goproj/src/github.com/couchbase/cbftx" revision="69ddab7e00cceca6da9a5b04b9b708906b79b44c" groups="notdefault,enterprise"/>
+  <project name="cbftx" remote="cbftx_toy" path="goproj/src/github.com/couchbase/cbftx" revision="69ddab7e00cceca6da9a5b04b9b708906b79b44c" />
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbq-gui" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbq-gui"  groups="notdefault,enterprise"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
