@@ -140,7 +140,7 @@
   <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="7fbe1cd0fcc20051e1fcb87fbabec4a1bacaaeba"/>
   <project name="testrunner"/>
   <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="88f656faf3f37f690df1a32515b479415e1a6769"/>
-  <project groups="kv" name="tlm">
+  <project groups="kv" name="tlm" revision="f60ae55909b62037f0bbb3c4d340808b412069ac">
     <copyfile dest="GNUmakefile" src="GNUmakefile"/>
     <copyfile dest="Makefile" src="Makefile"/>
     <copyfile dest="CMakeLists.txt" src="CMakeLists.txt"/>
