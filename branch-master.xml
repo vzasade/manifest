@@ -20,7 +20,9 @@
   <project name="couchdb"/>
   <project name="couchstore" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
-  <project name="forestdb" revision="vulcan" groups="kv"/>
+  <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
+  <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
+  <project name="forestdb" revision="cb-master" groups="kv"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
