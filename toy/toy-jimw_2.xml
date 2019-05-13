@@ -4,6 +4,8 @@
 <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org"/>
 <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org"/>
 <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
+<remote fetch="git://github.com/jimwwalker/" name="jimwwalker"/>
+
 <remote name="gerrit" fetch="ssh://review.couchbase.org:29418/" />
 
 <default remote="couchbase" revision="master"/>
@@ -98,8 +100,8 @@
 <project name="json-iterator-go" path="godeps/src/github.com/json-iterator/go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994"/>
 <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" upstream="master"/>
 
-<project groups="kv" name="kv_engine" revision="refs/changes/39/107639/32" remote="gerrit" upstream="master" />
-<project groups="kv" name="platform" revision="refs/changes/38/107638/57" remote="gerrit" upstream="master" />
+<project groups="kv" name="kv_engine" revision="JeArenaPerfChallenge_BackToOldNewHook" remote="jimwwalker" upstream="master" />
+<project groups="kv" name="platform" revision="JeArenaPerfChallenge_OriginalCounting" remote="jimwwalker" upstream="master" />
 
 <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
 <project groups="notdefault,enterprise" name="libcouchbase" revision="3d68856470b99363a86f927f2b510a60b20d0f47" upstream="release-2.10"/>
