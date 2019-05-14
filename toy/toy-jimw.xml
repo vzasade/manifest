@@ -102,6 +102,8 @@
 
 <project groups="kv" name="kv_engine" revision="refs/changes/56/108956/1" remote="gerrit" upstream="master" />
 <project groups="kv" name="platform" revision="JeArenaMalloc_TLS_is_u64" remote="jimwwalker" upstream="master" />
+<project groups="kv" name="tlm" revision="refs/changes/26/109126/1" remote="gerrit"  upstream="master">
+
 
 <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
 <project groups="notdefault,enterprise" name="libcouchbase" revision="3d68856470b99363a86f927f2b510a60b20d0f47" upstream="release-2.10"/>
@@ -145,7 +147,7 @@
 <project name="sys" path="godeps/src/golang.org/x/sys" remote="couchbasedeps" revision="7fbe1cd0fcc20051e1fcb87fbabec4a1bacaaeba"/>
 <project name="testrunner" revision="e3de39c8a21f30151e659b25e21b4c7ad3bf067a" upstream="master"/>
 <project name="text" path="godeps/src/golang.org/x/text" remote="couchbasedeps" revision="88f656faf3f37f690df1a32515b479415e1a6769"/>
-<project groups="kv" name="tlm" revision="001740247b49da8ee88467395b92bda4650d526c" upstream="master">
+
 <copyfile dest="GNUmakefile" src="GNUmakefile"/>
 <copyfile dest="Makefile" src="Makefile"/>
 <copyfile dest="CMakeLists.txt" src="CMakeLists.txt"/>
