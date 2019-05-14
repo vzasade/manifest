@@ -152,7 +152,6 @@
 <copyfile dest="CMakeLists.txt" src="CMakeLists.txt"/>
 <copyfile dest=".clang-format" src="dot-clang-format"/>
 <copyfile dest="third_party/CMakeLists.txt" src="third-party-CMakeLists.txt"/>
-</project>
 <project name="ts" path="godeps/src/github.com/olekukonko/ts" remote="couchbasedeps" revision="ecf753e7c962639ab5a1fb46f7da627d4c0a04b8"/>
 <project name="uuid" path="godeps/src/github.com/google/uuid" remote="couchbasedeps" revision="dec09d789f3dba190787f8b4454c7d3c936fed9e"/>
 <project name="vellum" path="godeps/src/github.com/couchbase/vellum" revision="462e86d8716b36a1397b30ef77fb11105065a232" upstream="master"/>
