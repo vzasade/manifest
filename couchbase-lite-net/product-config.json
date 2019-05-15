@@ -11,13 +11,23 @@
             "keep_git": true,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
+        "couchbase-lite-net/iridium-hotfix-2.xml": {
+             "release": "2.5.0.2",
+             "release_name": "Couchbase Lite Net - 2.5.0 (HF2)",
+             "production": true,
+             "interval": 90,
+             "restricted": false,
+             "start_build": 1,
+             "keep_git": true,
+             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+         },
         "couchbase-lite-net/iridium.xml": {
-            "release": "2.5.0",
+            "release": "2.5.1",
             "release_name": "Couchbase Lite Net - Iridium",
             "production": true,
             "interval": 90,
             "restricted": false,
-            "start_build": 173,
+            "start_build": 1,
             "keep_git": true,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },

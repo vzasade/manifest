@@ -17,7 +17,7 @@
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="release/iridium" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-net" revision="release/iridium" path="couchbase-lite-net-ee/couchbase-lite-net"/>
+  <project name="couchbase-lite-net" revision="hotfix/2.5.0.2" path="couchbase-lite-net-ee/couchbase-lite-net"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
@@ -49,6 +49,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="product-texts"/>
   <project name="build" path="cbbuild" revision="671ea1d94ad417c1a301094098b1ceae8462fd04">
-    <annotation name="VERSION" value="2.5.1" keep="true"/>
+    <annotation name="VERSION" value="2.5.0.2" keep="true"/>
   </project>
 </manifest>
