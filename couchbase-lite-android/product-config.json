@@ -14,7 +14,18 @@
         },
         "couchbase-lite-android/iridium.xml": {
             "release": "2.5.1",
-            "release_name": "Couchbase Lite Android - 2.5.1",
+            "release_name": "Couchbase Lite Android - Iridium 2.5.1",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
+        },
+        "couchbase-lite-android/2.5/2.5.0.1.xml": {
+            "release": "2.5.0.1",
+            "release_name": "Couchbase Lite Android - 2.5.0.1 (CBSE-6768)",
             "production": true,
             "interval": 60,
             "restricted": false,
@@ -25,7 +36,7 @@
         },
         "couchbase-lite-android/2.5/2.5.0.xml": {
             "release": "2.5.0",
-            "release_name": "Couchbase Lite Android - 2.5.0",
+            "release_name": "Couchbase Lite Android - Iridium 2.5.0",
             "production": true,
             "interval": 1440,
             "restricted": false,
