@@ -96,7 +96,7 @@
   <project name="indexing" path="goproj/src/github.com/couchbase/indexing"/>
   <project name="json-iterator-go" path="godeps/src/github.com/json-iterator/go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994"/>
   <project name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs"/>
-  <project groups="kv" name="kv_engine" remote="t3rm1n4l" revision="magma-exp" />
+  <project groups="kv" name="kv_engine" remote="t3rm1n4l" revision="cc500dc13544162da43883cd978f71c1fc113ab2" />
   <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
   <project groups="notdefault,enterprise" name="libcouchbase" revision="release-2.10"/>
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="3681c2a912330352991ecdd642f257efe5b85518"/>
