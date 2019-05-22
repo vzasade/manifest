@@ -101,7 +101,7 @@
   <project groups="notdefault,enterprise" name="libcouchbase" revision="release-2.10"/>
   <project name="liner" path="godeps/src/github.com/peterh/liner" remote="couchbasedeps" revision="3681c2a912330352991ecdd642f257efe5b85518"/>
   <project name="liner" path="godeps/src/github.com/sbinet/liner" remote="couchbasedeps" revision="d9335eee40a45a4f5d74524c90040d6fe6013d50"/>
-  <project groups="notdefault,enterprise,kv_ee" name="magma" remote="couchbase-priv" revision="1787052749a6fecdc112dbbbab03d14db756ccef"/>
+  <project groups="notdefault,enterprise,kv_ee" name="magma" remote="couchbase-priv" revision="4ae54fe61ae0f5be78054bc3ddc377daa5ea1f2c"/>
   <project name="minify" path="godeps/src/github.com/tdewolff/minify" remote="couchbasedeps" revision="ede45cc53f43891267b1fe7c689db9c76d4ce0fb"/>
   <project name="mmap-go" path="godeps/src/github.com/edsrzf/mmap-go" remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8"/>
   <project name="mobile-service" path="goproj/src/github.com/couchbase/mobile-service"/>
