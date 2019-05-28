@@ -13,8 +13,8 @@
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/iridium.xml": {
-            "release": "2.5.1",
-            "release_name": "Couchbase Lite Android - Iridium 2.5.1",
+            "release": "2.5.2",
+            "release_name": "Couchbase Lite Android - Iridium 2.5.2",
             "production": true,
             "interval": 90,
             "restricted": false,
