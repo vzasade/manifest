@@ -57,7 +57,7 @@
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 4500,
-            "interval": 1440,
+            "interval": 60,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-33967"
@@ -69,7 +69,7 @@
             "parent": "couchbase-server/vulcan.xml",
             "production": true,
             "start_build": 4300,
-            "interval": 60,
+            "interval": 1440,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-34207"
