@@ -10,7 +10,7 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": true,
-            "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
+            "jenkins_job": "couchbase-lite-android-post-25"
         },
         "couchbase-lite-android/iridium.xml": {
             "release": "2.5.2",
