@@ -21,8 +21,20 @@
             "release_name": "Alice (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 2300,
+            "start_build": 2600,
             "interval": 120,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-34601"
+        },
+        "couchbase-server/alice/6.0.2.xml": {
+            "branch": "alice-6.0.2",
+            "release": "alice",
+            "release_name": "Alice 6.0.2",
+            "parent": "couchbase-server/alice.xml",
+            "production": true,
+            "start_build": 2414,
+            "interval": 1440,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-32630"
