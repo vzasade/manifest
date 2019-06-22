@@ -23,7 +23,7 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="df1951bf3e4469908d28babd3323c25f61873dea" path="couchbase-lite-net-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="b6e953da3aa5008c06a33d6ce46c526b40a1a5ea" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="09601444d15d2c2e68a5366d98e6c65f30fc8ccf" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
