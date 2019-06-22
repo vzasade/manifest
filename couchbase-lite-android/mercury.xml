@@ -4,10 +4,10 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
 
-  <default remote="couchbase" revision="release/cobalt"/>
+  <default remote="couchbase" revision="master"/>
 
   <project name="build" path="cbbuild" groups="notdefault" revision="5f3415b1a8ff88eeac8afe0cc6c12bd73a997c3d">
-    <annotation name="VERSION" value="2.6.0" keep="true"/>
+    <annotation name="VERSION" value="2.7.0" keep="true"/>
   </project>
 
   <project name="couchbase-lite-build" path="couchbase-lite-build">
