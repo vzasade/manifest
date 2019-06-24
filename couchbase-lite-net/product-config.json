@@ -1,6 +1,16 @@
 {
     "product": "couchbase-lite-net",
     "manifests": {
+        "couchbase-lite-net/mercury.xml": {
+            "release": "2.7.0",
+            "release_name": "Couchbase Lite Net - Mercury",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+        },
         "couchbase-lite-net/cobalt.xml": {
             "release": "2.6.0",
             "release_name": "Couchbase Lite Net - Cobalt",
@@ -15,7 +25,7 @@
             "release": "2.5.2",
             "release_name": "Couchbase Lite Net - Iridium",
             "production": true,
-            "interval": 90,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
@@ -25,7 +35,7 @@
              "release": "2.1.5",
              "release_name": "Couchbase Lite Net - 2.1.5",
              "production": true,
-             "interval": 90,
+             "interval": 1440,
              "restricted": false,
              "start_build": 1,
              "keep_git": true,

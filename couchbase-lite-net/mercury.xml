@@ -16,8 +16,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="release/cobalt" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-net" revision="release/cobalt" path="couchbase-lite-net-ee/couchbase-lite-net"/>
+  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="master" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-net" revision="master" path="couchbase-lite-net-ee/couchbase-lite-net"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
@@ -47,8 +47,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" revision="93a092c9139c81813cda4276ee437304fb82f8f2"/>
-  <project name="build" path="cbbuild" revision="fcafa997a04698f9922721ace1ac86852f21779a">
-    <annotation name="VERSION" value="2.6.0" keep="true"/>
+  <project name="product-texts"/>
+  <project name="build" path="cbbuild">
+    <annotation name="VERSION" value="2.7.0" keep="true"/>
   </project>
 </manifest>
