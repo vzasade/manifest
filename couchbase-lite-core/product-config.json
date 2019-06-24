@@ -1,6 +1,16 @@
 {
     "product": "couchbase-lite-core",
     "manifests": {
+        "couchbase-lite-core/mercury.xml": {
+            "release": "2.7.0",
+            "release_name": "Couchbase Lite Core - Mercury",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "module_projects": [ "couchbase-lite-core" ]
+        },
         "couchbase-lite-core/cobalt.xml": {
             "release": "2.6.0",
             "release_name": "Couchbase Lite Core - Cobalt",
@@ -15,7 +25,7 @@
             "release": "2.5.2",
             "release_name": "Couchbase Lite Core - Iridium",
             "production": true,
-            "interval": 180,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
@@ -25,7 +35,7 @@
              "release": "2.1.5",
              "release_name": "Couchbase Lite Core - 2.1.5",
              "production": true,
-             "interval": 240,
+             "interval": 1440,
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
