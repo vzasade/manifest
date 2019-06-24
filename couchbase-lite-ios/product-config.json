@@ -1,6 +1,17 @@
 {
     "product": "couchbase-lite-ios",
     "manifests": {
+        "couchbase-lite-ios/mercury.xml": {
+            "release": "2.7.0",
+            "release_name": "Couchbase Lite iOS - Mercury 2.7.0",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
+        },
         "couchbase-lite-ios/cobalt.xml": {
             "release": "2.6.0",
             "release_name": "Couchbase Lite iOS - Cobalt 2.6.0",
@@ -16,7 +27,7 @@
             "release": "2.5.2",
             "release_name": "Couchbase Lite iOS - Iridium 2.5.2",
             "production": true,
-            "interval": 240,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,

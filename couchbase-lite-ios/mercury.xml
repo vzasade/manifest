@@ -16,8 +16,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="release/cobalt" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-ios" revision="release/cobalt" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="master" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-ios" revision="master" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
@@ -47,13 +47,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned mobile testkit                     -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="1c94b2716f82404547a4a401e104bcfcf539bb88" groups="notdefault"/>
+  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="master" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" revision="93a092c9139c81813cda4276ee437304fb82f8f2"/>
-  <project name="build" revision="fcafa997a04698f9922721ace1ac86852f21779a">
-    <annotation name="VERSION" value="2.6.0" keep="true"/>
+  <project name="product-texts"/>
+  <project name="build">
+    <annotation name="VERSION" value="2.7.0" keep="true"/>
   </project>
 </manifest>
