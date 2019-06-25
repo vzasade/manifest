@@ -6,7 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote fetch="ssh://review.couchbase.org:29418/" name="gerrit" />
-
+  <remote name="suraj" fetch="git://github.com/surajj-naik/"/>
   <default remote="couchbase" revision="master" />
 
   <!-- Core Couchbase Server projects -->
@@ -18,7 +18,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli" groups="kv"/>
-  <project name="couchdb" revision="refs/changes/96/110296/11" remote="gerrit"/>
+  <project name="couchdb" upstream="WindowsTest"  remote="suraj"/>
   <project name="couchstore" groups="kv" revision="refs/changes/97/110297/10" remote="gerrit"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
