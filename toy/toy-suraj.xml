@@ -18,7 +18,7 @@
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli" groups="kv"/>
-  <project name="couchdb" upstream="WindowsTest"  remote="suraj"/>
+  <project name="couchdb" revision="WindowsTest"  remote="suraj"/>
   <project name="couchstore" groups="kv" revision="refs/changes/97/110297/10" remote="gerrit"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" />
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
