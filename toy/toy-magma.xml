@@ -49,8 +49,8 @@
   <project name="dparval" path="godeps/src/github.com/couchbase/dparval"/>
   <project name="errors" path="godeps/src/github.com/pkg/errors" remote="couchbasedeps" revision="30136e27e2ac8d167177e8a583aa4c3fea5be833"/>
   <project name="etcd-bbolt" path="godeps/src/github.com/etcd-io/bbolt" remote="couchbasedeps" revision="7ee3ded59d4835e10f3e7d0f7603c42aa5e83820"/>
-  <project groups="notdefault,enterprise" name="eventing" path="goproj/src/github.com/couchbase/eventing"/>
-  <project groups="notdefault,enterprise" name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv"/>
+  <project groups="notdefault,enterprise" name="eventing" path="goproj/src/github.com/couchbase/eventing" revision="5fe2adb4b76d832b3855a98dcc4130e37db7208a" />
+  <project groups="notdefault,enterprise" name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" revision="1336097232e87d6ec45b4936bc6158f368a18e6e" remote="couchbase-priv"/>
   <project name="flatbuffers" path="godeps/src/github.com/google/flatbuffers" remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303"/>
   <project groups="kv" name="forestdb" revision="vulcan"/>
   <project name="fwd" path="godeps/src/github.com/philhofer/fwd" remote="couchbasedeps" revision="bb6d471dc95d4fe11e432687f8b70ff496cf3136"/>
