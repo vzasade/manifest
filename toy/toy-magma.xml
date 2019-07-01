@@ -24,9 +24,6 @@
   <project groups="notdefault,build" name="build" path="cbbuild">
     <annotation name="VERSION" value="0.0.0"/>
   </project>
-  <project groups="notdefault,enterprise,analytics" name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv"/>
-  <project groups="notdefault,enterprise,analytics" name="cbas-core" path="analytics" remote="couchbase-priv"/>
-  <project groups="analytics" name="cbas-ui"/>
   <project name="cbauth" path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="cbflag" path="godeps/src/github.com/couchbase/cbflag"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
