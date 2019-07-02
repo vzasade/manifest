@@ -24,10 +24,21 @@
             "jenkins_job": "couchbase-lite-android-post-25"
         },
         "couchbase-lite-android/iridium.xml": {
+            "release": "2.5.3",
+            "release_name": "Couchbase Lite Android - Iridium 2.5.3",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
+        },
+        "couchbase-lite-android/2.5/2.5.2.xml": {
             "release": "2.5.2",
             "release_name": "Couchbase Lite Android - Iridium 2.5.2",
             "production": true,
-            "interval": 90,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,

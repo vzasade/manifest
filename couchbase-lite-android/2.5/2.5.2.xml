@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
@@ -16,8 +16,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-android-ee" remote="couchbaselabs-priv" revision="release/iridium" groups="notdefault,enterprise"/>
-  <project name="couchbase-lite-android" revision="release/iridium" path="couchbase-lite-android-ee/libs/couchbase-lite-android"/>
+  <project name="couchbase-lite-android-ee" remote="couchbaselabs-priv" revision="183a27f4632061ff7731da0e9b006afea7ebc3bf" groups="notdefault,enterprise"/>
+  <project name="couchbase-lite-android" revision="3db7ea4bbff2c4033d2d0f7260dbdf848332689b" path="couchbase-lite-android-ee/libs/couchbase-lite-android"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
@@ -47,13 +47,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned mobile testkit                     -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="master" groups="notdefault"/>
+  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="a000b039b5647dafabc963a9f0d2abb359c38b0d" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, readme, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts"/>
+  <project name="product-texts" revision="53fe2af5d7cf5201f3d7fbe76391d62e652c153f"/>
   <project name="build" path="cbbuild" revision="671ea1d94ad417c1a301094098b1ceae8462fd04">
-    <annotation name="VERSION" value="2.5.3" keep="true"/>
+    <annotation name="VERSION" value="2.5.2" keep="true"/>
   </project>
 </manifest>
