@@ -24,6 +24,17 @@
             "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
         },
         "couchbase-lite-ios/iridium.xml": {
+            "release": "2.5.3",
+            "release_name": "Couchbase Lite iOS - Iridium 2.5.3",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
+        },
+        "couchbase-lite-ios/2.5/2.5.2.xml": {
             "release": "2.5.2",
             "release_name": "Couchbase Lite iOS - Iridium 2.5.2",
             "production": true,

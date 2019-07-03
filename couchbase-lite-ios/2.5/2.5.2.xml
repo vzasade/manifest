@@ -16,8 +16,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="release/iridium" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-ios" revision="release/iridium" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
+  <project name="couchbase-lite-ios-ee" remote="couchbaselabs-priv" revision="94e6b268b90cdf81e30863e2c81dd36c20abbd45" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-ios" revision="e613ef5b8ac016dfe9a7439e4f37cfec34982b7b" path="couchbase-lite-ios-ee/couchbase-lite-ios"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
@@ -47,13 +47,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned mobile testkit                     -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="master" groups="notdefault"/>
+  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="a000b039b5647dafabc963a9f0d2abb359c38b0d" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts"/>
+  <project name="product-texts" revision="53fe2af5d7cf5201f3d7fbe76391d62e652c153f"/>
   <project name="build" revision="671ea1d94ad417c1a301094098b1ceae8462fd04">
-    <annotation name="VERSION" value="2.5.3" keep="true"/>
+    <annotation name="VERSION" value="2.5.2" keep="true"/>
   </project>
 </manifest>
