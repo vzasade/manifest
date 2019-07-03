@@ -22,12 +22,32 @@
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
         "couchbase-lite-net/iridium.xml": {
-            "release": "2.5.2",
+            "release": "2.5.3",
             "release_name": "Couchbase Lite Net - Iridium",
             "production": true,
             "interval": 1440,
             "restricted": false,
             "start_build": 1,
+            "keep_git": true,
+            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+        },
+        "couchbase-lite-net/iridium/2.5.2.xml": {
+             "release": "2.5.2",
+             "release_name": "Couchbase Lite Net - 2.5.2",
+             "production": true,
+             "interval": 1440,
+             "restricted": false,
+             "start_build": 6,
+             "keep_git": true,
+             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+         },
+        "couchbase-lite-net/iridium/2.5.0.xml": {
+            "release": "2.5.0",
+            "release_name": "Couchbase Lite Net - 2.5.0",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 191,
             "keep_git": true,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
