@@ -30,7 +30,7 @@
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="refs/changes/85/110685/17" remote="gerrit"/>
+  <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise" revision="refs/changes/85/110685/18" remote="gerrit" upstream="unstable"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise" upstream="unstable"/>
   <project name="kv_engine" groups="kv"/>
   <project name="libcouchbase" revision="release-2.10" groups="notdefault,enterprise"/>
