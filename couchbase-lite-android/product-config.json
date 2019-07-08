@@ -34,6 +34,17 @@
             "do-build": true,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
+        "couchbase-lite-android/2.5/2.5.2.1.xml": {
+            "release": "2.5.2.1",
+            "release_name": "Couchbase Lite Android - Iridium 2.5.2-MP1",
+            "production": true,
+            "interval": 60,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
+        },
         "couchbase-lite-android/2.5/2.5.2.xml": {
             "release": "2.5.2",
             "release_name": "Couchbase Lite Android - Iridium 2.5.2",
