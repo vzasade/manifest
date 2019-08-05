@@ -77,14 +77,14 @@
         "couchbase-server/vulcan/5.5.5.xml": {
             "branch": "vulcan-5.5.5",
             "release": "vulcan",
-            "release_name": "Vulcan 5.5.5",
+            "release_name": "Vulcan 5.5.5-MP1",
             "parent": "couchbase-server/vulcan.xml",
             "production": true,
             "start_build": 4300,
             "interval": 60,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-33967"
+            "approval_ticket": "MB-35450"
         },
         "couchbase-server/vulcan/5.5.4.xml": {
             "branch": "vulcan-5.5.4",
