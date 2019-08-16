@@ -24,7 +24,7 @@
   </project>
   <project name="couchbase-lite-android" path="couchbase-lite-android"/>
 
-  <project name="couchbase-lite-java-ee" path="couchbase-lite-android-ee" remote="couchbaselabs-priv">
+  <project name="couchbase-lite-java-ee" path="couchbase-lite-android-ee" remote="couchbaselabs-priv"/>
   <project name="couchbase-lite-java" path="couchbase-lite-java"/>
 
   <project name="couchbase-lite-core" sync-s="true" path="couchbase-lite-core"/>
