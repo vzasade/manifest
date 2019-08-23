@@ -83,7 +83,7 @@
   <project name="ghistogram"                                                         path="godeps/src/github.com/couchbase/ghistogram"/>
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
-  <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
+  <project name="vellum"        revision="41f2deade2cfab59facd263e918d7c05f656c2e9"  path="godeps/src/github.com/couchbase/vellum"/>
   <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
