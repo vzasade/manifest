@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="cbft_toy"   fetch="git://github.com/sreekanth-cb/" />
+  <remote name="n1fty_toy"   fetch="git://github.com/sreekanth-cb/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -85,7 +86,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
-  <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
+  <project name="n1fty" remote="n1fty_toy" revision="cccc46e80f5aa87c2d97fdc7c4bb1e035b9a5ab2"   path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="1626176d5505d55567a92cb6b3f9e627686c5530" path="godeps/src/github.com/blevesearch/bleve"/>
