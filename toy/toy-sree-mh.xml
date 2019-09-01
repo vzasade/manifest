@@ -86,7 +86,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
-  <project name="n1fty" remote="n1fty_toy" revision="4f623fc44b7707cfb797989c3f59c2d3ebb65f8b"   path="godeps/src/github.com/couchbase/n1fty"/>
+  <project name="n1fty" remote="n1fty_toy" revision="580c6148c6b3c7e5cb513d97bc11a9db354afbc7"   path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="1626176d5505d55567a92cb6b3f9e627686c5530" path="godeps/src/github.com/blevesearch/bleve"/>
