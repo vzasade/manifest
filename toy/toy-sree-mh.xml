@@ -7,6 +7,7 @@
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="cbft_toy"   fetch="git://github.com/sreekanth-cb/" />
   <remote name="n1fty_toy"   fetch="git://github.com/sreekanth-cb/" />
+  <remote name="query_toy"   fetch="git://github.com/sreekanth-cb/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -40,7 +41,7 @@
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"     remote="query_toy" revision="5580ee09e7222f94a6f8140baf5b2b8d8ba36811"  path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
@@ -86,7 +87,7 @@
   <project name="godbc"                                                              path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
-  <project name="n1fty" remote="n1fty_toy" revision="d6681709bdf55123e9f6209221cdf5c256a897b1"   path="godeps/src/github.com/couchbase/n1fty"/>
+  <project name="n1fty" remote="n1fty_toy" revision="71914b203b3094e5cde443d8d661ceb0e3660d4d"   path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="1626176d5505d55567a92cb6b3f9e627686c5530" path="godeps/src/github.com/blevesearch/bleve"/>
