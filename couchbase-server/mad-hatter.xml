@@ -152,6 +152,7 @@
   <project name="participle"      remote="couchbasedeps" revision="bf8340a459bd383e5eb7d44a9a1b3af23b6cf8cd" path="godeps/src/github.com/alecthomas/participle"/>
   <project name="go-genproto"     remote="couchbasedeps" revision="2b5a72b8730b0b16380010cfe5286c42108d88e7" path="godeps/src/google.golang.org/genproto"/>
   <project name="golang-pkg-pcre" remote="couchbasedeps" revision="48bb82a8b8ceea98f4e97825b43870f6ba1970d6" path="godeps/src/github.com/glenn-brown/golang-pkg-pcre"/>
+  <project name="jsonparser"      remote="couchbasedeps" revision="bf1c66bbce23153d89b23f8960071a680dbef54b" path="godeps/src/github.com/buger/jsonparser"/>
 
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="74b24058ad4914b837200d0341050657ba154e4a" groups="kv"/>
