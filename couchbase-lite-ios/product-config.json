@@ -13,10 +13,21 @@
             "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
         },
         "couchbase-lite-ios/cobalt.xml": {
+            "release": "2.6.1",
+            "release_name": "Couchbase Lite iOS - Cobalt 2.6.1",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
+        },
+        "couchbase-lite-ios/cobalt/2.6.0.xml": {
             "release": "2.6.0",
             "release_name": "Couchbase Lite iOS - Cobalt 2.6.0",
             "production": true,
-            "interval": 240,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
