@@ -3,7 +3,7 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org" />
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org" />
   
-  <default remote="couchbase" revision="release/2.6.0.1" />
+  <default remote="couchbase" revision="hotfix/2.6.0.1" />
   
   <project name="build" path="cbbuild" groups="notdefault" revision="5f3415b1a8ff88eeac8afe0cc6c12bd73a997c3d">
     <annotation name="VERSION" value="2.6.0.1" keep="true"/>
@@ -26,7 +26,7 @@
 
   <project name="couchbase-lite-java"/>
 
-  <project name="couchbase-lite-core" revision="7380a17c45e50ce51eeb3740a1d5f42c02ba757f" sync-s="true" />
+  <project name="couchbase-lite-core" sync-s="true" />
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="df1951bf3e4469908d28babd3323c25f61873dea" sync-s="true" />
 </manifest>
 
