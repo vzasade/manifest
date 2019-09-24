@@ -22,7 +22,7 @@
     <linkfile src="gradlew.properties" dest="gradlew.properties"/>
   </project>
 
-  <project name="couchbase-lite-android" revision="2903ff02e14c834e3f9346e35109c3d2085ff4cf" />
+  <project name="couchbase-lite-android" />
 
   <project name="couchbase-lite-java"/>
 
