@@ -12,7 +12,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="mad-hatter"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbgt" revision="mad-hatter" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli" groups="kv"/>
