@@ -4,6 +4,7 @@
   <remote fetch="ssh://git@github.com/couchbase/" name="couchbase-priv" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbasedeps/" name="couchbasedeps" review="review.couchbase.org" />
   <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org" />
+  <remote fetch="git://github.com/miaobingjie/" name="miaobingjie" />
   
   <default remote="couchbase" revision="master" />
   
@@ -116,7 +117,7 @@
   <project groups="kv" name="platform" revision="de77d527bd23012dc67794c81a7b1e76e46e3abd" upstream="alice" />
   <project groups="kv" name="product-texts" revision="8cf7d25a1dcb5434ea44983c0bed202fb9cc8351" />
   <project name="protobuf" path="godeps/src/github.com/golang/protobuf" remote="couchbasedeps" revision="655cdfa588ea190e901bc5590e65d5621688847c" />
-  <project name="query" path="goproj/src/github.com/couchbase/query" revision="63023de505c15da71ee62972202d97925f259761" upstream="alice" />
+  <project name="query" path="goproj/src/github.com/couchbase/query" remote="miaobingjie" revision="cover" />
   <project name="query-ui" revision="15a6461f437fe810e411a6613ec7c143991cd1c6" upstream="alice" />
   <project name="retriever" path="godeps/src/github.com/couchbase/retriever" revision="e3419088e4d3b4fe3aad3b364fdbe9a154f85f17" />
   <project name="roaring" path="godeps/src/github.com/RoaringBitmap/roaring" remote="couchbasedeps" revision="fe09428be4c233d726797a1380f7438f4f71a31a" />
