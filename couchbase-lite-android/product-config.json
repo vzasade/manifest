@@ -24,8 +24,8 @@
             "jenkins_job": "couchbase-lite-android-post-25"
         },
         "couchbase-lite-android/cobalt.xml": {
-            "release": "2.6.0",
-            "release_name": "Couchbase Lite Android - Cobalt 2.6.0",
+            "release": "2.6.2",
+            "release_name": "Couchbase Lite Android - Cobalt 2.6.2",
             "production": true,
             "interval": 1440,
             "restricted": false,
