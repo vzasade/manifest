@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+  <remote name="jliang00"   fetch="git://github.com/jliang00/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -12,7 +13,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="notdefault,enterprise" revision="mad-hatter"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
-  <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbgt" revision="mad-hatter" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli" groups="kv"/>
@@ -23,11 +24,11 @@
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
   <project name="forestdb" revision="cb-master" groups="kv"/>
   <project name="geocouch"/>
-  <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" />
+  <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" revision="mad-hatter" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" revision="15cc46c6378c1ee158b9970647856080edcc1d97" />
-  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise" revision="cfc040bf87d7d1cf938ff2155dc481e82bac9f33"/>
+  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" remote="jliang00" revision="unstable" />
+  <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="jliang00" revision="unstable" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv"/>
@@ -51,8 +52,8 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
-  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="mad-hatter"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics" revision="mad-hatter"/>
   <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
   <project name="cbas-ui" groups="analytics"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
@@ -62,7 +63,7 @@
   <!-- Go support libraries - Couchbase-supported -->
   <project name="cbauth"                                                             path="godeps/src/github.com/couchbase/cbauth"/>
   <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag"/>
-  <project name="gomemcached"                                                        path="godeps/src/github.com/couchbase/gomemcached"/>
+  <project name="gomemcached" revision="mad-hatter"                                  path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
   <project name="dparval"                                                            path="godeps/src/github.com/couchbase/dparval"/>
   <project name="go-couchbase"                                                       path="godeps/src/github.com/couchbase/go-couchbase"/>
@@ -72,7 +73,7 @@
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/github.com/couchbase/gocb"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1"/>
-  <project name="gocbcore"       revision="refs/tags/v7.1.12"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
+  <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="gojsonsm"       remote="couchbaselabs"                              path="godeps/src/github.com/couchbase/gojsonsm"/>
@@ -87,9 +88,8 @@
   <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="4a7e6fb7547c787bbe1adf4d3ef5ff2551a50221" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="blevex"           remote="blevesearch" revision="4b158bb555a3297565afecf6fae675c74f1e47df" path="godeps/src/github.com/blevesearch/blevex"/>
-  <project name="bleve-mapping-ui" remote="blevesearch" revision="f551b6d4f32bb920a83dd28c705bddd5de0d03b2" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
+  <project name="bleve"            remote="blevesearch" revision="1626176d5505d55567a92cb6b3f9e627686c5530" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
   <project name="snowballstem"     remote="blevesearch" revision="26b06a2c243d4f8ca5db3486f94409dd5b2a7467" path="godeps/src/github.com/blevesearch/snowballstem"/>
@@ -130,7 +130,7 @@
   <project name="mmap-go"        remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="cuckoofilter"   remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" path="godeps/src/github.com/seiflotfy/cuckoofilter"/>
   <project name="gofarmhash"     remote="couchbasedeps" revision="0a055c5b87a8c55ce83459cbf2776b563822a942" path="godeps/src/github.com/leemcloughlin/gofarmhash"/>
-  <project name="roaring"        remote="couchbasedeps" revision="fe09428be4c233d726797a1380f7438f4f71a31a" path="godeps/src/github.com/RoaringBitmap/roaring"/>
+  <project name="roaring"        remote="couchbasedeps" revision="d0ce1763c3526f65703c395da50da7a7fb2138d5" path="godeps/src/github.com/RoaringBitmap/roaring"/>
   <project name="mousetrap"      remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75" path="godeps/src/github.com/inconshreveable/mousetrap"/>
   <project name="go-curl"        remote="couchbasedeps" revision="20161221-couchbase"                       path="godeps/src/github.com/andelf/go-curl"/>
   <project name="flatbuffers"    remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
@@ -152,6 +152,7 @@
   <project name="participle"      remote="couchbasedeps" revision="bf8340a459bd383e5eb7d44a9a1b3af23b6cf8cd" path="godeps/src/github.com/alecthomas/participle"/>
   <project name="go-genproto"     remote="couchbasedeps" revision="2b5a72b8730b0b16380010cfe5286c42108d88e7" path="godeps/src/google.golang.org/genproto"/>
   <project name="golang-pkg-pcre" remote="couchbasedeps" revision="48bb82a8b8ceea98f4e97825b43870f6ba1970d6" path="godeps/src/github.com/glenn-brown/golang-pkg-pcre"/>
+  <project name="jsonparser"      remote="couchbasedeps" revision="bf1c66bbce23153d89b23f8960071a680dbef54b" path="godeps/src/github.com/buger/jsonparser"/>
 
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="74b24058ad4914b837200d0341050657ba154e4a" groups="kv"/>
