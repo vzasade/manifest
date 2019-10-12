@@ -5,7 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch" fetch="git://github.com/blevesearch/"/>
-  <remote fetch="git://github.com/miaobingjie/" name="miaobingjie" />
+  <remote name="miaobingjie" fetch="git://github.com/miaobingjie/"/>
 
   <default remote="couchbase" revision="master"/>
 
@@ -35,7 +35,7 @@
   <project name="phosphor" groups="kv" revision="96501c57bb0fd61c85cba6f63101aed2bcf41d38"/>
   <project name="platform" groups="kv" revision="alice"/>
   <project name="product-texts" groups="kv" revision="8cf7d25a1dcb5434ea44983c0bed202fb9cc8351"/>
-  <project name="query" path="goproj/src/github.com/couchbase/query" remote="miaobingjie" revision="cover2" />
+  <project name="query" path="goproj/src/github.com/couchbase/query" remote="miaobingjie" revision="cover3" />
   <project name="query-ui" revision="alice"/>
   <project name="sigar" groups="kv" revision="73353fe6dad8f3d67409feefb9b17f90f6de917b"/>
   <project name="subjson" groups="kv" revision="c30c3d4c250e68e81c57aa1e8ae91ffd21243cdb"/>
