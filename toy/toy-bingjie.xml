@@ -39,7 +39,7 @@
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
-  <project name="query-ee" remote="miaobingjie-private" path="goproj/src/github.com/couchbase/query-ee" />
+  <project name="query-ee" remote="miaobingjie-private" revision="cover" path="goproj/src/github.com/couchbase/query-ee" />
   <project name="query" remote="miaobingjie" revision="cover"    path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
