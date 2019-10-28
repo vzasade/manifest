@@ -1,0 +1,17 @@
+{
+    "product": "couchbase-lite-java",
+    "manifests": {
+        "couchbase-lite-java/mercury.xml": {
+            "release": "2.7.0",
+            "release_name": "Couchbase Lite Java - Mercury 2.7.0",
+            "production": true,
+            "interval": 60,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-java"
+        }
+    }
+}
+
