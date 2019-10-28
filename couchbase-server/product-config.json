@@ -23,7 +23,9 @@
             "production": true,
             "start_build": 1000,
             "interval": 60,
-            "keep_git": true
+            "keep_git": true,
+            "restricted": false,
+            "approval_ticket": "MB-36676"
         },
         "couchbase-server/alice.xml": {
             "release": "alice",
