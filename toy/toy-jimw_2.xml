@@ -101,7 +101,7 @@
 <project groups="backup" name="jsonx" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" remote="couchbaselabs" revision="5b7baa20429a46a5543ee259664cc86502738cad" upstream="master"/>
 
 <project groups="kv" name="kv_engine" revision="JeArenaMalloc" remote="jimwwalker" upstream="master" />
-<project groups="kv" name="platform" revision="9ffc7ea2d86e8335b26ccac69b802e251ae4984d" remote="jimwwalker" upstream="master" />
+<project groups="kv" name="platform" revision="JeArenaMalloc" remote="jimwwalker" upstream="master" />
 
 <project name="levigo" path="godeps/src/github.com/jmhodges/levigo" remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b"/>
 <project groups="notdefault,enterprise" name="libcouchbase" revision="c7673bf3d0c051caf31202c5cf49b6bd0e8f52e5" upstream="release-2.10"/>
