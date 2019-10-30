@@ -15,7 +15,7 @@
     <linkfile src="all/version.txt" dest="version.txt"/>
   </project>
 
-  <project name="couchbase-lite-java-ee" path="couchbase-lite-java-ee" remote="couchbaselabs-priv"/>
+  <project name="couchbase-lite-java-ee" path="couchbase-lite-java-ee" remote="couchbaselabs-priv">
     <linkfile src="build.gradle" dest="build.gradle" />
     <linkfile src="gradle" dest="gradle" />
     <linkfile src="gradlew" dest="gradlew" />
