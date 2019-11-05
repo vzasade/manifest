@@ -27,7 +27,7 @@
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" revision="mad-hatter" />
   <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     path="goproj/src/github.com/couchbase/nitro" />
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" remote="jliang00" revision="unstable" />
+  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing" remote="jliang00" />
   <project name="plasma"    path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
