@@ -14,7 +14,7 @@
             "release": "1.2.2",
             "release_name": "Couchbase Operator 1.2.2",
             "production": true,
-            "interval": 480,
+            "interval": 120,
             "restricted": false,
             "start_build": 500,
             "keep_git": true
