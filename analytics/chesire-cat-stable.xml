@@ -10,7 +10,7 @@
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise" revision="mad-hatter"/>
-  <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
+  <project name="cbft" path="goproj/src/github.com/couchbase/cbft" revision="mad-hatter"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
   <project name="cbgt" revision="mad-hatter" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
@@ -43,7 +43,7 @@
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
   <project name="testrunner"/>
-  <project name="tlm" groups="kv">
+  <project name="tlm" revision="mad-hatter" groups="kv">
     <copyfile src="GNUmakefile"    dest="GNUmakefile"    />
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
@@ -83,7 +83,7 @@
   <project name="godbc"        revision="mad-hatter"                                 path="godeps/src/github.com/couchbase/godbc"/>
   <project name="go_json"      revision="mad-hatter"                                 path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
-  <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
+  <project name="n1fty"        revision="mad-hatter"                                 path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch" revision="b7a0cb6a1d4fdbaeb7ab5bdec6a9732b995e39a0" path="godeps/src/github.com/blevesearch/bleve"/>
