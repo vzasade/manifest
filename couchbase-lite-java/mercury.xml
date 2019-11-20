@@ -10,6 +10,8 @@
     <annotation name="VERSION" value="2.7.0" keep="true"/>
   </project>
 
+  <project name="product-texts" path="product-texts"/>
+
   <project name="couchbase-lite-build" path="couchbase-lite-build">
     <linkfile src="all/settings-ee.gradle" dest="settings.gradle" />
     <linkfile src="all/version.txt" dest="version.txt"/>
