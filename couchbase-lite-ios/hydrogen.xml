@@ -11,7 +11,7 @@
   <remote name="google" fetch="git://github.com/google/"/>
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
 
-  <default remote="couchbase" revision="release/mercury"/>
+  <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repositories               -->
@@ -47,13 +47,13 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned mobile testkit                     -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mobile-testkit" remote="couchbaselabs-priv" revision="f7332429856b8a2d311ed0639ca3f87a2f8fd555" groups="notdefault"/>
+  <project name="mobile-testkit" remote="couchbaselabs-priv" groups="notdefault"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" revision="7a3aa547b3f5eb3ea28d279a08384609cd2cea7c"/>
-  <project name="build" revision="450a66d859e654510e88a69a10da1f023527e688">
-    <annotation name="VERSION" value="2.7.0" keep="true"/>
+  <project name="product-texts"/>
+  <project name="build">
+    <annotation name="VERSION" value="2.8.0" keep="true"/>
   </project>
 </manifest>

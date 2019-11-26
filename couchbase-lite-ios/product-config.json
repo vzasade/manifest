@@ -1,6 +1,17 @@
 {
     "product": "couchbase-lite-ios",
     "manifests": {
+        "couchbase-lite-ios/hydrogen.xml": {
+            "release": "2.8.0",
+            "release_name": "Couchbase Lite iOS - Hydrogen 2.8.0",
+            "production": true,
+            "interval": 240,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "module_projects": [ "couchbase-lite-ios-ee", "couchbase-lite-ios" ]
+        },
         "couchbase-lite-ios/mercury.xml": {
             "release": "2.7.0",
             "release_name": "Couchbase Lite iOS - Mercury 2.7.0",
