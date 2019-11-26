@@ -24,9 +24,9 @@
   <project name="forestdb" revision="cb-master" groups="backup,kv"/>
   <project name="geocouch"/>
   <project name="goxdcr"    path="goproj/src/github.com/couchbase/goxdcr" revision="mad-hatter" />
-  <project name="gometa"    path="goproj/src/github.com/couchbase/gometa"/>
+  <project name="gometa"    revision="mad-hatter"   path="goproj/src/github.com/couchbase/gometa"/>
   <project name="nitro"     revision="mad-hatter"   path="goproj/src/github.com/couchbase/nitro" />
-  <project name="indexing"  path="goproj/src/github.com/couchbase/indexing"/>
+  <project name="indexing"  revision="mad-hatter"   path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    revision="mad-hatter"   path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
