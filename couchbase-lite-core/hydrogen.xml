@@ -11,7 +11,7 @@
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
   <remote name="ceejatec" fetch="git://github.com/ceejatec/"/>
 
-  <default remote="couchbase" revision="release/mercury"/>
+  <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core and EE         -->
@@ -42,7 +42,7 @@
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="build" path="cbbuild">
-    <annotation name="VERSION" value="2.7.0" keep="true"/>
+    <annotation name="VERSION" value="2.8.0" keep="true"/>
     <copyfile src="scripts/jenkins/lite-core/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
   <project name="tlm"/>
