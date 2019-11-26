@@ -1,6 +1,17 @@
 {
     "product": "couchbase-lite-android",
     "manifests": {
+        "couchbase-lite-android/hydrogen.xml": {
+            "release": "2.8.0",
+            "release_name": "Couchbase Lite Android - Hydrogen 2.8.0",
+            "production": true,
+            "interval": 60,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": true,
+            "jenkins_job": "couchbase-lite-android-post-25"
+        },
         "couchbase-lite-android/mercury.xml": {
             "release": "2.7.0",
             "release_name": "Couchbase Lite Android - Mercury 2.7.0",
@@ -16,7 +27,7 @@
             "release": "2.6.2.1",
             "release_name": "Couchbase Lite Android - Cobalt 2.6.2.1",
             "production": true,
-            "interval": 60,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
