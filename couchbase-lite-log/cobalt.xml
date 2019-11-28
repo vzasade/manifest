@@ -11,19 +11,19 @@
   <remote name="google" fetch="git://github.com/google/"/>
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
 
-  <default remote="couchbase" revision="master"/>
+  <default remote="couchbase" revision="release/cobalt"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-mobile-tools" remote="couchbaselabs" revision="release/cobalt" path="couchbase-mobile-tools">
+  <project name="couchbase-mobile-tools" remote="couchbaselabs" path="couchbase-mobile-tools">
     <copyfile src="ci/cbl-log/CMakeLists.txt" dest="CMakeLists.txt"/>
   </project>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" revision="release/cobalt" path="couchbase-mobile-tools/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" path="couchbase-mobile-tools/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-mobile-tools/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -49,9 +49,9 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="tlm" revision="2d46e032cf08727e8e5fab67d05c4f1b051989e4" />
   <project name="build" path="cbbuild" revision="c80bef8f86361400d574badb3e5cb4a6b57a5350">
     <annotation name="VERSION" value="2.6.1" keep="true"/>
   </project>
-  <project name="product-texts"/>
-  <project name="tlm"/>
+  <project name="product-texts" revision="master" />
 </manifest>
