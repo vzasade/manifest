@@ -28,8 +28,8 @@
   <project name="nitro"     revision="mad-hatter"   path="goproj/src/github.com/couchbase/nitro" />
   <project name="indexing"  revision="mad-hatter"   path="goproj/src/github.com/couchbase/indexing"/>
   <project name="plasma"    revision="mad-hatter"   path="goproj/src/github.com/couchbase/plasma" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
-  <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="eventing"  revision="mad-hatter"   path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
+  <project name="eventing-ee" revision="mad-hatter" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv" revision="mad-hatter"/>
   <project name="libcouchbase" revision="release-2.10" groups="notdefault,enterprise"/>
   <project name="magma" revision="c8e91e0af8b46d0a0e026d23ebbfab4048f670b6" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
