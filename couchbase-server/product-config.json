@@ -48,7 +48,7 @@
             "interval": 60,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-34601"
+            "approval_ticket": "MB-37114"
         },
         "couchbase-server/alice/6.0.2.xml": {
             "branch": "alice-6.0.2",
