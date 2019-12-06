@@ -21,9 +21,18 @@
             "release_name": "Mad-Hatter (mainline)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 1000,
-            "interval": 60,
+            "start_build": 6000,
+            "interval": 480,
             "keep_git": true,
+            "restricted": false,
+            "approval_ticket": ""
+        },
+        "couchbase-server/mad-hatter/6.5.0.xml": {
+            "release": "mad-hatter",
+            "release_name": "Mad-Hatter 6.5.0",
+            "parent": "couchbase-server/mad-hatter.xml",
+            "start_build": 4927,
+            "interval": 60,
             "restricted": true,
             "approval_ticket": "MB-36676"
         },
