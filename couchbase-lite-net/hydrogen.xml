@@ -11,19 +11,19 @@
   <remote name="google" fetch="git://github.com/google/"/>
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
 
-  <default remote="couchbase" revision="release/mercury"/>
+  <default remote="couchbase" revision="master"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="release/mercury" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-net-ee" remote="couchbaselabs-priv" revision="master" groups="enterprise,notdefault"/>
   <project name="couchbase-lite-net" path="couchbase-lite-net-ee/couchbase-lite-net"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="df1951bf3e4469908d28babd3323c25f61873dea" path="couchbase-lite-net-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="8eafe204468963068de65519f7a0ec3918fd5e8a" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core" revision="0e89b28634e316b13c5111872f3e977e47c5f937" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -47,8 +47,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" revision="master"/>
-  <project name="build" path="cbbuild" revision="450a66d859e654510e88a69a10da1f023527e688">
+  <project name="product-texts"/>
+  <project name="build" path="cbbuild">
     <annotation name="VERSION" value="2.7.0" keep="true"/>
   </project>
 </manifest>

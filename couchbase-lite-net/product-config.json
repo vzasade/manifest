@@ -1,6 +1,16 @@
 {
     "product": "couchbase-lite-net",
     "manifests": {
+        "couchbase-lite-net/hydrogen.xml": {
+            "release": "2.8.0",
+            "release_name": "Couchbase Lite Net - Hydrogen",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+        },
         "couchbase-lite-net/mercury.xml": {
             "release": "2.7.0",
             "release_name": "Couchbase Lite Net - Mercury",
