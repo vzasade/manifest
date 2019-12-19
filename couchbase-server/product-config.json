@@ -16,6 +16,17 @@
             "interval": 480,
             "keep_git": true
         },
+        "couchbase-server/development/magma-preview.xml": {
+            "release": "magma-preview",
+            "release_name": "Magma Preview (development)",
+            "parent": "couchbase-server/mad-hatter.xml",
+            "production": false,
+            "start_build": 1000,
+            "interval": 480,
+            "keep_git": true,
+            "restricted": false,
+            "approval_ticket": ""
+        },
         "couchbase-server/mad-hatter.xml": {
             "release": "mad-hatter",
             "release_name": "Mad-Hatter (mainline)",
