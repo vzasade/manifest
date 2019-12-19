@@ -40,7 +40,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Java                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java" path="couchbase-lite-java" revision="fb983580a919ea772ff3fca72f8bc18911c6127b"/>
+  <project name="couchbase-lite-java" path="couchbase-lite-java" revision="64b7913fca51aab17dad091f2580a1b9d9da9d05"/>
   <project name="couchbase-lite-java-ee" remote="couchbaselabs-priv" path="couchbase-lite-java-ee" revision="ea2d960640082bc9bc08b548053d55369f0aa6d0"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
