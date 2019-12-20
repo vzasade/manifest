@@ -29,6 +29,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
         "couchbase-lite-net/iridium.xml": {
@@ -39,6 +40,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
         "couchbase-lite-net/iridium/2.5.2.xml": {
@@ -49,6 +51,7 @@
              "restricted": false,
              "start_build": 6,
              "keep_git": true,
+             "do-build": false,
              "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
          },
         "couchbase-lite-net/iridium/2.5.0.xml": {
@@ -59,6 +62,7 @@
             "restricted": false,
             "start_build": 191,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
         "couchbase-lite-net/2.1.xml": {
@@ -69,6 +73,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
+             "do-build": false,
              "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
          },
          "couchbase-lite-net/2.1/2.1.2.1.xml": {
@@ -79,6 +84,7 @@
                "restricted": false,
                "start_build": 13,
                "keep_git": true,
+               "do-build": false,
                "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
          },
          "couchbase-lite-net/2.1/2.1.2.xml": {
@@ -89,6 +95,7 @@
                "restricted": false,
                "start_build": 1,
                "keep_git": true,
+               "do-build": false,
                "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
          },
          "couchbase-lite-net/2.1/2.1.1.xml": {
@@ -99,6 +106,7 @@
               "restricted": false,
               "start_build": 1,
               "keep_git": true,
+              "do-build": false,
               "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
           },
          "couchbase-lite-net/2.1/2.1.0.xml": {
@@ -109,6 +117,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
+             "do-build": false,
              "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
          },
         "couchbase-lite-net/2.0/2.0.3.xml": {
@@ -119,6 +128,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
         "couchbase-lite-net/2.0/2.0.2.xml": {
@@ -129,6 +139,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
         "couchbase-lite-net/2.0/2.0.0.xml": {
@@ -139,6 +150,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         }
     }

@@ -1,7 +1,7 @@
 {
     "product": "couchbase-lite-cblite",
     "manifests": {
-        "couchbase-lite-cblite/cobalt.xml": {
+        "couchbase-lite-cblite/hydrogen.xml": {
               "release": "2.8.0",
               "release_name": "cblite tool - Hydrogen",
               "production": true,
@@ -31,7 +31,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
-             "do-build": true,
+             "do-build": false,
              "module_projects": [ "couchbase-mobile-tools", "couchbase-lite-core" ]
         }
     }

@@ -29,6 +29,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-core" ]
         },
         "couchbase-lite-core/iridium.xml": {
@@ -39,6 +40,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-core" ]
         },
         "couchbase-lite-core/2.1.xml": {
@@ -49,6 +51,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
+             "do-build": false,
              "module_projects": [ "couchbase-lite-core" ]
         }
     }

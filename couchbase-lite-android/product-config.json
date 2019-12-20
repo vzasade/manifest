@@ -31,7 +31,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "jenkins_job": "couchbase-lite-android-post-25"
         },
         "couchbase-lite-android/cobalt.xml": {
@@ -42,7 +42,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "jenkins_job": "couchbase-lite-android-post-25"
         },
         "couchbase-lite-android/cobalt/2.6.0.1.xml": {
@@ -53,7 +53,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "jenkins_job": "couchbase-lite-android-post-25"
         },
         "couchbase-lite-android/iridium.xml": {
@@ -64,7 +64,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.5/2.5.2.1.xml": {
@@ -75,7 +75,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.5/2.5.2.xml": {
@@ -86,7 +86,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.5/2.5.0.1.xml": {
@@ -97,7 +97,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.5/2.5.0.xml": {
@@ -108,7 +108,7 @@
             "restricted": false,
             "start_build": 184,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.1.xml": {
@@ -119,7 +119,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.1/2.1.2.xml": {
@@ -130,7 +130,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.1/2.1.0.xml": {
@@ -141,7 +141,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
-             "do-build": true,
+             "do-build": false,
              "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
          },
         "couchbase-lite-android/2.0/2.0.2.xml": {
@@ -152,7 +152,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-android-ee", "couchbase-lite-android" ]
         },
         "couchbase-lite-android/2.0/2.0.0.xml": {
