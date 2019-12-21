@@ -51,10 +51,10 @@
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
   <!-- Analytics additions -->
-  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="mad-hatter"/>
-  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics" revision="mad-hatter"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics"/>
-  <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="mad-hatter"/>
+  <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="c86a9fc60d074711470b112753c5695dee79dcf7"/>
+  <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics" revision="672a36b64a0632b72aa4b4df59635ceaa0e340de"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics" revision="691cec38f47eaab04ad81556cc065d22f1eb8749"/>
+  <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="e3ec01671ca2f253a5f32cf9e258d3be7fdbfe9a"/>
   <project name="cbas-ui" groups="analytics" revision="8744108f25c4520b09009ff277d35223e208fe30"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
   <!-- Mobile -->
   <project name="mobile-service" path="goproj/src/github.com/couchbase/mobile-service"/>
