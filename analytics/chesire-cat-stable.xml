@@ -33,7 +33,7 @@
   <project name="kv_engine" groups="kv" revision="mad-hatter"/>
   <project name="libcouchbase" revision="152e1a18bbcfd75bbb5a1388ed5ee050cde8a56d" groups="notdefault,enterprise"/>
   <project name="magma" revision="c8e91e0af8b46d0a0e026d23ebbfab4048f670b6" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
-  <project name="ns_server" revision="mad-hatter"/>
+  <project name="ns_server" revision="3fe2759eb53c12478f75bd1613f8998401b0635c"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv" revision="mad-hatter"/>
   <project name="product-texts" groups="kv"/>
