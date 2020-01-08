@@ -39,7 +39,7 @@
   <project name="product-texts" groups="kv" revision="7a3aa547b3f5eb3ea28d279a08384609cd2cea7c"/>
   <project name="query-ee" revision="mad-hatter" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query" revision="mad-hatter" path="goproj/src/github.com/couchbase/query"/>
-  <project name="query-ui" revision="d736c5b2b97eeea0bf8170a40cfa7533e168388e"/>
+  <project name="query-ui" revision="mad-hatter"/>
   <project name="sigar" groups="kv" revision="c33791d6d5de19d6c5575aa33f8e5dba848414d8"/>
   <project name="subjson" groups="kv" revision="ae63ab4b653870e400855f8563da40dda49f0eb3"/>
   <project name="testrunner" revision="mad-hatter"/>
