@@ -8,6 +8,7 @@
             "interval": 60,
             "restricted": false,
             "start_build": 100,
+            "trigger_blackduck": true,
             "keep_git": true
         },
         "couchbase-operator/1.2.x.xml": {
