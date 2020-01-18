@@ -20,8 +20,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="BLIP-Cpp" remote="couchbaselabs" revision="8bbba50dcb3d023eb07df0f0649389e7c8c003a9" path="couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="5de597d2f7b415ac0d10231480283741dd12de04" path="couchbase-lite-core/vendor/fleece"/>
+  <project name="BLIP-Cpp" remote="couchbaselabs" revision="275a1bfee1bcdd7bb064c0725c35444a5911ed43" path="couchbase-lite-core/vendor/BLIP-Cpp"/>
+  <project name="fleece" remote="couchbaselabs" revision="78dc68dac72c5409c4caa73d85a4adf3aec86d67" path="couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="9042c6eed69e98623ad64e27cec4c1f7f60dde92" path="couchbase-lite-core/vendor/sqlite3-unicodesn"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-core/wiki"/>
@@ -29,12 +29,12 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="9f77017a8daf3e1fb75f7904a2e6e8960410dca9" path="couchbase-lite-core/vendor/mbedtls"/>
-  <project name="mbed-crypto" remote="couchbasedeps" revision="9f77017a8daf3e1fb75f7904a2e6e8960410dca9" path="couchbase-lite-core/vendor/mbedtls/crypto"/>
-  <project name="ios-cmake" remote="leetal" revision="9f77017a8daf3e1fb75f7904a2e6e8960410dca9" path="couchbase-lite-core/vendor/ios-cmake"/>
-  <project name="sockpp" remote="couchbasedeps" revision="9f77017a8daf3e1fb75f7904a2e6e8960410dca9" path="couchbase-lite-core/vendor/sockpp"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="f003ad4ce1952ea599766bd83fed6788cfcf4136" path="couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbed-crypto" remote="couchbasedeps" revision="bee5bff390d7bd16f3655617f7ed0430e8054f54" path="couchbase-lite-core/vendor/mbedtls/crypto"/>
+  <project name="ios-cmake" remote="leetal" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-core/vendor/ios-cmake"/>
+  <project name="sockpp" remote="couchbasedeps" revision="c9f5e79c4eeb95bf173be91a937727092068995b" path="couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
-  <project name="SQLiteCpp" remote="couchbasedeps" revision="d0c5991ca3262f6a5fd7b6c8d9773ef9fbe0206d" path="couchbase-lite-core/vendor/SQLiteCpp"/>
+  <project name="SQLiteCpp" remote="couchbasedeps" revision="999bc8995f827fed34d60c126b57da693fdb34bc" path="couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
   <project name="civetweb" remote="couchbasedeps" revision="4341c169a789b917a4fe1cdd24f55e507d855ff5" path="couchbase-lite-core/vendor/civetweb"/>
 
