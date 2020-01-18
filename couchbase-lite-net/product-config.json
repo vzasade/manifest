@@ -10,6 +10,7 @@
             "start_build": 1,
             "keep_git": true,
             "trigger_blackduck": true,
+            "do-build": false,
             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
         },
         "couchbase-lite-net/mercury.xml": {
