@@ -29,8 +29,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="f003ad4ce1952ea599766bd83fed6788cfcf4136" path="couchbase-lite-core/vendor/mbedtls"/>
-  <project name="mbed-crypto" remote="couchbasedeps" revision="bee5bff390d7bd16f3655617f7ed0430e8054f54" path="couchbase-lite-core/vendor/mbedtls/crypto"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="a58f37d36f7b8692c378ffee20909a80bcb364bc" path="couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbed-crypto" remote="couchbasedeps" revision="6572da5ba51abf56b3f0cc554fa3efec8f847a24" path="couchbase-lite-core/vendor/mbedtls/crypto"/>
   <project name="ios-cmake" remote="leetal" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-core/vendor/ios-cmake"/>
   <project name="sockpp" remote="couchbasedeps" revision="c9f5e79c4eeb95bf173be91a937727092068995b" path="couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
