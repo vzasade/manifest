@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="apaar"   fetch="git://github.com/Apaar/" review="review.couchbase.org" />
+  <remote name="stevewatanabe"   fetch="git://github.com/stevewatanabe/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -34,7 +35,7 @@
   <project name="kv_engine" groups="kv" revision="magma" remote="apaar"/>
   <project name="libcouchbase" revision="7c3a10084cf259ecb47b0a0ecb15be9a65f7bc80" groups="notdefault,enterprise"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
-  <project name="ns_server" revision="mad-hatter"/>
+  <project name="ns_server" revision="magma" remote="stevewatanabe" />
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv" revision="mad-hatter"/>
   <project name="product-texts" groups="kv"/>
