@@ -11,20 +11,26 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": false,
-            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
         },
         "couchbase-lite-net/mercury.xml": {
-            "release": "2.7.0",
+            "release": "2.7.1",
             "release_name": "Couchbase Lite Net - Mercury",
             "production": true,
             "interval": 90,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
         },
         "couchbase-lite-net/cobalt.xml": {
-            "release": "2.6.2",
+            "release": "2.6.4",
             "release_name": "Couchbase Lite Net - Cobalt",
             "production": true,
             "interval": 90,
@@ -32,7 +38,10 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
         },
         "couchbase-lite-net/iridium.xml": {
             "release": "2.5.3",
@@ -43,19 +52,25 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
         },
         "couchbase-lite-net/iridium/2.5.2.xml": {
-             "release": "2.5.2",
-             "release_name": "Couchbase Lite Net - 2.5.2",
-             "production": true,
-             "interval": 1440,
-             "restricted": false,
-             "start_build": 6,
-             "keep_git": true,
-             "do-build": false,
-             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
-         },
+            "release": "2.5.2",
+            "release_name": "Couchbase Lite Net - 2.5.2",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 6,
+            "keep_git": true,
+            "do-build": false,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
         "couchbase-lite-net/iridium/2.5.0.xml": {
             "release": "2.5.0",
             "release_name": "Couchbase Lite Net - 2.5.0",
@@ -65,63 +80,81 @@
             "start_build": 191,
             "keep_git": true,
             "do-build": false,
-            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
         },
         "couchbase-lite-net/2.1.xml": {
-             "release": "2.1.5",
-             "release_name": "Couchbase Lite Net - 2.1.5",
-             "production": true,
-             "interval": 1440,
-             "restricted": false,
-             "start_build": 1,
-             "keep_git": true,
-             "do-build": false,
-             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
-         },
-         "couchbase-lite-net/2.1/2.1.2.1.xml": {
-               "release": "2.1.2.1",
-               "release_name": "Couchbase Lite Net - 2.1.2.1",
-               "production": true,
-               "interval": 1440,
-               "restricted": false,
-               "start_build": 13,
-               "keep_git": true,
-               "do-build": false,
-               "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
-         },
-         "couchbase-lite-net/2.1/2.1.2.xml": {
-               "release": "2.1.2",
-               "release_name": "Couchbase Lite Net - 2.1.2",
-               "production": true,
-               "interval": 1440,
-               "restricted": false,
-               "start_build": 1,
-               "keep_git": true,
-               "do-build": false,
-               "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
-         },
-         "couchbase-lite-net/2.1/2.1.1.xml": {
-              "release": "2.1.1",
-              "release_name": "Couchbase Lite Net - 2.1.1",
-              "production": true,
-              "interval": 1440,
-              "restricted": false,
-              "start_build": 1,
-              "keep_git": true,
-              "do-build": false,
-              "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
-          },
-         "couchbase-lite-net/2.1/2.1.0.xml": {
-             "release": "2.1.0",
-             "release_name": "Couchbase Lite Net - 2.1.0",
-             "production": true,
-             "interval": 1440,
-             "restricted": false,
-             "start_build": 1,
-             "keep_git": true,
-             "do-build": false,
-             "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
-         },
+            "release": "2.1.5",
+            "release_name": "Couchbase Lite Net - 2.1.5",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": false,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
+        "couchbase-lite-net/2.1/2.1.2.1.xml": {
+            "release": "2.1.2.1",
+            "release_name": "Couchbase Lite Net - 2.1.2.1",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 13,
+            "keep_git": true,
+            "do-build": false,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
+        "couchbase-lite-net/2.1/2.1.2.xml": {
+            "release": "2.1.2",
+            "release_name": "Couchbase Lite Net - 2.1.2",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": false,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
+        "couchbase-lite-net/2.1/2.1.1.xml": {
+            "release": "2.1.1",
+            "release_name": "Couchbase Lite Net - 2.1.1",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": false,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
+        "couchbase-lite-net/2.1/2.1.0.xml": {
+            "release": "2.1.0",
+            "release_name": "Couchbase Lite Net - 2.1.0",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": false,
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
+        },
         "couchbase-lite-net/2.0/2.0.3.xml": {
             "release": "2.0.3",
             "release_name": "Couchbase Lite Net - 2.0.3",
@@ -131,7 +164,10 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
         },
         "couchbase-lite-net/2.0/2.0.2.xml": {
             "release": "2.0.2",
@@ -142,7 +178,10 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
         },
         "couchbase-lite-net/2.0/2.0.0.xml": {
             "release": "2.0.0",
@@ -153,8 +192,10 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "module_projects": [ "couchbase-lite-net-ee", "couchbase-lite-net" ]
+            "module_projects": [
+                "couchbase-lite-net-ee",
+                "couchbase-lite-net"
+            ]
         }
     }
 }
-
