@@ -37,7 +37,6 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": false,
             "module_projects": [
                 "couchbase-lite-net-ee",
                 "couchbase-lite-net"
