@@ -53,7 +53,7 @@
   <!-- Analytics additions -->
   <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="ext-links"/>
   <project name="asterixdb" path="analytics/asterixdb" groups="notdefault,enterprise,analytics" revision="march-hare"/>
-  <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics" revision="691cec38f47eaab04ad81556cc065d22f1eb8749"/>
+  <project name="analytics-dcp-client" path="analytics/java-dcp-client" groups="notdefault,enterprise,analytics" revision="master"/>
   <project name="cbas" path="goproj/src/github.com/couchbase/cbas" remote="couchbase-priv" groups="notdefault,enterprise,analytics" revision="ext-links"/>
   <project name="cbas-ui" groups="analytics" revision="8744108f25c4520b09009ff277d35223e208fe30"/> <!-- leave as non-enterprise temporarily, until the UI integration is handling CE correctly -->
   <!-- Mobile -->
