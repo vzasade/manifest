@@ -13,10 +13,10 @@
             "do-build": true
         },
         "couchbase-lite-java/mercury.xml": {
-            "release": "2.7.0",
-            "release_name": "Couchbase Lite Java - Mercury 2.7.0",
+            "release": "2.7.1",
+            "release_name": "Couchbase Lite Java - Mercury 2.7.1",
             "production": true,
-            "interval": 60,
+            "interval": 90,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,

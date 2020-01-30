@@ -7,7 +7,7 @@
   <default remote="couchbase" revision="release/mercury"/>
 
   <project name="build" path="cbbuild" groups="notdefault" revision="5f3415b1a8ff88eeac8afe0cc6c12bd73a997c3d">
-    <annotation name="VERSION" value="2.7.0" keep="true"/>
+    <annotation name="VERSION" value="2.7.1" keep="true"/>
   </project>
 
   <project name="product-texts" path="product-texts" revision="master"/>
