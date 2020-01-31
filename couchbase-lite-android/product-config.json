@@ -11,7 +11,7 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
-            "jenkins_job": "couchbase-lite-android-post-25"
+            "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/mercury.xml": {
             "release": "2.7.1",
@@ -22,7 +22,7 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": true,
-            "jenkins_job": "couchbase-lite-android-post-25"
+            "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/cobalt.xml": {
             "release": "2.6.4",
@@ -33,7 +33,7 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "jenkins_job": "couchbase-lite-android-post-25"
+            "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/cobalt/2.6.2.2.xml": {
             "release": "2.6.2.2",
@@ -44,7 +44,7 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "jenkins_job": "couchbase-lite-android-post-25"
+            "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/cobalt/2.6.2.1.xml": {
             "release": "2.6.2.1",
@@ -55,7 +55,7 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "jenkins_job": "couchbase-lite-android-post-25"
+            "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/cobalt/2.6.0.1.xml": {
             "release": "2.6.0.1",
@@ -66,7 +66,7 @@
             "start_build": 1,
             "keep_git": true,
             "do-build": false,
-            "jenkins_job": "couchbase-lite-android-post-25"
+            "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/iridium.xml": {
             "release": "2.5.3",
