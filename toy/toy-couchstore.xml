@@ -15,7 +15,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
-  <project name="cbgt" remote="abhinavdangeti" revision="gocbcore_master" path="goproj/src/github.com/couchbase/cbgt"/>
+  <project name="cbgt" remote="abhinavdangeti" revision="temp" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli" groups="kv"/>
@@ -76,7 +76,7 @@
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1" groups="backup"/>
   <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="backup"/>
   <project name="gocbcore"       revision="63dd10dcba15d5d9253774df778d36635c337b67" path="godeps/src/github.com/couchbase/gocbcore.v8" groups="backup"/>
-  <project name="gocbcore"                                                           path="godeps/src/github.com/couchbase/gocbcore"/>
+  <project name="gocbcore"       revision="1272e815f7bb8963308fd52eb721b782ac327acd" path="godeps/src/github.com/couchbase/gocbcore"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" groups="backup"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" groups="backup"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gocbconnstr" groups="backup"/>
@@ -92,7 +92,7 @@
   <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch" revision="da489062f99510d2a729033035f144ee0aa40e23" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="4bc4c2287a55bfac1a38fc711d51a45abeca267e" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment"          remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
@@ -143,7 +143,7 @@
   <project name="httprouter"     remote="couchbasedeps" revision="975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e" path="godeps/src/github.com/julienschmidt/httprouter"/>
   <project name="go-sqlite3"     remote="couchbasedeps" revision="ad30583d8387ce8118f8605eaeb3b4f7b4ae0ee1" path="godeps/src/github.com/mattn/go-sqlite3" groups="backup"/>
   <project name="go-runewidth"    remote="couchbasedeps" revision="703b5e6b11ae25aeb2af9ebb5d5fdf8fa2575211" path="godeps/src/github.com/mattn/go-runewidth"/>
-  <project name="json-iterator-go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994" path="godeps/src/github.com/json-iterator/go"/>
+  <project name="json-iterator-go" remote="couchbasedeps" revision="f7279a603edee96fe7764d3de9c6ff8cf9970994" path="godeps/src/github.com/json-iterator/go" groups="backup"/>
   <project name="go-unsnap-stream" remote="couchbasedeps" revision="62a9a9eb44fd8932157b1a8ace2149eff5971af6" path="godeps/src/github.com/glycerine/go-unsnap-stream"/>
   <project name="msgp"            remote="couchbasedeps" revision="5bb5e1aed7ba5bcc93307153b020e7ffe79b0509" path="godeps/src/github.com/tinylib/msgp"/>
   <project name="fwd"             remote="couchbasedeps" revision="bb6d471dc95d4fe11e432687f8b70ff496cf3136" path="godeps/src/github.com/philhofer/fwd"/>
