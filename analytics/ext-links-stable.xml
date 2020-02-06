@@ -15,7 +15,7 @@
   <project name="cbgt" revision="mad-hatter" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary" revision="31ba0584a81d5b293cedfb236109ab95036aa395"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise" revision="75f37fa46bfe5e445dee077157303968a3e09126"/>
-  <project name="couchbase-cli" groups="kv" revision="abb0c1036566f4bd579aaadbaaa4e13466a23ef7"/>
+  <project name="couchbase-cli" groups="kv" revision="mad-hatter"/>
   <project name="couchdb" revision="mad-hatter"/>
   <project name="couchstore" revision="mad-hatter" groups="kv"/>
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="13cf07af78594aff20d00db4633af27d81fc921d"/>
