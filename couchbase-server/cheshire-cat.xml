@@ -48,6 +48,7 @@
     <copyfile src="Makefile"       dest="Makefile"       />
     <copyfile src="CMakeLists.txt" dest="CMakeLists.txt" />
     <copyfile src="dot-clang-format" dest=".clang-format" />
+    <copyfile src="dot-clang-tidy" dest=".clang-tidy" />
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
   </project>
   <!-- Analytics additions -->
