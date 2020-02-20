@@ -36,7 +36,7 @@
   <project name="libcouchbase" revision="7c3a10084cf259ecb47b0a0ecb15be9a65f7bc80" groups="notdefault,enterprise"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server" revision="magma" remote="stevewatanabe" />
-  <project name="phosphor" groups="kv"/>
+  <project name="phosphor" groups="kv" revision="53ca1eeae7bd3deea5b7bf48b3d4188b47e530d1" / >
   <project name="platform" groups="kv" revision="mad-hatter"/>
   <project name="product-texts" groups="kv"/>
   <project name="query-ee" revision="mad-hatter"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
