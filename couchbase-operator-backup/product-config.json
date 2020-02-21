@@ -1,9 +1,9 @@
 {
-    "product": "couchbase-exporter",
+    "product": "couchbase-operator-backup",
     "manifests": {
-        "couchbase-exporter/master.xml": {
-            "release": "1.0.0",
-            "release_name": "Couchbase Exporter 1.0.0 - master",
+        "couchbase-operator-backup/master.xml": {
+            "release": "6.5.0",
+            "release_name": "Couchbase Operator Backup 6.5.0 - master",
             "production": true,
             "interval": 60,
             "restricted": false,
