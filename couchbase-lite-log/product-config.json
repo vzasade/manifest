@@ -9,7 +9,6 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": false,
             "module_projects": [
                 "couchbase-mobile-tools",
                 "couchbase-lite-core"
