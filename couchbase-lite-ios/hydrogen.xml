@@ -7,6 +7,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
   <remote name="arangodb" fetch="git://github.com/arangodb/"/>
   <remote name="snej" fetch="git://github.com/snej/"/>
+  <remote name="leetal" fetch="git://github.com/leetal/"/>
   <remote name="rudi-cilibrasi" fetch="git://github.com/rudi-cilibrasi/"/>
   <remote name="google" fetch="git://github.com/google/"/>
   <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
