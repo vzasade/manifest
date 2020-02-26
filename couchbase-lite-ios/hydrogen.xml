@@ -39,7 +39,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="ARMmbed" revision="a58f37d36f7b8692c378ffee20909a80bcb364bc" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="a58f37d36f7b8692c378ffee20909a80bcb364bc" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/mbedtls"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="999bc8995f827fed34d60c126b57da693fdb34bc" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
