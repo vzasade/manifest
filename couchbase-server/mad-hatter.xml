@@ -31,7 +31,7 @@
   <project name="eventing" revision="mad-hatter" path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" revision="mad-hatter" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv" revision="mad-hatter"/>
-  <project name="libcouchbase" revision="152e1a18bbcfd75bbb5a1388ed5ee050cde8a56d" groups="notdefault,enterprise"/>
+  <project name="libcouchbase" revision="refs/tags/2.10.6" groups="notdefault,enterprise"/>
   <project name="magma" revision="c8e91e0af8b46d0a0e026d23ebbfab4048f670b6" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
   <project name="ns_server" revision="mad-hatter"/>
   <project name="phosphor" groups="kv" revision="53ca1eeae7bd3deea5b7bf48b3d4188b47e530d1"/>
