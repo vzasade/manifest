@@ -18,7 +18,7 @@
   <project name="couchbase-cli" groups="kv" revision="mad-hatter"/>
   <project name="couchdb" revision="mad-hatter"/>
   <project name="couchstore" revision="mad-hatter" groups="kv"/>
-  <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="13cf07af78594aff20d00db4633af27d81fc921d"/>
+  <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="ef4f6c1ae8133a14ff865278e1c0ec8205b698d5"/>
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
   <project name="forestdb" revision="cb-master" groups="backup,kv"/>
