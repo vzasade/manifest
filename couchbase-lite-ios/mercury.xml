@@ -52,7 +52,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="product-texts" revision="7a3aa547b3f5eb3ea28d279a08384609cd2cea7c"/>
+  <project name="product-texts" path="product-texts" revision="master"/>
   <project name="build" revision="450a66d859e654510e88a69a10da1f023527e688">
     <annotation keep="true" name="VERSION" value="2.7.1"/>
   </project>
