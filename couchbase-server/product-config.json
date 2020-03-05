@@ -41,12 +41,12 @@
         },
         "couchbase-server/mad-hatter/6.5.0.xml": {
             "release": "mad-hatter",
-            "release_name": "Mad-Hatter 6.5.0-MP1",
+            "release_name": "Mad-Hatter 6.5.0 CE",
             "parent": "couchbase-server/mad-hatter.xml",
             "start_build": 4927,
             "interval": 120,
             "restricted": true,
-            "approval_ticket": "MB-38184"
+            "approval_ticket": "MB-37960"
         },
         "couchbase-server/alice.xml": {
             "release": "alice",
