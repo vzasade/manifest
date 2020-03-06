@@ -74,7 +74,7 @@
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1" groups="backup"/>
   <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="backup"/>
   <project name="gocbcore"       revision="61e6302d196eca050e3d9a4e329c28bde84346f7" path="godeps/src/github.com/couchbase/gocbcore.v8" groups="backup"/>
-  <project name="gocbcore"       revision="3e3af7a1c7a99a1bae770c3ce50f184e497496f6" path="godeps/src/github.com/couchbase/gocbcore"/>
+  <project name="gocbcore"       revision="c6e079e95daae3c480d0ba3644c28eeef6a43fef" path="godeps/src/github.com/couchbase/gocbcore"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" groups="backup"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" groups="backup"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gocbconnstr" groups="backup"/>
