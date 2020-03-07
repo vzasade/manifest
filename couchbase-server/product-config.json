@@ -44,20 +44,20 @@
             "release_name": "Mad-Hatter 6.5.0-MP1",
             "parent": "couchbase-server/mad-hatter.xml",
             "start_build": 4927,
-            "interval": 120,
+            "interval": 1440,
             "restricted": true,
             "approval_ticket": "MB-38184"
         },
         "couchbase-server/alice.xml": {
             "release": "alice",
-            "release_name": "Alice (6.0.4-MP1)",
+            "release_name": "Alice (6.0.4 Java updates)",
             "parent": "branch-master.xml",
             "production": true,
             "start_build": 3000,
-            "interval": 120,
+            "interval": 1440,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-37850"
+            "approval_ticket": "MB-38223"
         },
         "couchbase-server/alice/6.0.3.xml": {
             "branch": "alice-6.0.3",
@@ -66,7 +66,7 @@
             "parent": "couchbase-server/alice.xml",
             "production": true,
             "start_build": 2800,
-            "interval": 60,
+            "interval": 1440,
             "keep_git": true,
             "restricted": true,
             "approval_ticket": "MB-37114"
