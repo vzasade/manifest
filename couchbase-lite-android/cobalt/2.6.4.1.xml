@@ -27,6 +27,6 @@
 
   <project name="couchbase-lite-java" path="couchbase-lite-java"/>
 
-  <project name="couchbase-lite-core" sync-s="true" path="couchbase-lite-core" revision="fix/logging_deadlocks" />
+  <project name="couchbase-lite-core" sync-s="true" path="couchbase-lite-core" revision="fix/logging-deadlocks" />
   <project name="couchbase-lite-core-EE" sync-s="true" remote="couchbase-priv" path="couchbase-lite-core-EE"/>
 </manifest>
