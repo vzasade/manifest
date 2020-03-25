@@ -87,7 +87,7 @@
   <project name="n1fty" revision="mad-hatter" path="godeps/src/github.com/couchbase/n1fty"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve" remote="blevesearch" revision="172962a37e0336d75aa1682ef94c1295b81963ce" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve" remote="blevesearch" revision="9e60a140980fb321259f7a1aa68ad269c8d08be4" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="segment" remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
