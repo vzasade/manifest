@@ -15,7 +15,7 @@
     <linkfile src="android/version.txt" dest="version.txt"/>
   </project>
 
-  <project name="couchbase-lite-android-ee" path="couchbase-lite-android-ee" remote="couchbaselabs-priv" release="hotfix/CBSE-8026">
+  <project name="couchbase-lite-android-ee" path="couchbase-lite-android-ee" remote="couchbaselabs-priv" revision="hotfix/CBSE-8026">
     <linkfile src="build.gradle" dest="build.gradle" />
     <linkfile src="gradle" dest="gradle" />
     <linkfile src="gradlew" dest="gradlew" />
@@ -27,6 +27,6 @@
 
   <project name="couchbase-lite-java" path="couchbase-lite-java"/>
 
-  <project name="couchbase-lite-core" sync-s="true" path="couchbase-lite-core" release="fix/logging_deadlocks" />
+  <project name="couchbase-lite-core" sync-s="true" path="couchbase-lite-core" revision="fix/logging_deadlocks" />
   <project name="couchbase-lite-core-EE" sync-s="true" remote="couchbase-priv" path="couchbase-lite-core-EE"/>
 </manifest>
