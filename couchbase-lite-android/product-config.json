@@ -17,11 +17,11 @@
             "release": "2.7.1",
             "release_name": "Couchbase Lite Android - Mercury 2.7.1",
             "production": true,
-            "interval": 90,
+            "interval": 1440,
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
-            "do-build": true,
+            "do-build": false,
             "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/mercury/2.7.0.1.xml": {
