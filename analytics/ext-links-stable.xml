@@ -41,7 +41,7 @@
   <project name="query-ee" revision="mad-hatter" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="query" revision="mad-hatter" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui" revision="mad-hatter"/>
-  <project name="sigar" groups="kv" revision="c33791d6d5de19d6c5575aa33f8e5dba848414d8"/>
+  <project name="sigar" groups="kv" revision="b3ad9dcc88b5e63f05891e310e3348054f5c44c8"/>
   <project name="subjson" groups="kv" revision="ae63ab4b653870e400855f8563da40dda49f0eb3"/>
   <project name="testrunner" revision="mad-hatter"/>
   <project name="tlm" revision="mad-hatter" groups="kv">
@@ -162,7 +162,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" path="cbbuild" groups="notdefault,build" revision="mad-hatter">
-    <annotation name="VERSION" value="6.5.1" keep="true"/>
+    <annotation name="VERSION" value="6.6.0" keep="true"/>
   </project>
   <project name="voltron" remote="couchbase-priv" groups="notdefault,packaging" revision="45188488712448a326c8efad0d8c7b00e8afbefe"/>
   <project name="couchdbx-app" groups="notdefault,packaging" revision="6bf93c48217400824f0a68e6e2631af1a4f0d352"/>
