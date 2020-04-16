@@ -11,7 +11,8 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
-            "jenkins_job": "couchbase-lite-android-build-post-27"
+            "module_projects": [ "couchbase-lite-java-ee-root" ],
+            "jenkins_job": "couchbase-lite-android"
         },
         "couchbase-lite-android/mercury.xml": {
             "release": "2.7.1",

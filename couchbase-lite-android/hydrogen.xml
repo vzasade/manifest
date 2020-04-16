@@ -2,33 +2,65 @@
 <manifest>
   <remote name="couchbase" fetch="git://github.com/couchbase/" review="review.couchbase.org"/>
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org"/>
+  <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="couchbaselabs-priv" fetch="ssh://git@github.com/couchbaselabs/" review="review.couchbase.org"/>
+  <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"/>
+  <remote name="google" fetch="git://github.com/google/"/>
+  <remote name="snej" fetch="git://github.com/snej/"/>
+  <remote name="ARMmbed" fetch="git://github.com/ARMmbed"/>
+  <remote name="leetal" fetch="git://github.com/leetal"/>
 
   <default remote="couchbase" revision="master"/>
 
-  <project name="build" path="cbbuild" groups="notdefault" revision="5f3415b1a8ff88eeac8afe0cc6c12bd73a997c3d">
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Build support - build scripts, etc.                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="build" path="cbbuild" groups="notdefault" revision="fa5df77677945a629aeb82aeaa3d43218df2a88d">
     <annotation name="VERSION" value="2.8.0" keep="true"/>
   </project>
 
-  <project name="product-texts" path="product-texts"/>
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned primary repository                 -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project remote="couchbaselabs-priv" name="couchbase-lite-java-ee-root" path="cbl-java"/>
+ 
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase Licensing and Legal                      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="product-texts" path="cbl-java/legal" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
 
-  <project name="couchbase-lite-build" path="couchbase-lite-build">
-    <linkfile src="all/settings-all.gradle" dest="settings.gradle" />
-    <linkfile src="all/version.txt" dest="version.txt"/>
-  </project>
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned Java-language common repository    -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
 
-  <project name="couchbase-lite-android-ee" path="couchbase-lite-android-ee" remote="couchbaselabs-priv">
-    <linkfile src="build.gradle" dest="build.gradle" />
-    <linkfile src="gradle" dest="gradle" />
-    <linkfile src="gradlew" dest="gradlew" />
-    <linkfile src="gradlew.bat" dest="gradlew.bat" />
-    <linkfile src="gradlew.properties" dest="gradlew.properties" />
-  </project>
-  <project name="couchbase-lite-android" path="couchbase-lite-android"/>
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned Java-language Community Edition    -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned Couchbase Lite Core                -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
 
-  <project name="couchbase-lite-java-ee" path="couchbase-lite-java-ee" remote="couchbaselabs-priv"/>
-  <project name="couchbase-lite-java" path="couchbase-lite-java"/>
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Couchbase-owned utility libraries                  -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project remote="couchbaselabs" name="fleece" path="cbl-java/core/vendor/fleece" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project remote="snej" name="jsonsl" path="cbl-java/core/vendor/fleece/vendor/jsonsl" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project remote="snej" name="sqlite3-unicodesn" path="cbl-java/core/vendor/sqlite3-unicodesn" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project remote="leetal" name="ios-cmake" path="cbl-java/core/vendor/ios-cmake" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
 
-  <project name="couchbase-lite-core" sync-s="true" path="couchbase-lite-core"/>
-  <project name="couchbase-lite-core-EE" sync-s="true" remote="couchbase-priv" path="couchbase-lite-core-EE"/>
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <!-- Third-party utility libraries                      -->
+  <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+  <project remote="couchbasedeps" name="SQLiteCpp" path="cbl-java/core/vendor/SQLiteCpp" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project remote="google" name="googletest" path="cbl-java/core/vendor/SQLiteCpp/googletest" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project remote="couchbasedeps" name="mbedtls" path="cbl-java/core/vendor/mbedtls" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project remote="couchbasedeps" name="mbed-crypto" path="cbl-java/core/vendor/mbedtls/crypto" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project remote="couchbasedeps" name="sockpp" path="cbl-java/core/vendor/sockpp" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
+  <project remote="couchbasedeps" name="zlib" path="cbl-java/core/vendor/zlib" revision="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"/>
 </manifest>
