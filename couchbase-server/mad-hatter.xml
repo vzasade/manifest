@@ -164,6 +164,6 @@
   <project name="build" path="cbbuild" groups="notdefault,build" revision="mad-hatter">
     <annotation name="VERSION" value="6.6.0" keep="true"/>
   </project>
-  <project name="voltron" remote="couchbase-priv" groups="notdefault,packaging" revision="45188488712448a326c8efad0d8c7b00e8afbefe"/>
+  <project name="voltron" remote="couchbase-priv" groups="notdefault,packaging" revision="mad-hatter"/>
   <project name="couchdbx-app" groups="notdefault,packaging" revision="6bf93c48217400824f0a68e6e2631af1a4f0d352"/>
 </manifest>
