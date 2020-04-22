@@ -3,7 +3,7 @@
     "manifests": {
         "couchbase-lite-java/hydrogen.xml": {
             "release": "2.8.0",
-            "release_name": "Couchbase Lite Java - Mercury 2.8.0",
+            "release_name": "Couchbase Lite Java - Hydrogen 2.8.0",
             "production": true,
             "interval": 60,
             "restricted": false,
@@ -11,7 +11,8 @@
             "keep_git": true,
             "trigger_blackduck": true,
             "do-build": true,
-            "jenkins_job": "couchbase-lite-java-build-post-27"
+            "module_projects": [ "couchbase-lite-java-ee-root" ],
+            "jenkins_job": "couchbase-lite-java"
         },
         "couchbase-lite-java/mercury.xml": {
             "release": "2.7.1",
