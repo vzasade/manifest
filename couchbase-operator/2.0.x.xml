@@ -8,7 +8,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned primary repository                 -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-operator" path="goproj/src/github.com/couchbase/couchbase-operator" revision="master"/>
+  <project name="couchbase-operator" path="goproj/src/github.com/couchbase/couchbase-operator" revision="2.0.x"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
