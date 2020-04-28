@@ -39,7 +39,7 @@
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="mbedtls" remote="couchbasedeps" revision="a58f37d36f7b8692c378ffee20909a80bcb364bc" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/mbedtls"/>
-  <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlib"/>
+  <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/zlib"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="d0c5991ca3262f6a5fd7b6c8d9773ef9fbe0206d" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
   <project name="civetweb" remote="couchbasedeps" revision="4341c169a789b917a4fe1cdd24f55e507d855ff5" path="couchbase-lite-net-ee/couchbase-lite-net/vendor/couchbase-lite-core/vendor/civetweb"/>
