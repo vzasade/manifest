@@ -10,6 +10,16 @@
             "start_build": 100,
             "keep_git": true,
             "jenkins_job": "couchbase-k8s-microservice-build"
+        },
+        "couchbase-exporter/1.0.x.xml": {
+            "release": "1.0.1",
+            "release_name": "Couchbase Exporter 1.0.1",
+            "production": true,
+            "interval": 60,
+            "restricted": false,
+            "start_build": 100,
+            "keep_git": true,
+            "jenkins_job": "couchbase-k8s-microservice-build"
         }
     }
 }
