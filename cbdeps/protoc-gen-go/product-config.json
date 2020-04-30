@@ -19,6 +19,7 @@
                            "suse15",
                            "ubuntu16.04",
                            "ubuntu18.04",
+                           "ubuntu20.04",
                            "windows_msvc2017" ],
             "do-build": false,
             "keep_git": true
