@@ -13,6 +13,19 @@
                 "couchbase-lite-core"
             ]
         },
+        "couchbase-lite-core/2.7.1/2.7.1.1.xml": {
+            "release": "2.7.1.1",
+            "release_name": "Couchbase Lite Core - 2.7.1 MP1",
+            "production": true,
+            "interval": 90,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do_build": false,
+            "module_projects": [
+                "couchbase-lite-core"
+            ]
+        },
         "couchbase-lite-core/mercury.xml": {
             "release": "2.7.1",
             "release_name": "Couchbase Lite Core - Mercury",
@@ -21,6 +34,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do_build": false,
             "module_projects": [
                 "couchbase-lite-core"
             ]
@@ -33,6 +47,7 @@
              "restricted": false,
              "start_build": 1,
              "keep_git": true,
+             "do_build": false,
              "module_projects": [
                  "couchbase-lite-core"
              ]
@@ -45,6 +60,7 @@
             "restricted": false,
             "start_build": 1,
             "keep_git": true,
+            "do_build": false,
             "module_projects": [
                 "couchbase-lite-core"
             ]
