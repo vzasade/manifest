@@ -14,6 +14,17 @@
             "module_projects": [ "couchbase-lite-java-ee-root" ],
             "jenkins_job": "couchbase-lite-android"
         },
+        "couchbase-lite-android/mercury/2.7.1.1.xml": {
+            "release": "2.7.1.1",
+            "release_name": "Couchbase Lite Android - Mercury 2.7.1.1",
+            "production": true,
+            "interval": 1440,
+            "restricted": false,
+            "start_build": 1,
+            "keep_git": true,
+            "do-build": false,
+            "jenkins_job": "couchbase-lite-android"
+        },
         "couchbase-lite-android/mercury.xml": {
             "release": "2.7.1",
             "release_name": "Couchbase Lite Android - Mercury 2.7.1",
