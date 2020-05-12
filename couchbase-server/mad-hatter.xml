@@ -73,6 +73,7 @@
   <project name="blance" path="godeps/src/github.com/couchbase/blance" revision="5cd1345cca3ed72f1e63d41d622fcda73e63fea8"/>
   <project name="gocb" revision="refs/tags/v1.4.2" path="godeps/src/gopkg.in/couchbase/gocb.v1" groups="backup"/>
   <project name="gocbcore" revision="refs/tags/v7.1.14" path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="backup"/>
+  <project name="gocbcore" revision="2664058dd72b68c3587d9fbc559dc3bb2395923e" path="godeps/src/github.com/couchbase/gocbcore/v9" groups="backup"/>
   <project name="jsonx" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" groups="backup" revision="5b7baa20429a46a5543ee259664cc86502738cad"/>
   <project name="gocbconnstr" remote="couchbaselabs" path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" groups="backup" revision="083dcfef49cfdcb42a0f5ecf8c0c29b0cbaa640f"/>
   <project name="gojsonsm" remote="couchbaselabs" path="godeps/src/github.com/couchbase/gojsonsm" revision="eec4953dcb855282c483b8cd4fe03a8074e2f7a1"/>
@@ -152,6 +153,7 @@
   <project name="go-genproto" remote="couchbasedeps" revision="2b5a72b8730b0b16380010cfe5286c42108d88e7" path="godeps/src/google.golang.org/genproto"/>
   <project name="golang-pkg-pcre" remote="couchbasedeps" revision="48bb82a8b8ceea98f4e97825b43870f6ba1970d6" path="godeps/src/github.com/glenn-brown/golang-pkg-pcre"/>
   <project name="jsonparser" remote="couchbasedeps" revision="bf1c66bbce23153d89b23f8960071a680dbef54b" path="godeps/src/github.com/buger/jsonparser"/>
+  <project name="aws-sdk-go" remote="couchbasedeps" revision="refs/tags/v1.27.1" path="godeps/src/github.com/aws/aws-sdk-go" groups="backup"/>
 
   <!-- C/C++ support libraries -->
   <project name="benchmark" remote="couchbasedeps" revision="74b24058ad4914b837200d0341050657ba154e4a" groups="kv"/>
