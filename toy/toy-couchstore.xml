@@ -13,6 +13,7 @@
 
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise"/>
+  <project name="cbbs" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbbs" groups="backup,notdefault,enterprise"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
@@ -41,7 +42,7 @@
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"     remote="abhinavdangeti" remote="temp" path="goproj/src/github.com/couchbase/query"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
@@ -75,8 +76,8 @@
   <project name="goforestdb"                                                         path="godeps/src/github.com/couchbase/goforestdb" groups="backup"/>
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1" groups="backup"/>
-  <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="backup"/>
-  <project name="gocbcore"       revision="61e6302d196eca050e3d9a4e329c28bde84346f7" path="godeps/src/github.com/couchbase/gocbcore.v8" groups="backup"/>
+  <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="backup,n1fty"/>
+  <project name="gocbcore"       revision="876a908d521ae574484370116a07c87c5580307e" path="godeps/src/github.com/couchbase/gocbcore/v9" groups="backup,cbgt"/>
   <project name="gocbcore"       revision="0fdee8712d457919d49c79a47d8089f9828a7bd5" path="godeps/src/github.com/couchbase/gocbcore"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" groups="backup"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" groups="backup"/>
@@ -91,11 +92,13 @@
   <project name="go_json"                                                            path="godeps/src/github.com/couchbase/go_json"/>
   <project name="vellum"                                                             path="godeps/src/github.com/couchbase/vellum"/>
   <project name="n1fty"                                                              path="godeps/src/github.com/couchbase/n1fty"/>
+  <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="abhinavdangeti" revision="a9895fdf9c72cfaa202128a963697d9a98765369" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"            remote="blevesearch" revision="e42e7143c87e72f8046d32898f117a27c0db1d4d" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
+  <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
   <project name="segment"          remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
   <project name="snowballstem"     remote="blevesearch" revision="26b06a2c243d4f8ca5db3486f94409dd5b2a7467" path="godeps/src/github.com/blevesearch/snowballstem"/>
 
@@ -112,7 +115,7 @@
   <project name="go-metrics"     remote="couchbasedeps" revision="dee209f2455f101a5e4e593dea94872d2c62d85d"  path="godeps/src/github.com/rcrowley/go-metrics" />
   <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
   <project name="bolt"           remote="couchbasedeps" revision="51f99c862475898df9773747d3accd05a7ca33c1" path="godeps/src/github.com/boltdb/bolt"/>
-  <project name="bbolt"          remote="couchbasedeps" revision="7ee3ded59d4835e10f3e7d0f7603c42aa5e83820" path="godeps/src/go.etcd.io/bbolt"/>
+  <project name="bbolt"          remote="couchbasedeps" revision="68cc10a767ea1c6b9e8dcb9847317ff192d6d974" path="godeps/src/go.etcd.io/bbolt"/>
   <project name="cznic-b"        remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e" path="godeps/src/github.com/cznic/b"/>
   <project name="go-bindata-assetfs" remote="couchbasedeps" revision="57eb5e1fc594ad4b0b1dbea7b286d299e0cb43c2" path="godeps/src/github.com/elazarl/go-bindata-assetfs"/>
   <project name="golang-snappy"  remote="couchbasedeps" revision="723cc1e459b8eea2dea4583200fd60757d40097a" path="godeps/src/github.com/golang/snappy" groups="backup"/>
