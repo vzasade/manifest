@@ -23,8 +23,8 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="28b04cd004cb3114b0ce1aa628428819ad85cf67" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
-  <project name="couchbase-lite-core" revision="2942ac97eedfe5b9a297bd8a8e3df3fb48dd3c43" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core"/>
+  <project name="couchbase-lite-core-EE" remote="couchbase-priv" revision="b1bede30849d0ed4ddf2c759e04f8830838d9ea5" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" groups="enterprise,notdefault"/>
+  <project name="couchbase-lite-core" revision="392fab31ddcd371c9388bf5a42378d3a54a41e06" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core"/>
   <project name="couchbase-lite-core.wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/wiki"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -32,7 +32,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project name="MYUtilities" remote="snej" revision="33e7e5820433aa70d38e1c5e54b13e74a91ae57f" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/MYUtilities"/>
   <project name="BLIP-Cpp" remote="couchbaselabs" revision="96dd437a898aa70e8a28d361c32a10d809e70110" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/BLIP-Cpp"/>
-  <project name="fleece" remote="couchbaselabs" revision="839110956e84fd8dbfba68883c5f0559ace47d8a" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbaselabs" revision="4aaa6748cb338255758d8d691339c5502eeaecfc" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="9042c6eed69e98623ad64e27cec4c1f7f60dde92" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
 
@@ -45,7 +45,7 @@
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
   <project name="civetweb" remote="couchbasedeps" revision="4341c169a789b917a4fe1cdd24f55e507d855ff5" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/civetweb"/>
   <project name="ios-cmake" remote="leetal" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/ios-cmake"/>
-  <project name="sockpp" remote="couchbasedeps" revision="c6efa7ecd81aeb158e05991ea2fdeb59c3f0a334" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sockpp"/>
+  <project name="sockpp" remote="couchbasedeps" revision="63332e593fe6bbce411288daa98838cf8b42e3ff" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/sockpp"/>
   <project name="mbed-crypto" remote="couchbasedeps" revision="6572da5ba51abf56b3f0cc554fa3efec8f847a24" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/vendor/mbedtls/crypto"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
