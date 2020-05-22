@@ -74,7 +74,7 @@
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1" groups="backup"/>
   <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="backup,n1fty"/>
-  <project name="gocbcore"       revision="refs/tags/v9.0.1"                         path="godeps/src/github.com/couchbase/gocbcore/v9" groups="backup,cbgt"/>
+  <project name="gocbcore"       revision="81073597f5564b13039f4644916f079ce04f3e91" path="godeps/src/github.com/couchbase/gocbcore/v9" groups="backup,cbgt"/>
   <project name="gocbcore"       revision="0fdee8712d457919d49c79a47d8089f9828a7bd5" path="godeps/src/github.com/couchbase/gocbcore"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1" groups="backup"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1" groups="backup"/>
