@@ -30,7 +30,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="fleece" remote="couchbaselabs" revision="4aaa6748cb338255758d8d691339c5502eeaecfc" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
+  <project name="fleece" remote="couchbaselabs" revision="bd8dba922ecf0bf366ce9f940eae825d6047c5bb" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece"/>
   <project name="jsonsl" remote="snej" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/fleece/vendor/jsonsl"/>
   <project name="peg" remote="snej" revision="5722a4b087e58d5cc93ed13fc18e2530948498c1" path="couchbase-mobile-tools/vendor/peg"/>
   <project name="sqlite3-unicodesn" remote="snej" revision="9042c6eed69e98623ad64e27cec4c1f7f60dde92" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sqlite3-unicodesn"/>
@@ -42,7 +42,7 @@
   <project name="mbed-crypto" remote="couchbasedeps" revision="6572da5ba51abf56b3f0cc554fa3efec8f847a24" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/mbedtls/crypto"/>
   <project name="linenoise-ng" remote="arangodb" revision="4754bee2d8eb3c4511e6ac87cac62255b2011e2f" path="couchbase-mobile-tools/vendor/linenoise-ng"/>
   <project name="ios-cmake" remote="leetal" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/ios-cmake"/>
-  <project name="sockpp" remote="couchbasedeps" revision="63332e593fe6bbce411288daa98838cf8b42e3ff" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sockpp"/>
+  <project name="sockpp" remote="couchbasedeps" revision="0def6c1876a61f083403ac6a29d85774050da7fa" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/zlib"/>
   <project name="zlibcomplete" remote="rudi-cilibrasi" revision="0908e99ea699f1093657147c73ab3aae460cb91f" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/BLIP-Cpp/vendor/zlibcomplete"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="999bc8995f827fed34d60c126b57da693fdb34bc" path="couchbase-mobile-tools/vendor/couchbase-lite-core/vendor/SQLiteCpp"/>
