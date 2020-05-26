@@ -37,7 +37,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="15aa6f72ec2639f6aaa3fa299bf75fb663317003"/>
+  <project name="couchbase-lite-java-ce" path="cbl-java/ce" revision="a5b1f05ceb4bdb5ab122393ad2d5586c4141b199"/>
   
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
