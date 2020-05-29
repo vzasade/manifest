@@ -17,7 +17,7 @@
 
   <!-- DCP Client -->
   <!-- Temporary. See https://issues.couchbase.com/browse/MB-22729 -->
-  <project name="analytics-dcp-client" path="cbas/java-dcp-client" revision="691cec38f47eaab04ad81556cc065d22f1eb8749"/>
+  <project name="analytics-dcp-client" path="cbas/java-dcp-client" revision="mad-hatter"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Build support - build scripts, etc.                -->
