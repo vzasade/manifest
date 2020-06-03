@@ -28,10 +28,10 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Third-party utility libraries                      -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="mbedtls" remote="couchbasedeps" revision="a58f37d36f7b8692c378ffee20909a80bcb364bc" path="couchbase-lite-core/vendor/mbedtls"/>
+  <project name="mbedtls" remote="couchbasedeps" revision="ec3a2712b1bd77158dd42b28681101c4da6f3c93" path="couchbase-lite-core/vendor/mbedtls"/>
   <project name="mbed-crypto" remote="couchbasedeps" revision="6572da5ba51abf56b3f0cc554fa3efec8f847a24" path="couchbase-lite-core/vendor/mbedtls/crypto"/>
   <project name="ios-cmake" remote="leetal" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6" path="couchbase-lite-core/vendor/ios-cmake"/>
-  <project name="sockpp" remote="couchbasedeps" revision="0def6c1876a61f083403ac6a29d85774050da7fa" path="couchbase-lite-core/vendor/sockpp"/>
+  <project name="sockpp" remote="couchbasedeps" revision="f57cd23a8b90367b31749700c6e194c63f3ebaa1" path="couchbase-lite-core/vendor/sockpp"/>
   <project name="zlib" remote="couchbasedeps" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f" path="couchbase-lite-core/vendor/zlib"/>
   <project name="SQLiteCpp" remote="couchbasedeps" revision="7b250854fffbdc13e2d040a7e96be8e561e51d08" path="couchbase-lite-core/vendor/SQLiteCpp"/>
   <project name="googletest" remote="google" revision="ec44c6c1675c25b9827aacd08c02433cccde7780" path="couchbase-lite-core/vendor/SQLiteCpp/googletest"/>
