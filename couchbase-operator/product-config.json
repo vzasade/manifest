@@ -9,6 +9,7 @@
             "restricted": false,
             "start_build": 100,
             "trigger_blackduck": true,
+            "jenkins_job": "couchbase-k8s-microservice-build",
             "keep_git": true
         },
         "couchbase-operator/2.0.x.xml": {
