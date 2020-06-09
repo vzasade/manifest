@@ -11,8 +11,11 @@
   <!-- Core Couchbase Server projects -->
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbbs" groups="backup,notdefault,enterprise"/>
+  <!-- See MB-39790 for why cbft and cbgt are duplicated -->
+  <project name="cbft"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
-  <project name="cbftx" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbftx" groups="notdefault,enterprise"/>
+  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="cbgt"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
@@ -66,7 +69,6 @@
   <project name="cbflag"                                                             path="godeps/src/github.com/couchbase/cbflag" groups="backup"/>
   <project name="gomemcached"                                                        path="godeps/src/github.com/couchbase/gomemcached"/>
   <project name="retriever"                                                          path="godeps/src/github.com/couchbase/retriever"/>
-  <project name="dparval"                                                            path="godeps/src/github.com/couchbase/dparval"/>
   <project name="go-couchbase"                                                       path="godeps/src/github.com/couchbase/go-couchbase"/>
   <project name="clog"                                                               path="godeps/src/github.com/couchbase/clog" groups="backup"/>
   <project name="go-slab"                                                            path="godeps/src/github.com/couchbase/go-slab"/>
@@ -112,10 +114,8 @@
   <project name="go-zookeeper"   remote="couchbasedeps" revision="fa6674abf3f4580b946a01bf7a1ce4ba8766205b"  path="godeps/src/github.com/samuel/go-zookeeper" />
   <project name="bolt"           remote="couchbasedeps" revision="51f99c862475898df9773747d3accd05a7ca33c1" path="godeps/src/github.com/boltdb/bolt"/>
   <project name="bbolt"          remote="couchbasedeps" revision="68cc10a767ea1c6b9e8dcb9847317ff192d6d974" path="godeps/src/go.etcd.io/bbolt"/>
-  <project name="cznic-b"        remote="couchbasedeps" revision="b96e30f1b7bd34b0b9d8760798d67eca83d7f09e" path="godeps/src/github.com/cznic/b"/>
   <project name="go-bindata-assetfs" remote="couchbasedeps" revision="57eb5e1fc594ad4b0b1dbea7b286d299e0cb43c2" path="godeps/src/github.com/elazarl/go-bindata-assetfs"/>
   <project name="golang-snappy"  remote="couchbasedeps" revision="723cc1e459b8eea2dea4583200fd60757d40097a" path="godeps/src/github.com/golang/snappy" groups="backup"/>
-  <project name="levigo"         remote="couchbasedeps" revision="1ddad808d437abb2b8a55a950ec2616caa88969b" path="godeps/src/github.com/jmhodges/levigo"/>
   <project name="goskiplist"     remote="couchbasedeps" revision="2dfbae5fcf46374f166f8969cb07e167f1be6273" path="godeps/src/github.com/ryszard/goskiplist"/>
   <project name="gtreap"         remote="couchbasedeps" revision="0abe01ef9be25c4aedc174758ec2d917314d6d70" path="godeps/src/github.com/steveyen/gtreap"/>
   <project name="goleveldb"      remote="couchbasedeps" revision="fa5b5c78794bc5c18f330361059f871ae8c2b9d6" path="godeps/src/github.com/syndtr/goleveldb"/>
