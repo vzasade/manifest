@@ -96,6 +96,7 @@
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"            remote="blevesearch_toy" revision="053da009080d51282b30bd36999c8580fc7af73b" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="zap"            remote="blevesearch_toy" revision="21b58faa3501bc119f756205b8a46ab5de815b3f" path="godeps/src/github.com/blevesearch/zap"/>
+  <project name="streamvbyte"    remote="blevesearch_toy" revision="6ae2780ff453811d5cf7ed394bc2dea608421670" path="godeps/src/github.com/bmkessler/streamvbyte"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
