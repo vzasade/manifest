@@ -23,7 +23,7 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project groups="enterprise,notdefault" name="couchbase-lite-core-EE" path="couchbase-lite-ios-ee/couchbase-lite-core-EE" remote="couchbase-priv" revision="df1951bf3e4469908d28babd3323c25f61873dea"/>
-  <project name="couchbase-lite-core" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core" revision="hotfix/stall-replicator"/>
+  <project name="couchbase-lite-core" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core" revision="94bc872215e6977eeb65300a08570e5935a8afec"/>
   <project name="couchbase-lite-core.wiki" path="couchbase-lite-ios-ee/couchbase-lite-ios/vendor/couchbase-lite-core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
