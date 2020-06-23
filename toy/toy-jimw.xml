@@ -46,7 +46,9 @@
   <project groups="kv" name="couchbase-cli" revision="1ba5c68e0df08b04cde5d4a0d62a917ad42e0ead" upstream="master" />
   <project name="couchdb" revision="1ba898706c65741d02f11a24e0b1ba8dbac1ff04" upstream="master" />
   <project groups="notdefault,packaging" name="couchdbx-app" revision="d6cd6456c20d340016b767cf1b3017f4f35f95c0" upstream="master" />
-  <project groups="kv" name="couchstore" revision="994d6eaef34b3517fbc321b8e78f1f2f2fa92e21" upstream="master" />
+
+  <project groups="kv" name="couchstore" revision="refs/changes/92/131092/2" upstream="master" remote="gerrit" />
+
   <project groups="backup" name="crypto" path="godeps/src/golang.org/x/crypto" remote="couchbasedeps" revision="bd6f299fb381e4c3393d1c4b1f0b94f5e77650c8" />
   <project name="cuckoofilter" path="godeps/src/github.com/seiflotfy/cuckoofilter" remote="couchbasedeps" revision="d04838794ab86926d32b124345777e55e6f43974" />
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="ef4f6c1ae8133a14ff865278e1c0ec8205b698d5" upstream="master" />
