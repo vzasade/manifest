@@ -13,8 +13,8 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" path="goproj/src/github.com/couchbase/cbbs" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" remote="blevesearch_toy" revision="301e9cb905b153ed9d1865763b3325c00ba197ed" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbft"/>
+  <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="enterprise"/>
   <project name="cbgt"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
@@ -94,8 +94,8 @@
   <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"            remote="blevesearch_toy" revision="053da009080d51282b30bd36999c8580fc7af73b" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="zap"            remote="blevesearch_toy" revision="21b58faa3501bc119f756205b8a46ab5de815b3f" path="godeps/src/github.com/blevesearch/zap"/>
+  <project name="bleve"          remote="blevesearch_toy" revision="f02585fadd412e663bf87ea6fb0c94ec76e04cf9" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="zap"            remote="blevesearch_toy" revision="dfe128f380380c8715784f2404993048fe5cc9e3" path="godeps/src/github.com/blevesearch/zap"/>
   <project name="streamvbyte"    remote="blevesearch_toy" revision="6ae2780ff453811d5cf7ed394bc2dea608421670" path="godeps/src/github.com/bmkessler/streamvbyte"/>
   <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
