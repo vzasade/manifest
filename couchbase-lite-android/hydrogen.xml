@@ -32,7 +32,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="622a3be561962e2ca1bf456d6aeb8fafac53f46b"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="acb0cd94cf85ece363b0ced7b197930d0cac3145"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
@@ -43,13 +43,13 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="66747dde7870fe0bf73e5ecaa2c0d6c623e13fee"/>
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="bafa82a4ce7840c19352e423875220844a4e3b0c"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="084001f86c6c83180eec9937cf356023eaaa3ae2"/>
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned utility libraries                  -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project remote="couchbaselabs" name="fleece" path="cbl-java/core/vendor/fleece" revision="9f995e1d483e758a0cfaa4988a566dca581fc63f"/>
+  <project remote="couchbaselabs" name="fleece" path="cbl-java/core/vendor/fleece" revision="d0e15b3649c78d27e07bc07be91502b9ea10bb73"/>
   <project remote="snej" name="jsonsl" path="cbl-java/core/vendor/fleece/vendor/jsonsl" revision="684b60f9af68b8c397422e74d0c2dd206de16a2c"/>
   <project remote="snej" name="sqlite3-unicodesn" path="cbl-java/core/vendor/sqlite3-unicodesn" revision="9042c6eed69e98623ad64e27cec4c1f7f60dde92"/>
   <project remote="leetal" name="ios-cmake" path="cbl-java/core/vendor/ios-cmake" revision="29668dbcd9ef2fd7369140b7e9bd9df0485497f6"/>
