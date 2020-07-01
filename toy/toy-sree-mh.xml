@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/"     review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
+
   <remote name="cbft_toy"   fetch="git://github.com/sreekanth-cb/" />
 
   <default remote="couchbase" revision="master" />
@@ -13,7 +14,7 @@
   <project name="backup" remote="couchbase-priv" path="goproj/src/github.com/couchbase/backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" remote="cbft_toy" revision="f6db4395ac33b0950087ab55964576ef50ba4ce8" />
+  <project name="cbft" remote="cbft_toy" revision="02225e44792271fa8cb87418510084cbe0b63018"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="enterprise"/>
   <project name="cbgt"/>
@@ -94,10 +95,9 @@
   <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"          remote="blevesearch" revision="0d568e7be3cef8f35849ee62061d56a6c79ed25d" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="zap"            remote="blevesearch" revision="3ff10ad4bd6452434043c145f8206ee37ae8c086" path="godeps/src/github.com/blevesearch/zap"/>
+  <project name="bleve"          remote="blevesearch" revision="0653ab1a362cab5a888d110815a6f6a43ed6d805" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="streamvbyte"    remote="cbft_toy" revision="6ae2780ff453811d5cf7ed394bc2dea608421670" path="godeps/src/github.com/bmkessler/streamvbyte"/>
-  
+
   <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
