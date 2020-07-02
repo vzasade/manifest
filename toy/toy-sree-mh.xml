@@ -95,10 +95,9 @@
   <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"          remote="blevesearch" revision="e19f5cf6a704179ca19a26d2ddf778c1187742ed" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"          remote="blevesearch" revision="82662f1680577fd5fc95d7ae29905f5570f80160" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="streamvbyte"    remote="cbft_toy" revision="6ae2780ff453811d5cf7ed394bc2dea608421670" path="godeps/src/github.com/bmkessler/streamvbyte"/>
-
-  <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
+  <project name="bleve-mapping-ui" remote="cbft_toy" revision="dc8f11a090eee4e6e26fd722dabf06b681bb6e95" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
   <project name="mmap-go"          remote="blevesearch" revision="99940f54c59671cf69e10b2e4041fabce88eb9b2" path="godeps/src/github.com/blevesearch/mmap-go"/>
   <project name="segment"          remote="blevesearch" revision="762005e7a34fd909a84586299f1dd457371d36ee" path="godeps/src/github.com/blevesearch/segment"/>
