@@ -95,7 +95,7 @@
   <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"          remote="blevesearch" revision="82662f1680577fd5fc95d7ae29905f5570f80160" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"          remote="blevesearch" revision="f3ba72fbe8610e673ae917ae00a127b176f30e0c" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="streamvbyte"    remote="cbft_toy" revision="6ae2780ff453811d5cf7ed394bc2dea608421670" path="godeps/src/github.com/bmkessler/streamvbyte"/>
   <project name="bleve-mapping-ui" remote="cbft_toy" revision="dc8f11a090eee4e6e26fd722dabf06b681bb6e95" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
