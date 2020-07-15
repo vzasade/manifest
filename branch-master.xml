@@ -14,7 +14,7 @@
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
   <project name="cbft"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
-  <project name="cbftx" remote="couchbase-priv" groups="enterprise"/>
+  <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
