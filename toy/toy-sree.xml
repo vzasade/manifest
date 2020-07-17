@@ -96,7 +96,7 @@
 
   <!-- Go support libraries - Bleve-supported -->
   <project name="bleve"  remote="blevesearch" revision="f684c8a925b0cf3a9d0347053cf8a6b2788c0dae" path="godeps/src/github.com/blevesearch/bleve"/>
-  <project name="streamvbyte"    remote="cbft_toy" revision="6ae2780ff453811d5cf7ed394bc2dea608421670" path="godeps/src/github.com/bmkessler/streamvbyte">
+  <project name="streamvbyte"    remote="cbft_toy" revision="6ae2780ff453811d5cf7ed394bc2dea608421670" path="godeps/src/github.com/bmkessler/streamvbyte" />
   
   <project name="bleve-mapping-ui" remote="blevesearch" revision="7987f3c80047347b1e2c3a5fafae8da56daf97d7" path="godeps/src/github.com/blevesearch/bleve-mapping-ui"/>
   <project name="go-porterstemmer" remote="blevesearch" revision="23a2c8e5cf1f380f27722c6d2ae8896431dc7d0e" path="godeps/src/github.com/blevesearch/go-porterstemmer"/>
