@@ -59,14 +59,26 @@
         },
         "couchbase-server/alice.xml": {
             "release": "alice",
-            "release_name": "Alice (6.0.4 Java updates)",
+            "release_name": "Alice 6.0.5",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 3000,
+            "start_build": 3300,
+            "interval": 240,
+            "keep_git": true,
+            "restricted": true,
+            "approval_ticket": "MB-40511"
+        },
+        "couchbase-server/alice/6.0.4.xml": {
+            "branch": "alice-6.0.4",
+            "release": "alice",
+            "release_name": "Alice 6.0.4",
+            "parent": "couchbase-server/alice/6.0.4.xml",
+            "production": true,
+            "start_build": 2800,
             "interval": 1440,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-38223"
+            "approval_ticket": "MB-36241"
         },
         "couchbase-server/alice/6.0.3.xml": {
             "branch": "alice-6.0.3",
