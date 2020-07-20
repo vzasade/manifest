@@ -14,7 +14,7 @@
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" remote="cbft_toy" revision="c4f476c75186ca30bcdbef4e13d8c5db2f47c8c5"/>
+  <project name="cbft" remote="cbft_toy" revision="ed73c317fef8f95126d7223f05e61823a417e2e1"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt"/>
