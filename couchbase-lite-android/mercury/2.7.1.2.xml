@@ -46,6 +46,6 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-core" sync-s="true" path="couchbase-lite-core" revision="hotfix/2.7.1.2" />
+  <project name="couchbase-lite-core" sync-s="true" path="couchbase-lite-core" revision="hotfix/2.7.1.2"/>
   <project name="couchbase-lite-core-EE" sync-s="true" remote="couchbase-priv" path="couchbase-lite-core-EE" revision="hotfix/2.7.1.1"/>
 </manifest>
