@@ -14,7 +14,7 @@
   <project name="backup" remote="couchbase-priv" path="backup" groups="backup,notdefault,enterprise"/>
   <project name="cbbs" remote="couchbase-priv" groups="backup,notdefault,enterprise"/>
   <!-- See MB-39790 for why cbft and cbgt are duplicated -->
-  <project name="cbft" remote="cbft_toy" revision="1d7751836e321e79a9a3c9604c24e9d97a856146"/>
+  <project name="cbft" remote="cbft_toy" revision="a050d56bc85f8dc24c3337a7fae10e28776466b1"/>
   <project name="cbft" path="goproj/src/github.com/couchbase/cbft"/>
   <project name="cbftx" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="cbgt"/>
@@ -95,7 +95,7 @@
   <project name="logstats"                                                           path="godeps/src/github.com/couchbase/logstats"/>
 
   <!-- Go support libraries - Bleve-supported -->
-  <project name="bleve"  remote="blevesearch" revision="f684c8a925b0cf3a9d0347053cf8a6b2788c0dae" path="godeps/src/github.com/blevesearch/bleve"/>
+  <project name="bleve"  remote="blevesearch" revision="6db9929edc4a087234dfec3671b5aa35087baeea" path="godeps/src/github.com/blevesearch/bleve"/>
   <project name="streamvbyte"    remote="cbft_toy" revision="6ae2780ff453811d5cf7ed394bc2dea608421670" path="godeps/src/github.com/bmkessler/streamvbyte" />
   
 
