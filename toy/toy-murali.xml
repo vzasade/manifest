@@ -6,6 +6,7 @@
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/"     review="review.couchbase.org" />
   <remote name="blevesearch"   fetch="git://github.com/blevesearch/" />
   <remote name="murali4104-private" fetch="ssh://git@github.com/murali4104/" />
+  <remote name="murali4104" fetch="git://github.com/murali4104/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -43,7 +44,7 @@
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
   <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="murali4104-private" revision="costing" groups="notdefault,enterprise"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query" remote="murali4104" />
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
