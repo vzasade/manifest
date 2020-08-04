@@ -32,7 +32,7 @@
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language common repository    -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="055ad90cc47f5b9abd6678a7d30656fb7ef60dd6"/>
+  <project name="couchbase-lite-java-common" path="cbl-java/common" revision="fd2a53328e747f1fe16d026d36589f72055bff4c"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <!-- Couchbase-owned Java-language Community Edition    -->
@@ -43,7 +43,7 @@
   <!-- Couchbase-owned Couchbase Lite Core                -->
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
   <project remote="couchbase-priv" name="couchbase-lite-core-EE" path="cbl-java/couchbase-lite-core-EE" revision="66747dde7870fe0bf73e5ecaa2c0d6c623e13fee"/>
-  <project name="couchbase-lite-core" path="cbl-java/core" revision="25a4d6eb017f995c8e5276849f6648f51abf6178"/>
+  <project name="couchbase-lite-core" path="cbl-java/core" revision="ca751f51a904fde1691ecbe2ff458729a15c75a2"/>
   <project name="couchbase-lite-core.wiki" path="cbl-java/core/wiki" revision="9dd7deb1b42253ea3f50f447718ebf5eb2387394"/>
 
   <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++ -->
@@ -61,6 +61,6 @@
   <project remote="google" name="googletest" path="cbl-java/core/vendor/SQLiteCpp/googletest" revision="ec44c6c1675c25b9827aacd08c02433cccde7780"/>
   <project remote="couchbasedeps" name="mbedtls" path="cbl-java/core/vendor/mbedtls" revision="ec3a2712b1bd77158dd42b28681101c4da6f3c93"/>
   <project remote="couchbasedeps" name="mbed-crypto" path="cbl-java/core/vendor/mbedtls/crypto" revision="6572da5ba51abf56b3f0cc554fa3efec8f847a24"/>
-  <project remote="couchbasedeps" name="sockpp" path="cbl-java/core/vendor/sockpp" revision="182df13f6b668f8854519f6af88b4e3b0dfc1177"/>
+  <project remote="couchbasedeps" name="sockpp" path="cbl-java/core/vendor/sockpp" revision="b3398637867d1abe049da5dc8396f8238c8664f2"/>
   <project remote="couchbasedeps" name="zlib" path="cbl-java/core/vendor/zlib" revision="cacf7f1d4e3d44d871b605da3b647f07d718623f"/>
 </manifest>
