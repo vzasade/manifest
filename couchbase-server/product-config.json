@@ -30,14 +30,22 @@
         },
         "couchbase-server/mad-hatter.xml": {
             "release": "mad-hatter",
-            "release_name": "Mad-Hatter (6.6.0)",
+            "release_name": "Mad-Hatter (6.6.1)",
             "parent": "branch-master.xml",
             "production": true,
-            "start_build": 7500,
+            "start_build": 9000,
             "interval": 60,
             "keep_git": true,
             "restricted": true,
-            "approval_ticket": "MB-38724"
+            "approval_ticket": "MB-40528"
+        },
+        "couchbase-server/mad-hatter/6.6.0.xml": {
+            "release": "mad-hatter",
+            "release_name": "Mad-Hatter 6.6.0-MP1",
+            "parent": "couchbase-server/mad-hatter.xml",
+            "interval": 60,
+            "restricted": true,
+            "approval_ticket": "MB-40647"
         },
         "couchbase-server/mad-hatter/6.5.1.xml": {
             "release": "mad-hatter",
