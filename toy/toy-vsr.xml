@@ -36,7 +36,7 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv"/>
-  <project name="libcouchbase" revision="076cf9dd5fc9db4a783a9df15149cb54016de143" groups="notdefault,enterprise"/>
+  <project name="libcouchbase" revision="076cf9dd5fc9db4a783a9df15149cb54016de143"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
@@ -77,7 +77,7 @@
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1"/>
   <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="n1fty"/>
-  <project name="gocbcore"       revision="refs/tags/v9.0.4"                         path="godeps/src/github.com/couchbase/gocbcore/v9" groups="cbgt"/>
+  <project name="gocbcore"       revision="refs/tags/v9.0.5"                         path="godeps/src/github.com/couchbase/gocbcore/v9" groups="cbgt"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gocbconnstr"/>
