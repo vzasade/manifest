@@ -37,14 +37,14 @@
   <project name="eventing"  path="goproj/src/github.com/couchbase/eventing" groups="notdefault,enterprise"/>
   <project name="eventing-ee" path="goproj/src/github.com/couchbase/eventing-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="kv_engine" groups="kv"/>
-  <project name="libcouchbase" revision="076cf9dd5fc9db4a783a9df15149cb54016de143" groups="notdefault,enterprise"/>
+  <project name="libcouchbase" revision="076cf9dd5fc9db4a783a9df15149cb54016de143"/>
   <project name="magma" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv" />
   <project name="ns_server"/>
   <project name="phosphor" groups="kv"/>
   <project name="platform" groups="kv"/>
   <project name="product-texts" groups="kv"/>
-  <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="miaobingjie-private" revision="murali" groups="notdefault,enterprise"/>
-  <project name="query"     path="goproj/src/github.com/couchbase/query" remote="miaobingjie" revision="bugfix"/>
+  <project name="query-ee"  path="goproj/src/github.com/couchbase/query-ee" remote="miaobingjie-private" revision="stats" groups="notdefault,enterprise"/>
+  <project name="query"     path="goproj/src/github.com/couchbase/query" remote="miaobingjie" revision="stats"/>
   <project name="query-ui"/>
   <project name="sigar" groups="kv"/>
   <project name="subjson" groups="kv"/>
@@ -78,7 +78,7 @@
   <project name="blance"                                                             path="godeps/src/github.com/couchbase/blance"/>
   <project name="gocb"           revision="refs/tags/v1.4.2"                         path="godeps/src/gopkg.in/couchbase/gocb.v1"/>
   <project name="gocbcore"       revision="refs/tags/v7.1.14"                        path="godeps/src/gopkg.in/couchbase/gocbcore.v7" groups="n1fty"/>
-  <project name="gocbcore"       revision="refs/tags/v9.0.4"                         path="godeps/src/github.com/couchbase/gocbcore/v9" groups="cbgt"/>
+  <project name="gocbcore"       revision="refs/tags/v9.0.5"                         path="godeps/src/github.com/couchbase/gocbcore/v9" groups="cbgt"/>
   <project name="jsonx"          remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/jsonx.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/gopkg.in/couchbaselabs/gocbconnstr.v1"/>
   <project name="gocbconnstr"    remote="couchbaselabs"                              path="godeps/src/github.com/couchbaselabs/gocbconnstr"/>
@@ -160,10 +160,11 @@
 
   <!-- C/C++ support libraries -->
   <project name="benchmark"      remote="couchbasedeps" revision="74b24058ad4914b837200d0341050657ba154e4a" groups="kv"/>
+  <project name="benchmark"      remote="couchbasedeps" revision="refs/tags/v1.5.1" path="third_party/google-benchmark" groups="kv"/>
   <project name="googletest"     remote="couchbasedeps" revision="refs/tags/release-1.10.0" path="third_party/googletest" groups="kv"/>
   <project name="gsl-lite"       remote="couchbasedeps" revision="refs/tags/v0.25.0" path="third_party/gsl-lite" groups="kv"/>
   <project name="spdlog"         remote="couchbasedeps" revision="v1.1.0-couchbase" path="third_party/spdlog"   groups="kv"/>
-  <project name="HdrHistogram_c" remote="couchbasedeps" revision="bc8aef24ea57884464027f841c1ad7436a42c615" path="third_party/HdrHistogram_c" groups="kv"/>
+  <project name="HdrHistogram_c" remote="couchbasedeps" revision="42148d72f34d6865b2a6706c106cd72ee68216a5" path="third_party/HdrHistogram_c" groups="kv"/>
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build"      path="cbbuild"           groups="notdefault,build">
