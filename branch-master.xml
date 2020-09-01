@@ -18,6 +18,7 @@
   <project name="cbgt"/>
   <project name="cbgt" path="goproj/src/github.com/couchbase/cbgt"/>
   <project name="cbsummary" path="goproj/src/github.com/couchbase/cbsummary"/>
+  <project name="chronicle"/>
   <project name="couch_rocks" remote="couchbase-priv" groups="notdefault,kv_ee,enterprise"/>
   <project name="couchbase-cli" groups="kv"/>
   <project name="couchdb"/>
@@ -54,6 +55,7 @@
     <copyfile src="dot-clang-format" dest=".clang-format" />
     <copyfile src="dot-clang-tidy" dest=".clang-tidy" />
     <copyfile src="third-party-CMakeLists.txt" dest="third_party/CMakeLists.txt" />
+    <copyfile src="chronicle-CMakeLists.txt" dest="chronicle/CMakeLists.txt" />
   </project>
   <!-- Analytics additions -->
   <project name="cbas-core" path="analytics" remote="couchbase-priv" groups="notdefault,enterprise,analytics"/>
